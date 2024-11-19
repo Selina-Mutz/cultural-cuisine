@@ -57,4 +57,4 @@ Bis Datum  | Katrin | Sandy | Tim | Selina
 ------------- | ------------- | ------------- | ------------- | ------------- 
 Rezept 1 bis 30.11.2024 | kolumbianische oder argentinische Empanadas | Gyoza  | Momos | Luqaimat  
 Rezept 2 bis 31.12.2024 | Jiaozi | Siopao  | Maultaschen | Pierogi  
-Rezept 3 bis 31.12.2024 | Tortellini | Souskluitjies | Sambusas | Pirukad
+Rezept 3 bis 31.12.2024 | Tortellini oder Dorayaki | Souskluitjies | Sambusas | Pirukad
