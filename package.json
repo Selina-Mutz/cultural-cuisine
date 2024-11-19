@@ -1,0 +1,20 @@
+{
+  "name": "cultural-cuisine",
+  "version": "1.0.0",
+  "description": "[Link](https://docs.google.com/document/d/1XKtVvjKM9jpOuef7wFVSK_b8g2kQpW-vZQC78JlXPw0/edit?pli=1&tab=t.0#heading=h.249yeeusaif8) zum Google Doc mit den Notizen zum Projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selina-Mutz/cultural-cuisine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selina-Mutz/cultural-cuisine/issues"
+  },
+  "homepage": "https://github.com/Selina-Mutz/cultural-cuisine#readme"
+}
