@@ -1,6 +1,12 @@
 # cultural-cuisine
 [Link](https://docs.google.com/document/d/1XKtVvjKM9jpOuef7wFVSK_b8g2kQpW-vZQC78JlXPw0/edit?pli=1&tab=t.0#heading=h.249yeeusaif8) zum Google Doc mit den Notizen zum Projekt
 
+#### Gruppenmitglieder:
+- Norma Katrin Wilcken
+- Tim Hebestreit
+- Sandy Rodrigues
+- Selina Mutzbauer
+
 ### Anforderungen an Webseite:
 - Karte:
   - Filtermöglichkeit (Zutaten, herzhaft/süß, …)
