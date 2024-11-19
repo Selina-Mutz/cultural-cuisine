@@ -53,7 +53,7 @@ bis Anfang Januar:
 
 Webseite mit JavaScript und Leaflet
 
-Code wird hier in Github verwaltet
+Code wird hier in Github verwaltet.
 
 ### Arbeitsteilung / Rezepteverteilung:
 - Grundlage der Webseite wird gemeinsam erarbeitet
