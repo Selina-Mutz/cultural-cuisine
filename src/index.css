@@ -1,0 +1,18 @@
+:root {
+  --text: #011726;
+  --background: #fef6e1;
+  --primary: #388898;
+  --secondary: #4d7769;
+  --accent: #1e3711;
+  --azar: #800080;
+  --darya: #e65714;
+  --hadi: #0000ff;
+  --font: "Roboto Mono", monospace;
+
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
