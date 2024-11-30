@@ -37,7 +37,7 @@ export default function App() {
         url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}',
         attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
     };
-/*
+/*  more layers at: https://leaflet-extras.github.io/leaflet-providers/preview/
     const stamenWatercolor = {
         url: 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg}',
         attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
@@ -49,9 +49,9 @@ export default function App() {
             className='map-container'
             center={mapCenter}
             zoomControl={false}
-            zoom={4.5}
-            minZoom={4.5}
-            maxZoom={18}
+            zoom={3.5}
+            minZoom={2.5}
+            maxZoom={8}
             zoomSnap={0.5}
             zoomDelta={0.5}
             maxBounds={[[90, -180], [-90, 180]]}
