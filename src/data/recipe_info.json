@@ -2,23 +2,26 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "id": 1,
       "type": "Feature",
       "properties": {
-        "name": "Momos, NP"
+        "marker_location": "Nepal",
+        "text": "Kurzinfo zu Momos."
       },
       "geometry": {
         "coordinates": [
-          28.24957523741563, 
+          28.24957523741563,
           83.946998044891
         ],
         "type": "Point"
-      },
-      "id": 1
+      }
     },
     {
+      "id": 2,
       "type": "Feature",
       "properties": {
-        "name": "Maultaschen, DE"
+        "marker_location": "Deutschland",
+        "text": "Kurzinfo zu Maultaschen."
       },
       "geometry": {
         "coordinates": [
@@ -26,8 +29,7 @@
           10.059127663325185
         ],
         "type": "Point"
-      },
-      "id": 2
+      }
     }
   ]
 }

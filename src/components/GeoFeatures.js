@@ -1,10 +1,10 @@
 import L from 'leaflet';
 import { useMap } from 'react-leaflet/hooks';
 import { GeoJSON } from 'react-leaflet';
-import locations from './../data/narrative_fragments.json';
+import locations from './../data/recipe_info.json';
 
 /**
- * Component displaying the geo-objects representing the narrative fragments on the map
+ * Component displaying the geo-objects representing the recipe info on the map
  * 
  * @param {object} props 
  * @param {React.Dispatch} props.setSelectedFeature Function to set the value of the selectedFeature state to the geo-object that was clicked on by the user
@@ -27,10 +27,9 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
      * @returns {L.Marker}
      */
     function styleMarker(geoJsonPoint, latLng) {
-        const markerColor = geoJsonPoint.properties.person.toLowerCase();
         const icon = L.divIcon({
-            html: `<i class="bi bi-chat-left-text-fill" style="color:var(--${markerColor});font-size:1.6rem"/>`,
-            className: 'story-icon',
+            html: `<i class="bi bi-pin-fill" style="font-size:2.6rem"/>`,
+            className: 'pin-icon',
             iconAnchor: [0, 30]
         });
         return L.marker(latLng, { icon: icon });

@@ -27,10 +27,9 @@ export default function InfoToast() {
             <Toast.Body
                 className='mt-3 p-3'>
                 Willkommen!<br /><br />
-                Auf dieser Seite erzählen dir <mark id='hadi-span'>Hadi</mark>, <mark id='azar-span'>Azar</mark> und <mark id='darya-span'>Darya</mark>,
-                welche Auswirkungen die Migration nach Deutschland auf ihre Leben hatte.<br /><br />
-                Um mehr über sie zu erfahren, klicke auf die Marker <i className='bi bi-chat-left-text-fill' id='toast-icon' /> auf der Karte.
-                Um alle Marker an einem bestimmten Ort zu sehen, klicke auf der linken Seite auf den Ortsnamen.
+                Auf dieser Seite zeigen wir Teigtaschen Rezepte aus aller Welt.<br /><br />
+                Um mehr über die Rezepte zu erfahren, klicke auf die Marker <i className='bi bi-pin-fill' id='pin-icon' /> auf der Karte.
+                Ein Klick auf den Ortsnamen auf der linken Seite springt zum Marker des dazugehörigen Rezeptes.
             </Toast.Body>
         </Toast>
     );
