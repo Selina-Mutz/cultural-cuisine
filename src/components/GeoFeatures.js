@@ -26,7 +26,7 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
      * @param {L.LatLng} latLng The latitude and longitude of the point feature
      * @returns {L.Marker}
      */
-    function styleMarker(geoJsonPoint, latLng) {
+    function styleMarker(geoJsonPoint, latLng) { // DISCLAIMER: in der recipe_info.json müssen lat und lon vertauscht werden
         const icon = L.divIcon({
             html: `<i class="bi bi-pin-fill" style="font-size:2.6rem"/>`,
             className: 'pin-icon',

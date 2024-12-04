@@ -14,6 +14,7 @@ import H3 from './fragments/H3';
 import H4 from './fragments/H4';
 import H5 from './fragments/H5';
 import D7 from './fragments/D7';
+import Momos from './recipes/Momos'
 
 /**
  * Component displaying the narrative fragment, media, and visualizations of the selected geo-object
@@ -29,16 +30,12 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
      * Coordinates of the geo-object
      */
     const coordinates = selectedFeature.geometry.coordinates;
-    /**
-     * Name of the narrating character of the selected geo-object used to set the color of the marker icon
-     */
-    const markerColor = selectedFeature.properties.person.toLowerCase();
 
     /**
      * Icon of the marker shown on the map when a geo-object is selected
      */
     const icon = L.divIcon({
-        html: `<i class="bi bi-chat-left-dots-fill" style="color:var(--${markerColor});font-size:1.6rem"/>`,
+        html: `<i class="bi bi-chat-left-dots-fill" style="font-size:1.6rem"/>`,
         className: 'story-icon',
         iconAnchor: [0, 30]
     });
@@ -51,6 +48,8 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
                 interactive={false} />
             {(() => {
                 switch (selectedFeature.id) {
+                    case 1:
+                        return <Momos feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 'A1':
                         return <A1 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 'A2':

@@ -8,17 +8,17 @@ import ContentBox from './../ContentBox';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function A1({ feature, setFeatureFocus }) {
+export default function Momos({ feature, setFeatureFocus }) {
 
     return (
         <div>
             <ContentBox
                 narrativeFragment={feature.properties.text}
-                person={feature.properties.person}
+                //person={feature.properties.person}
                 setFeatureFocus={setFeatureFocus}>
                 <span
                     style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Auf der Karte ist Azars Wohnung in Münster markiert.<br />
+                    Momos Test.<br />
                 </span>
             </ContentBox>
         </div>

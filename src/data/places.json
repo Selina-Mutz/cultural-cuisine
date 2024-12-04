@@ -8,8 +8,8 @@
       },
       "geometry": {
         "coordinates": [
-          28.24957523741563, 
-          83.946998044891
+          28.394857, 
+          84.124008
         ],
         "type": "Point"
       },
@@ -22,12 +22,26 @@
       },
       "geometry": {
         "coordinates": [
-          51.0776207646052, 
-          10.059127663325185
+          51.165691, 
+          10.451526
         ],
         "type": "Point"
       },
       "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empanadas, AR"
+      },
+      "geometry": {
+        "coordinates": [
+          -34.996496,
+          -64.967282
+        ],
+        "type": "Point"
+      },
+      "id": 3
     }
   ]
 }

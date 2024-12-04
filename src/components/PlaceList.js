@@ -30,7 +30,7 @@ export default function PlaceList() {
         const placeName = e.target.id;
         for (const feature of places.features) {
             if (feature.properties.name === placeName) {
-                map.flyTo(feature.geometry.coordinates, 5);
+                map.flyTo(feature.geometry.coordinates, 4);
             }
         }
         if (placeName) {
@@ -42,7 +42,7 @@ export default function PlaceList() {
      * Function that sets the map view back to its initial state and registers that the map is not zoomed into a key area when the user clicks the "show all areas" button
      */
     function handleZoomOut() {
-        map.flyTo(mapCenter, mapZoom);
+        map.flyTo(mapCenter, 3.5);
         setZoomed(false);
     }
 

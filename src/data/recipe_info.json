@@ -10,8 +10,8 @@
       },
       "geometry": {
         "coordinates": [
-          28.24957523741563,
-          83.946998044891
+          84.124008,
+          28.394857
         ],
         "type": "Point"
       }
@@ -25,8 +25,23 @@
       },
       "geometry": {
         "coordinates": [
-          51.0776207646052, 
-          10.059127663325185
+          10.451526, 
+          51.165691
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Argentinien",
+        "text": "Argentinien Tetststs Text"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.967282,
+          -34.996496
         ],
         "type": "Point"
       }

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useMap } from 'react-leaflet/hooks'
 import { Button, Card, Collapse } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
-import bios from './../data/bios.json';
 import './css/ContentBox.css';
 
 /**
@@ -11,20 +10,16 @@ import './css/ContentBox.css';
  * @param {object} props
  * @param {React.ReactNode} props.children Embedded children
  * @param {string} props.narrativeFragment The narrative fragment to be displayed
- * @param {string} props.person The name of the narrating character
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function ContentBox({ children, narrativeFragment, person, setFeatureFocus }) {
+export default function ContentBox({ children, narrativeFragment, setFeatureFocus }) {
 
     /**
      * State storing a boolean value indicating whether the long character bio is collapsed
      */
     const [collapseOpen, setCollapseOpen] = useState(false);
-    /**
-     * State storing an object containing the short and long character bio
-     */
-    const [bio, setBio] = useState({});
+    
     /**
      * The Leaflet map object
      */
@@ -41,11 +36,7 @@ export default function ContentBox({ children, narrativeFragment, person, setFea
     /** 
      * Sets the value of the character bio when the content box is opened
      * */
-    useEffect(() => {
-        if (person) {
-            setBio(bios[person]);
-        }
-    }, [person]);
+    useEffect(() => {});
 
     return (
         <Card
@@ -65,9 +56,6 @@ export default function ContentBox({ children, narrativeFragment, person, setFea
                 </Card.Text>
                 {children}
                 <br />
-                <p>
-                    {bio.short_bio}
-                </p>
                 <Button
                     variant='link'
                     id='show-more-button'
@@ -81,7 +69,6 @@ export default function ContentBox({ children, narrativeFragment, person, setFea
                     id='show-more-collapse'>
                     <div
                         id='long-bio'>
-                        {bio.long_bio}
                     </div>
                 </Collapse>
             </Card.Body>
