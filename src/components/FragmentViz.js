@@ -49,35 +49,11 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
             {(() => {
                 switch (selectedFeature.id) {
                     case 1:
-                        return <Momos feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'A1':
-                        return <A1 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'A2':
-                        return <A2 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'A3':
-                        return <A3 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'A4':
-                        return <A4 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D1':
-                        return <D1 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D2':
-                        return <D2 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D3':
-                        return <D3 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D5':
-                        return <D5 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D6':
-                        return <D6 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'D7':
-                        return <D7 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'H1':
-                        return <H1 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'H3':
-                        return <H3 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'H4':
-                        return <H4 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
-                    case 'H5':
-                        return <H5 feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                        return <Momos feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> /*
+                    case 2:
+                        return <Maultaschen feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                    case 3:
+                        return <Empanadas feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> */
                     default:
                         return null
                 }
