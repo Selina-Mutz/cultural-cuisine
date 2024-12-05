@@ -1,20 +1,9 @@
 import L from 'leaflet';
 import { Marker } from 'react-leaflet';
-import A1 from './fragments/A1';
-import A2 from './fragments/A2';
-import A3 from './fragments/A3';
-import A4 from './fragments/A4';
-import D1 from './fragments/D1';
-import D2 from './fragments/D2';
-import D3 from './fragments/D3';
-import D5 from './fragments/D5';
-import D6 from './fragments/D6';
-import H1 from './fragments/H1';
-import H3 from './fragments/H3';
-import H4 from './fragments/H4';
-import H5 from './fragments/H5';
-import D7 from './fragments/D7';
 import Momos from './recipes/Momos'
+//import Maultaschen from './recipes/Maultaschen'
+//import Empanadas from './recipes/Empanadas'
+
 
 /**
  * Component displaying the narrative fragment, media, and visualizations of the selected geo-object
