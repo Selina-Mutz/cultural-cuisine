@@ -42,6 +42,48 @@
         "type": "Point"
       },
       "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gyoza, JP"
+      },
+      "geometry": {
+        "coordinates": [
+          36.204824,
+          138.252924
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golden Syrup Dumplings, AU"
+      },
+      "geometry": {
+        "coordinates": [
+          -26.8533875,
+          133.275154
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pierogi, PL"
+      },
+      "geometry": {
+        "coordinates": [
+          51.8842890,
+          19.7418221
+        ],
+        "type": "Point"
+      },
+      "id": 5
     }
   ]
 }

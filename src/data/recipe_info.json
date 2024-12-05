@@ -45,6 +45,51 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Japan",
+        "text": "Kurzinfo zu Gyoza."
+      },
+      "geometry": {
+        "coordinates": [
+          36.204824,
+          138.252924
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Australien",
+        "text": "Kurzinfo zu Golden Syrup Dumplings."
+      },
+      "geometry": {
+        "coordinates": [
+          -26.8533875,
+          133.275154
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Polen",
+        "text": "Kurzinfo zu Pierogi."
+      },
+      "geometry": {
+        "coordinates": [
+          51.8842890,
+          19.7418221
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
