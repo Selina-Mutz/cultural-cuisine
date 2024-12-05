@@ -1,8 +1,9 @@
 import L from 'leaflet';
 import { Marker } from 'react-leaflet';
 import Momos from './recipes/Momos'
-//import Maultaschen from './recipes/Maultaschen'
-//import Empanadas from './recipes/Empanadas'
+import Maultaschen from './recipes/Maultaschen'
+import Empanadas from './recipes/Empanadas'
+import Gyoza from './recipes/Gyoza'
 
 
 /**
@@ -38,11 +39,13 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
             {(() => {
                 switch (selectedFeature.id) {
                     case 1:
-                        return <Momos feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> /*
+                        return <Momos feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
                     case 2:
                         return <Maultaschen feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 3:
-                        return <Empanadas feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> */
+                        return <Empanadas feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
+                    case 4:
+                        return <Gyoza feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
                     default:
                         return null
                 }

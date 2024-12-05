@@ -47,7 +47,7 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
             setSelectedFeature(feature);
             setFeatureFocus(true);
             const { lat, lng } = e.target.getLatLng();
-            map.flyTo([lat, lng - 0.023], 14);
+            map.flyTo([lat, lng - 0.023], 8);
         });
     }
 
