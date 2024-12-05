@@ -50,6 +50,36 @@
       "id": 4,
       "type": "Feature",
       "properties": {
+        "marker_location": "China",
+        "text": "Hi Text"
+      },
+      "geometry": {
+        "coordinates": [
+          103.79879738682659,
+          34.631477784554725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Italien",
+        "text": "Super toll"
+      },
+      "geometry": {
+        "coordinates": [
+          12.39476670749703,
+          43.01977211651795
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "properties": {
         "marker_location": "Japan",
         "text": "Kurzinfo zu Gyoza."
       },
@@ -62,7 +92,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 7,
       "type": "Feature",
       "properties": {
         "marker_location": "Australien",
@@ -77,7 +107,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 8,
       "type": "Feature",
       "properties": {
         "marker_location": "Polen",
