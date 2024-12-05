@@ -46,6 +46,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Jiaozi, CHN"
+      },
+      "geometry": {
+        "coordinates": [
+          34.631477784554725,
+          103.79879738682659
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tortellini, ITA"
+      },
+      "geometry": {
+        "coordinates": [
+          43.01977211651795,
+          12.39476670749703
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Gyoza, JP"
       },
       "geometry": {
@@ -55,7 +83,7 @@
         ],
         "type": "Point"
       },
-      "id": 4
+      "id": 6
     },
     {
       "type": "Feature",
@@ -69,7 +97,7 @@
         ],
         "type": "Point"
       },
-      "id": 5
+      "id": 7
     },
     {
       "type": "Feature",
@@ -83,7 +111,7 @@
         ],
         "type": "Point"
       },
-      "id": 5
+      "id": 8
     }
   ]
 }
