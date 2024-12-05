@@ -2,6 +2,7 @@ import L from 'leaflet';
 import { useMap } from 'react-leaflet/hooks';
 import { GeoJSON } from 'react-leaflet';
 import locations from './../data/recipe_info.json';
+import empanadaIcon from '../data/icons/empanada_icon.png'
 
 /**
  * Component displaying the geo-objects representing the recipe info on the map
@@ -28,9 +29,10 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
      */
     function styleMarker(geoJsonPoint, latLng) { // DISCLAIMER: in der recipe_info.json müssen lat und lon vertauscht werden
         const icon = L.divIcon({
-            html: `<i class="bi bi-pin-fill" style="font-size:2.6rem"/>`,
+            html: `<img src="${empanadaIcon}" alt="Rezept" style="width:32px; height:32px;"/>`,
             className: 'pin-icon',
-            iconAnchor: [0, 30]
+            iconAnchor: [0, 30],
+            iconSize: [32, 32]
         });
         return L.marker(latLng, { icon: icon });
     }
