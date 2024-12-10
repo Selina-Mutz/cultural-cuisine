@@ -21,6 +21,7 @@ export default function InfoToast() {
             <Button
                 variant='light'
                 id='close-toast'
+                title='schließen'
                 onClick={() => setShowToast(false)}>
                 x
             </Button>

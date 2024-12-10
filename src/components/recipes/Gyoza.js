@@ -1,4 +1,4 @@
-import ContentBox from '../ContentBox';
+import RecipeBox from '../RecipeBox';
 
 /**
  * Component displaying the recipe and pictures for Gyoza
@@ -12,7 +12,7 @@ export default function Gyoza({ feature, setFeatureFocus }) {
 
     return (
         <div>
-            <ContentBox
+            <RecipeBox
                 narrativeFragment={feature.properties.text}
                 //person={feature.properties.person}
                 setFeatureFocus={setFeatureFocus}>
@@ -20,7 +20,7 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                     style={{ color: 'var(--primary)', fontSize: '8pt' }}>
                     Gyoza Test.<br />
                 </span>
-            </ContentBox>
+            </RecipeBox>
         </div>
     );
 }

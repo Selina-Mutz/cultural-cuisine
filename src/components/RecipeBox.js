@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useMap } from 'react-leaflet/hooks'
 import { Button, Card, Collapse } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
-import './css/ContentBox.css';
+import './css/RecipeBox.css';
 
 /**
  * Component displaying a box containing a narrative fragment, the related media, any embedded child elements and the narrating character's bio
@@ -40,10 +40,10 @@ export default function ContentBox({ children, narrativeFragment, setFeatureFocu
 
     return (
         <Card
-            id='content-box'>
+            id='recipe-box'>
             <Button
-                variant='link'
-                id='close-content-box'
+                variant='light'
+                id='close-recipe-box'
                 title='schließen'
                 onClick={handleClose}>
                 x
