@@ -30,7 +30,7 @@ export default function PlaceList() {
         const placeName = e.target.id;
         for (const feature of places.features) {
             if (feature.properties.name === placeName) {
-                map.flyTo(feature.geometry.coordinates, 4);
+                map.flyTo(feature.geometry.coordinates, 5);
             }
         }
         if (placeName) {
