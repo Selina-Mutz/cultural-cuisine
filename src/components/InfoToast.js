@@ -19,7 +19,7 @@ export default function InfoToast() {
             show={showToast}
             id='info-toast'>
             <Button
-                variant='link'
+                variant='light'
                 id='close-toast'
                 onClick={() => setShowToast(false)}>
                 x

@@ -1,7 +1,9 @@
 #info-toast {
     width: 30rem;
     z-index: 600;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     margin-top: 0px;
     margin-right: 10px;
     font-size: 10pt !important;
@@ -10,4 +12,13 @@
 
 #toast-icon {
     font-size: 1.3rem;
+}
+
+#close-toast {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 1.6rem;
+    color: black;
+    background-color: var(--background) !important;
 }
