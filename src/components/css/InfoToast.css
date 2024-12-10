@@ -8,21 +8,6 @@
     background-color: var(--background) !important;
 }
 
-#hadi-span {
-    background-color: var(--hadi);
-    color: var(--background);
-}
-
-#azar-span {
-    background-color: var(--azar);
-    color: var(--background);
-}
-
-#darya-span {
-    background-color: var(--darya);
-    color: var(--background);
-}
-
 #toast-icon {
     font-size: 1.3rem;
 }
