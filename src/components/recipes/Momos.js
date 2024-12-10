@@ -18,7 +18,16 @@ export default function Momos({ feature, setFeatureFocus }) {
                 setFeatureFocus={setFeatureFocus}>
                 <span
                     style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Momos Test.<br />
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
+                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test. <br />
                 </span>
             </RecipeBox>
         </div>

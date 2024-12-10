@@ -1,7 +1,8 @@
 #recipe-box {
     margin: 10px;
     z-index: 400;
-    width: 40rem;
+    width: 99%;
+    height: 99%;
     color: var(--text);
     font-size: 9pt;
     background-color: var(--background);
