@@ -50,9 +50,23 @@
           "Array an Tipps für das Rezept",
           "Hier ist noch ein Tipp von uns fürs Rezept"
         ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
         "restaurants":
         [
-          "Array an Restaurantempfehlungen",
+          "Array von Restaurantempfehlungen",
           "Nepal Kitchen, Erfundenplatz 17"
         ]
 
