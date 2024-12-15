@@ -14,6 +14,48 @@
           28.394857
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Nepalesische Momos",
+          "culture": "Momos Bedeutung und wie es in Nepal gegessen wird und wo noch blabla.",
+          "preparation": [
+            "Erster Teil der Zubereitungsschritte.",
+            "Zweiter Teil der Zubereitungsschritte.",
+            "Dritter Teil der Zubereitungsschritte."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Mehl",
+            "quantity": "300 Gramm"
+          },
+          {
+            "name": "Wasser",
+            "quantity": "500ml"
+          },
+          {
+            "name": "Zwiebeln",
+            "quantity": "2 mittelgroße"
+          },
+          {
+            "name": "Knoblauch",
+            "quantity": "1 Zehe"
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Medium",
+        "time": "45 minutes",
+        "tips": [
+          "Array an Tipps für das Rezept",
+          "Hier ist noch ein Tipp von uns fürs Rezept"
+        ],
+        "restaurants":
+        [
+          "Array an Restaurantempfehlungen",
+          "Nepal Kitchen, Erfundenplatz 17"
+        ]
+
       }
     },
     {
