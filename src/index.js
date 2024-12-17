@@ -1,13 +1,12 @@
-const express = require("express");
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './components/App';
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-const PORT = process.env.PORT || 3001;
-
-const app = express();
-
-app.get("/api", (req, res) => {
-    res.json({ message: "Hello from server!" });
-  });
-
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
-});
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <App />
+);

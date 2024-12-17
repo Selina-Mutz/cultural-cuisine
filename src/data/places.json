@@ -1,0 +1,117 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Momos, NP"
+      },
+      "geometry": {
+        "coordinates": [
+          28.394857, 
+          84.124008
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maultaschen, DE"
+      },
+      "geometry": {
+        "coordinates": [
+          51.165691, 
+          10.451526
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Empanadas, AR"
+      },
+      "geometry": {
+        "coordinates": [
+          -34.996496,
+          -64.967282
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jiaozi, CHN"
+      },
+      "geometry": {
+        "coordinates": [
+          34.631477784554725,
+          103.79879738682659
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tortellini, ITA"
+      },
+      "geometry": {
+        "coordinates": [
+          43.01977211651795,
+          12.39476670749703
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gyoza, JP"
+      },
+      "geometry": {
+        "coordinates": [
+          36.204824,
+          138.252924
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golden Syrup Dumplings, AU"
+      },
+      "geometry": {
+        "coordinates": [
+          -26.8533875,
+          133.275154
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pierogi, PL"
+      },
+      "geometry": {
+        "coordinates": [
+          51.8842890,
+          19.7418221
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    }
+  ]
+}

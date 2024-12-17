@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": 1,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Nepal",
+        "text": "Nepalesische Momos"
+      },
+      "geometry": {
+        "coordinates": [
+          84.124008,
+          28.394857
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Nepalesische Momos",
+          "culture": "Momos Bedeutung und wie es in Nepal gegessen wird und wo noch blabla.",
+          "preparation": [
+            "Erster Teil der Zubereitungsschritte.",
+            "Zweiter Teil der Zubereitungsschritte.",
+            "Dritter Teil der Zubereitungsschritte."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Mehl",
+            "quantity": "300 Gramm"
+          },
+          {
+            "name": "Wasser",
+            "quantity": "500ml"
+          },
+          {
+            "name": "Zwiebeln",
+            "quantity": "2 mittelgroße"
+          },
+          {
+            "name": "Knoblauch",
+            "quantity": "1 Zehe"
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Medium",
+        "time": "45 minutes",
+        "tips": [
+          "Array an Tipps für das Rezept",
+          "Hier ist noch ein Tipp von uns fürs Rezept"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen",
+          "Nepal Kitchen, Erfundenplatz 17"
+        ]
+
+      }
+    },
+    {
+      "id": 2,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Deutschland",
+        "text": "Kurzinfo zu Maultaschen."
+      },
+      "geometry": {
+        "coordinates": [
+          10.451526, 
+          51.165691
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Argentinien",
+        "text": "Argentinien T"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.967282,
+          -34.996496
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "China",
+        "text": "Hi Text"
+      },
+      "geometry": {
+        "coordinates": [
+          103.79879738682659,
+          34.631477784554725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Italien",
+        "text": "Super toll"
+      },
+      "geometry": {
+        "coordinates": [
+          12.39476670749703,
+          43.01977211651795
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Japan",
+        "text": "Kurzinfo zu Gyoza."
+      },
+      "geometry": {
+        "coordinates": [
+          138.252924,
+          36.204824
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Australien",
+        "text": "Kurzinfo zu Golden Syrup Dumplings."
+      },
+      "geometry": {
+        "coordinates": [
+          133.275154,
+          -26.8533875
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Polen",
+        "text": "Kurzinfo zu Pierogi."
+      },
+      "geometry": {
+        "coordinates": [
+          19.7418221,
+          51.8842890
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
