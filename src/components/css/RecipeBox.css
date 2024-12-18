@@ -4,8 +4,8 @@
     width: 99%;
     height: 99%;
     color: var(--text);
-    font-size: 9pt;
-    background-color: var(--background);
+    font-size: 11pt;
+    background-color: white;
     font-family: var(--font);
     border-color: var(--accent);
     border-width: 2px;
@@ -24,15 +24,10 @@
     color: black;
     background-color: var(--background) !important;
 }
-
-#show-more-button {
-    text-decoration: none;
-    color: var(--secondary);
-    font-size: 8pt;
-    padding: 0%;
-    margin-top: -30px;
+#properties-recipe-box-div {
+    display: flex;
 }
 
-#show-more-collapse {
-    font-size: 8pt;
+#title-recipe-box {
+    font-size: 3rem;
 }
