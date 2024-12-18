@@ -20,9 +20,11 @@
           "title": "Nepalesische Momos",
           "culture": "Momos sind nepalesische und tibetische Teigtaschen aus der Himalaya-Region, die aber auch in nördlichen Teilen Indiens verzehrt werden. Für die aus Tibet und Nepal stammenden Menschen vermitteln die Momos ein Heimatgefühl und gelten auch als Bestandteil ihrer Identität. Traditionell werden sie entweder mit Gemüse (Veg Momos), oder mit Hühnchen- oder Rindfleisch (tibetische Yaks) gefüllt und entweder dampfgegart oder frittiert. Serviert werden die Momos mit einem Tomaten-Chutney.",
           "preparation": [
-            "Erster Teil der Zubereitungsschritte.",
-            "Zweiter Teil der Zubereitungsschritte.",
-            "Dritter Teil der Zubereitungsschritte."
+            "Für den Teig geben wir Mehl, Wasser, etwas Kokosöl und Salz in eine große Schüssel und verkneten alles zu einem Teig. Bei Bedarf ein wenig Mehl oder Wasser dazugeben, bis der Teig weich und geschmeidig ist. Danach die Schüssel mit einem Tuch abdecken und 30 Minuten ruhen lassen.",
+            "Die Zwiebeln, Knoblauch und Ingwer fein würfeln. Kohl und Sellerie waschen und ebenfalls in kleine Würfel schneiden. Etwas Kokosöl in eine Pfanne geben und Zwiebeln, Ingwer und Knoblauch kurz andünsten. Das (in diesem Fall vegane) Hackfleisch und die Gewürze dazu geben und alles ein paar Minuten anbraten. Nun das Gemüse für eine gemischte Füllung in die selbe Pfanne geben und ebenfalls ein paar Minuten mit andünsten. Anschließend die Gemüsebrühe und etwas Wasser dazugeben, die Pfanne abdecken, und die Masse ein paar Minuten dünsten bis das Gemüse weich ist.",
+            "Für die Sauce werden Tomaten und Chili ein paar Minuten in heißem Wasser gekocht, die Tomaten geschält, und anschließend mit gepellten Zwiebeln, Knoblauch und Ingwer, sowie etwas Sojasauce, in einen Mixer gegeben und gut püriert. Alternativ können Zwiebeln, Knoblauch, Ingwer und Chili auch fein gewürfelt, in einem Topf angebraten und mit gehackten Tomaten und etwas Sojasauce 20 Minuten eingekocht werden. Anschließend mit den Gewürzen abschmecken und lauwarm abkühlen lassen.",
+            "Aus dem Teig kleine, 2-3cm dicke Bällchen formen, sodass diese ausgerollt 9-10 cm große, 2mm dicke Kreise bilden. Auf diese Kreise mittig 1 Teelöffel Füllung verteilen, den Teigrand im Uhrzeigersinn zusammen klappen und zu runden Taschen formen. Die Momos nun in einem Bambusdämpfer oder Dampfeinsatz für 10 Minuten dämpfen, alternativ die Momos in eine abgedeckte Pfanne geben, nach und nach Wasser hinzufügen und verdampfen lassen, bis der Teig der Momos weich ist.",
+            "Die Momos mit der Sauce als Dip und optional mit etwas Sesam, Koriander oder Frühlingszwiebeln servieren."
           ]
         },
         "ingredients": [{
@@ -37,6 +39,10 @@
               "quantity": "150 Milliliter"
             },
             {
+              "name": "Kokosöl",
+              "quantity": "1 Teelöffel"
+            },
+            {
               "name": "Salz",
               "quantity": "1 Prise"
             }
@@ -47,7 +53,7 @@
           "ingredients": [
           {
             "name": "Rote Zwiebeln",
-            "quantity": "2 mittelgroße"
+            "quantity": "2"
           },
           {
             "name": "Knoblauch",
@@ -56,6 +62,10 @@
           {
             "name": "Ingwer",
             "quantity": "1 halber Daumen"
+          },
+          {
+            "name": "Kokosöl",
+            "quantity": "1 Esslöffel"
           },
           {
             "name": "Staudensellerie",
@@ -79,7 +89,19 @@
           },
           {
             "name": "Salz",
-            "quantity": "1 halber Daumen"
+            "quantity": "1 halber Teelöffel"
+          },
+          {
+            "name": "Szechuan oder schwarzer Pfeffer",
+            "quantity": "1 halber Teelöffel"
+          },
+          {
+            "name": "Kümmel",
+            "quantity": "1 halber Teelöffel"
+          },
+          {
+            "name": "Kurkuma",
+            "quantity": "1 halber Teelöffel"
           }
           ]
         },
@@ -91,8 +113,16 @@
             "quantity": "2 Große"
           },
           {
+            "name": "Zwiebel",
+            "quantity": "1"
+          },
+          {
             "name": "Knoblauch",
             "quantity": "1 Zehe"
+          },
+          {
+            "name": "Ingwer",
+            "quantity": "1 halber Daumen"
           },
           {
             "name": "Chili",
@@ -107,14 +137,33 @@
             "quantity": "Nach Geschmack"
           }
           ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Sesam",
+            "quantity": "Nach Belieben"
+          },
+          {
+            "name": "Koriander",
+            "quantity": "Nach Belieben"
+          },
+          {
+            "name": "Frühlingszwiebeln",
+            "quantity": "Nach Belieben"
+          }
+          ]
         }
       ],
         "servings": 2,
         "difficulty": "Medium",
         "time": "45 minutes",
         "tips": [
-          "Array an Tipps für das Rezept",
-          "Hier ist noch ein Tipp von uns fürs Rezept"
+          "Das Falten der Momos ist sicher das anspruchsvollste an diesem Rezept. Übung macht den Meister, und der Teig sollte nicht zu dünn sein, damit er nicht reisst, und auch nicht zu dick, da die Momos sonst zu teigig schmecken.",
+          "Momos werden keinesfalls immer so wie hier beschrieben gefüllt und eurer Kreativität sind keine Grenzen gesetzt! Kartoffeln, Brokkoli, Koriander, oder Minze sind zum Beispiel andere leckere Optionen für die Füllung.",
+          "Auch der Dip kann nach euren Vorlieben verändert werden. Angebratene und dann pürierte Paprika gibt einen leckeren, zusätzlichen Geschmack, während pürierte Cashews den Dip noch cremiger machen. Ein Erdnussdip aus Erdnussbutter und Sojasauce passt auch hervorragend zu Momos.",
+          "Besonders in der indischen Küche wird statt Kokosöl Ghee (Butterschmalz) für den Teig und zum anbraten benutzt."
         ],
         "metrics": [
           {
