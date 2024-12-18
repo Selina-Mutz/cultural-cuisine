@@ -47,20 +47,20 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                 id='card-body'>
                 <div
                     id="title-recipe-box-div">
-                    <Card.Header
+                    <Card.Title
                         id="title-recipe-box">
                         {titleText}
-                    </Card.Header>
+                    </Card.Title>
                 </div>
                 <div
                     id="properties-recipe-box-div">
                     <Card.Text
-                        id="time-recipe-box">
+                        id="properties-recipe-box-element">
                         {timeText}
                     </Card.Text>
                     <Card.Text
-                        id="difficulty-recipe-box">
-                        {difficultyText}
+                        id="properties-recipe-box-element">
+                        Difficulty: {difficultyText}
                     </Card.Text>
                 </div>
                 <div

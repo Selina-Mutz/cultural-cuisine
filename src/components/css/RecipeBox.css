@@ -24,10 +24,19 @@
     color: black;
     background-color: var(--background) !important;
 }
+
 #properties-recipe-box-div {
     display: flex;
 }
-
+#properties-recipe-box-element {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: lightcyan;
+    border-radius: 10px;
+    font-size: 9pt;
+}
 #title-recipe-box {
-    font-size: 3rem;
+    font-size: 3em;
 }
