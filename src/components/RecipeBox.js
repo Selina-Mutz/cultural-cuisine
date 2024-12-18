@@ -13,12 +13,7 @@ import './css/RecipeBox.css';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function ContentBox({ children, narrativeFragment, setFeatureFocus }) {
-
-    /**
-     * State storing a boolean value indicating whether the long character bio is collapsed
-     */
-    const [collapseOpen, setCollapseOpen] = useState(false);
+export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, preparationTextArray, setFeatureFocus }) {
     
     /**
      * The Leaflet map object
@@ -50,27 +45,40 @@ export default function ContentBox({ children, narrativeFragment, setFeatureFocu
             </Button>
             <Card.Body
                 id='card-body'>
-                <Card.Text
-                    className='mb-4'>
-                    {narrativeFragment}
-                </Card.Text>
+                <div
+                    id="title-recipe-box-div">
+                    <Card.Header
+                        id="title-recipe-box">
+                        {titleText}
+                    </Card.Header>
+                </div>
+                <div
+                    id="properties-recipe-box-div">
+                    <Card.Text
+                        id="time-recipe-box">
+                        {timeText}
+                    </Card.Text>
+                    <Card.Text
+                        id="difficulty-recipe-box">
+                        {difficultyText}
+                    </Card.Text>
+                </div>
+                <div
+                    id="culture-recipe-box-div">
+                    <Card.Text
+                        id="culture-recipe-box">
+                        {cultureText}
+                    </Card.Text>
+                </div>
+                <div
+                    id="preparation-recipe-box-div">
+                    <Card.Text
+                        id="preparation-recipe-box">
+                        {preparationTextArray}
+                    </Card.Text>
+                </div>
                 {children}
                 <br />
-                <Button
-                    variant='link'
-                    id='show-more-button'
-                    onClick={() => setCollapseOpen(!collapseOpen)}
-                    aria-controls='character-info'
-                    aria-expanded={collapseOpen}>
-                    {collapseOpen ? 'Weniger anzeigen' : 'Mehr anzeigen'}
-                </Button>
-                <Collapse
-                    in={collapseOpen}
-                    id='show-more-collapse'>
-                    <div
-                        id='long-bio'>
-                    </div>
-                </Collapse>
             </Card.Body>
         </Card>
     );

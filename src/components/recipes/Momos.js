@@ -13,22 +13,12 @@ export default function Momos({ feature, setFeatureFocus }) {
     return (
         <div>
             <RecipeBox
-                narrativeFragment={feature.properties.text}
-                //person={feature.properties.person}
+                titleText={feature.recipe.text.title}
+                timeText={feature.recipe.time}
+                difficultyText = {feature.recipe.difficulty}
+                cultureText = {feature.recipe.text.culture}
+                preparationTextArray = {feature.recipe.text.preparation}
                 setFeatureFocus={setFeatureFocus}>
-                <span
-                    style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test.
-                    Momos Test. Momos Test. Momos Test. Momos Test. Momos Test. <br />
-                </span>
             </RecipeBox>
         </div>
     );
