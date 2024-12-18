@@ -18,31 +18,97 @@
       "recipe": {
         "text": {
           "title": "Nepalesische Momos",
-          "culture": "Momos Bedeutung und wie es in Nepal gegessen wird und wo noch blabla.",
+          "culture": "Momos sind nepalesische und tibetische Teigtaschen aus der Himalaya-Region, die aber auch in nördlichen Teilen Indiens verzehrt werden. Für die aus Tibet und Nepal stammenden Menschen vermitteln die Momos ein Heimatgefühl und gelten auch als Bestandteil ihrer Identität. Traditionell werden sie entweder mit Gemüse (Veg Momos), oder mit Hühnchen- oder Rindfleisch (tibetische Yaks) gefüllt und entweder dampfgegart oder frittiert. Serviert werden die Momos mit einem Tomaten-Chutney.",
           "preparation": [
             "Erster Teil der Zubereitungsschritte.",
             "Zweiter Teil der Zubereitungsschritte.",
             "Dritter Teil der Zubereitungsschritte."
           ]
         },
-        "ingredients": [
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Mehl",
+              "quantity": "300 Gramm"
+            },
+            {
+              "name": "Wasser",
+              "quantity": "150 Milliliter"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1 Prise"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
           {
-            "name": "Mehl",
-            "quantity": "300 Gramm"
-          },
-          {
-            "name": "Wasser",
-            "quantity": "500ml"
-          },
-          {
-            "name": "Zwiebeln",
+            "name": "Rote Zwiebeln",
             "quantity": "2 mittelgroße"
           },
           {
             "name": "Knoblauch",
             "quantity": "1 Zehe"
+          },
+          {
+            "name": "Ingwer",
+            "quantity": "1 halber Daumen"
+          },
+          {
+            "name": "Staudensellerie",
+            "quantity": "2 Stangen"
+          },
+          {
+            "name": "Weißkohl",
+            "quantity": "1/4"
+          },
+          {
+            "name": "(Veganes) Hackfleisch",
+            "quantity": "250 Gramm"
+          },
+          {
+            "name": "Gemüsebrühe",
+            "quantity": "1 Esslöffel"
+          },
+          {
+            "name": "Wasser",
+            "quantity": "50 Milliliter"
+          },
+          {
+            "name": "Salz",
+            "quantity": "1 halber Daumen"
           }
-        ],
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Tomaten",
+            "quantity": "2 Große"
+          },
+          {
+            "name": "Knoblauch",
+            "quantity": "1 Zehe"
+          },
+          {
+            "name": "Chili",
+            "quantity": "1"
+          },
+          {
+            "name": "Sojasauce",
+            "quantity": "1 Teelöffel"
+          },
+          {
+            "name": "Salz, Pfeffer und Zucker",
+            "quantity": "Nach Geschmack"
+          }
+          ]
+        }
+      ],
         "servings": 2,
         "difficulty": "Medium",
         "time": "45 minutes",
