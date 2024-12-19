@@ -1,14 +1,14 @@
 import RecipeBox from '../RecipeBox';
 
 /**
- * Component displaying the recipe and pictures for Empanadas
+ * Component displaying the recipe and pictures for Jiaozi
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function Empanadas({ feature, setFeatureFocus }) {
+export default function Jiaozi({ feature, setFeatureFocus }) {
 
     return (
         <div>

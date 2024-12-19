@@ -201,6 +201,84 @@
           51.165691
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Maultaschen",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -216,6 +294,84 @@
           -34.996496
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Empanadas",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -231,6 +387,84 @@
           34.631477784554725
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Jiaozi",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -246,6 +480,84 @@
           43.01977211651795
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Tortellini",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -261,6 +573,84 @@
           36.204824
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Gyoza",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -276,6 +666,84 @@
           -26.8533875
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Golden Syrup Dumplings",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -291,6 +759,84 @@
           51.8842890
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Pierogi",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     }
   ]

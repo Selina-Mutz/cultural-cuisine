@@ -13,13 +13,13 @@ export default function Gyoza({ feature, setFeatureFocus }) {
     return (
         <div>
             <RecipeBox
-                narrativeFragment={feature.properties.text}
-                //person={feature.properties.person}
+                titleText={feature.recipe.text.title}
+                timeText={feature.recipe.time}
+                difficultyText = {feature.recipe.difficulty}
+                cultureText = {feature.recipe.text.culture}
+                preparationTextArray = {feature.recipe.text.preparation}
+                tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}>
-                <span
-                    style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Gyoza Test.<br />
-                </span>
             </RecipeBox>
         </div>
     );

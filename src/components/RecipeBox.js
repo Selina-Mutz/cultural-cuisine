@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import React from 'react';
 import { useMap } from 'react-leaflet/hooks'
-import { Button, Card, Collapse } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
 import './css/RecipeBox.css';
 
