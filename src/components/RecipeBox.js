@@ -14,7 +14,7 @@ import './css/RecipeBox.css';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, preparationTextArray, tipsTextArray, setFeatureFocus }) {
+export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus }) {
     
     /**
      * The Leaflet map object
@@ -56,34 +56,93 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                 <div
                     id="properties-recipe-box-div">
                     <Card.Text
-                        id="properties-recipe-box-element">
+                        className="properties-recipe-box-element">
                         {timeText}
                     </Card.Text>
                     <Card.Text
-                        id="properties-recipe-box-element">
+                        className="properties-recipe-box-element">
                         Schwierigkeit: {difficultyText}
                     </Card.Text>
                 </div>
                 <div
-                    id="subsection-recipe-box-div">
+                    className="subsection-recipe-box-div">
                     <Card.Text
-                        id="subsection-title-recipe-box">
+                        className="subsection-title-recipe-box">
                         Kulturelle Bedeutung der {titleText}:
                     </Card.Text>
                     <Card.Text
-                        id="subsection-text-recipe-box">
+                        className="subsection-text-recipe-box">
                         {cultureText}<br />
                         <br />
                     </Card.Text>
                 </div>
                 <div
-                    id="subsection-recipe-box-div">
+                    className="subsection-recipe-box-div">
                     <Card.Text
-                        id="subsection-title-recipe-box">
+                        className="subsection-title-recipe-box">
+                        Zutaten:
+                    </Card.Text>
+                    <Card.Text
+                        id="ingredient-recipe-box-div"
+                        className="subsection-text-recipe-box">
+                            <div
+                                className="ingredient-type-recipe-box-div">
+                                    <Card.Text
+                                        className="ingredient-type-recipe-box-header">
+                                    {ingredientsArray[0].name}
+                                    </Card.Text>
+                                    {ingredientsArray[0].ingredients.map((step, index) => (
+                                        <React.Fragment key={index}>
+                                            {step.quantity} {step.name}<br />
+                                        </React.Fragment>
+                                    ))}
+                            </div>
+                            <div
+                                className="ingredient-type-recipe-box-div">
+                                    <Card.Text
+                                        className="ingredient-type-recipe-box-header">
+                                    {ingredientsArray[1].name}
+                                    </Card.Text>
+                                    {ingredientsArray[1].ingredients.map((step, index) => (
+                                        <React.Fragment key={index}>
+                                            {step.quantity} {step.name}<br />
+                                        </React.Fragment>
+                                    ))}
+                            </div>
+                            <div
+                                className="ingredient-type-recipe-box-div">
+                                    <Card.Text
+                                        className="ingredient-type-recipe-box-header">
+                                    {ingredientsArray[2].name}
+                                    </Card.Text>
+                                    {ingredientsArray[2].ingredients.map((step, index) => (
+                                        <React.Fragment key={index}>
+                                            {step.quantity} {step.name}<br />
+                                        </React.Fragment>
+                                    ))}
+                            </div>
+                            <div
+                                className="ingredient-type-recipe-box-div">
+                                    <Card.Text
+                                        className="ingredient-type-recipe-box-header">
+                                    {ingredientsArray[3].name}
+                                    </Card.Text>
+                                    {ingredientsArray[3].ingredients.map((step, index) => (
+                                        <React.Fragment key={index}>
+                                            {step.quantity} {step.name}<br />
+                                        </React.Fragment>
+                                    ))}
+                            </div>
+                    </Card.Text>
+                </div>
+                <div
+                    className="subsection-recipe-box-div">
+                    <Card.Text
+                        className="subsection-title-recipe-box">
                         Zubereitung:
                     </Card.Text>
                     <Card.Text
-                        id="subsection-text-recipe-box">
+                        className="subsection-text-recipe-box">
                             {preparationTextArray.map((step, index) => (
                                 <React.Fragment key={index}>
                                     {step}<br />
@@ -93,13 +152,13 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                     </Card.Text>
                 </div>
                 <div
-                    id="subsection-recipe-box-div">
+                    className="subsection-recipe-box-div">
                     <Card.Text
-                        id="subsection-title-recipe-box">
+                        className="subsection-title-recipe-box">
                         Tipps für die Zubereitung:
                     </Card.Text>
                     <Card.Text
-                        id="subsection-text-recipe-box">
+                        className="subsection-text-recipe-box">
                             {tipsTextArray.map((step, index) => (
                                 <React.Fragment key={index}>
                                     {step}<br />

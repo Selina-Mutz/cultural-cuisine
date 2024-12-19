@@ -26,15 +26,30 @@
     background-color: var(--background) !important;
 }
 
-#subsection-recipe-box-div {
+#ingredient-recipe-box-div {
+    display: flex;
+}
+
+.ingredient-type-recipe-box-div {
+    background: rgba(173, 216, 230, 0.5);
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.ingredient-type-recipe-box-header {
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.subsection-recipe-box-div {
     margin-top: 10px;
     border-top: 1px solid darkslategray;
 }
 
-#subsection-text-recipe-box {
+.subsection-text-recipe-box {
     margin-bottom: 0px;
 }
-#subsection-title-recipe-box {
+.subsection-title-recipe-box {
     font-size: 1.4rem;
     margin-top: 15px;
 }
@@ -42,28 +57,15 @@
 #properties-recipe-box-div {
     display: flex;
 }
-#properties-recipe-box-element {
+.properties-recipe-box-element {
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    background: lightsteelblue;
+    background: rgba(173, 216, 230, 0.5);
     border-radius: 10px;
     font-size: 0.75rem;
 }
 #title-recipe-box {
     font-size: 3em;
 }
-
-::-webkit-scrollbar {
-    width: 30px; /* Width of the scrollbar */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #888; /* Thumb color */
-    border-radius: 5px; /* Thumb border radius */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Track color */
-  }
