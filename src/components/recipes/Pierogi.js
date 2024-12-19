@@ -15,6 +15,7 @@ export default function Pierogi({ feature, setFeatureFocus }) {
             <RecipeBox
                 titleText={feature.recipe.text.title}
                 timeText={feature.recipe.time}
+                servings={feature.recipe.servings}
                 difficultyText = {feature.recipe.difficulty}
                 cultureText = {feature.recipe.text.culture}
                 ingredientsArray = {feature.recipe.ingredients}

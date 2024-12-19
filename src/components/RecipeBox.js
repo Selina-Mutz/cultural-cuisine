@@ -14,7 +14,7 @@ import './css/RecipeBox.css';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus }) {
+export default function RecipeBox({ children, titleText, servings, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus }) {
     
     /**
      * The Leaflet map object
@@ -80,7 +80,7 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                     className="subsection-recipe-box-div">
                     <Card.Text
                         className="subsection-title-recipe-box">
-                        Zutaten:
+                        Zutaten für {servings} Personen:
                     </Card.Text>
                     <div
                         id="ingredient-recipe-box-div"
