@@ -157,13 +157,14 @@
         }
       ],
         "servings": 2,
-        "difficulty": "Medium",
-        "time": "45 Minutes",
+        "difficulty": "Mittel",
+        "time": "45 Minuten",
         "tips": [
           "Das Falten der Momos ist sicher das anspruchsvollste an diesem Rezept. Übung macht den Meister, und der Teig sollte nicht zu dünn sein, damit er nicht reisst, und auch nicht zu dick, da die Momos sonst zu teigig schmecken.",
           "Momos werden keinesfalls immer so wie hier beschrieben gefüllt und eurer Kreativität sind keine Grenzen gesetzt! Kartoffeln, Brokkoli, Koriander, oder Minze sind zum Beispiel andere leckere Optionen für die Füllung.",
           "Auch der Dip kann nach euren Vorlieben verändert werden. Angebratene und dann pürierte Paprika gibt einen leckeren, zusätzlichen Geschmack, während pürierte Cashews den Dip noch cremiger machen. Ein Erdnussdip aus Erdnussbutter und Sojasauce passt auch hervorragend zu Momos.",
-          "Besonders in der indischen Küche wird statt Kokosöl Ghee (Butterschmalz) für den Teig und zum anbraten benutzt."
+          "Besonders in der indischen Küche wird statt Kokosöl Ghee (Butterschmalz) für den Teig und zum Anbraten benutzt.",
+          "Momos schmecken auch hervorragend frittiert!"
         ],
         "metrics": [
           {

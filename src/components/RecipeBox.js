@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import React from 'react';
 import { useMap } from 'react-leaflet/hooks'
 import { Button, Card, Collapse } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
@@ -13,7 +14,7 @@ import './css/RecipeBox.css';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, preparationTextArray, setFeatureFocus }) {
+export default function RecipeBox({ children, titleText, timeText, difficultyText, cultureText, preparationTextArray, tipsTextArray, setFeatureFocus }) {
     
     /**
      * The Leaflet map object
@@ -60,21 +61,51 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                     </Card.Text>
                     <Card.Text
                         id="properties-recipe-box-element">
-                        Difficulty: {difficultyText}
+                        Schwierigkeit: {difficultyText}
                     </Card.Text>
                 </div>
                 <div
-                    id="culture-recipe-box-div">
+                    id="subsection-recipe-box-div">
                     <Card.Text
-                        id="culture-recipe-box">
-                        {cultureText}
+                        id="subsection-title-recipe-box">
+                        Kulturelle Bedeutung der {titleText}:
+                    </Card.Text>
+                    <Card.Text
+                        id="subsection-text-recipe-box">
+                        {cultureText}<br />
+                        <br />
                     </Card.Text>
                 </div>
                 <div
-                    id="preparation-recipe-box-div">
+                    id="subsection-recipe-box-div">
                     <Card.Text
-                        id="preparation-recipe-box">
-                        {preparationTextArray}
+                        id="subsection-title-recipe-box">
+                        Zubereitung:
+                    </Card.Text>
+                    <Card.Text
+                        id="subsection-text-recipe-box">
+                            {preparationTextArray.map((step, index) => (
+                                <React.Fragment key={index}>
+                                    {step}<br />
+                                    <br />
+                                </React.Fragment>
+                            ))}
+                    </Card.Text>
+                </div>
+                <div
+                    id="subsection-recipe-box-div">
+                    <Card.Text
+                        id="subsection-title-recipe-box">
+                        Tipps für die Zubereitung:
+                    </Card.Text>
+                    <Card.Text
+                        id="subsection-text-recipe-box">
+                            {tipsTextArray.map((step, index) => (
+                                <React.Fragment key={index}>
+                                    {step}<br />
+                                    <br />
+                                </React.Fragment>
+                            ))}
                     </Card.Text>
                 </div>
                 {children}

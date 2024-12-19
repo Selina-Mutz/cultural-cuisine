@@ -18,7 +18,9 @@ export default function Momos({ feature, setFeatureFocus }) {
                 difficultyText = {feature.recipe.difficulty}
                 cultureText = {feature.recipe.text.culture}
                 preparationTextArray = {feature.recipe.text.preparation}
-                setFeatureFocus={setFeatureFocus}>
+                tipsTextArray = {feature.recipe.tips}
+                setFeatureFocus={setFeatureFocus}
+                >
             </RecipeBox>
         </div>
     );

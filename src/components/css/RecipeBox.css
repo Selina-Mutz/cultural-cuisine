@@ -2,18 +2,19 @@
     margin: 10px;
     z-index: 400;
     width: 99%;
-    height: 99%;
+    height: 100vh;
     color: var(--text);
-    font-size: 11pt;
+    font-size: 1rem;
     background-color: white;
     font-family: var(--font);
     border-color: var(--accent);
     border-width: 2px;
     white-space: pre-wrap;
+    overflow-y: scroll;
 }
 
 #card-body {
-    margin-top: -15px;
+    margin: 10px;
 }
 
 #close-recipe-box {
@@ -25,18 +26,44 @@
     background-color: var(--background) !important;
 }
 
+#subsection-recipe-box-div {
+    margin-top: 10px;
+    border-top: 1px solid darkslategray;
+}
+
+#subsection-text-recipe-box {
+    margin-bottom: 0px;
+}
+#subsection-title-recipe-box {
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
 #properties-recipe-box-div {
     display: flex;
 }
 #properties-recipe-box-element {
-    padding: 10px;
+    padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    background: lightcyan;
+    background: lightsteelblue;
     border-radius: 10px;
-    font-size: 9pt;
+    font-size: 0.75rem;
 }
 #title-recipe-box {
     font-size: 3em;
 }
+
+::-webkit-scrollbar {
+    width: 30px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Thumb color */
+    border-radius: 5px; /* Thumb border radius */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Track color */
+  }
