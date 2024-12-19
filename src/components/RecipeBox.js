@@ -82,9 +82,10 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                         className="subsection-title-recipe-box">
                         Zutaten:
                     </Card.Text>
-                    <Card.Text
+                    <div
                         id="ingredient-recipe-box-div"
                         className="subsection-text-recipe-box">
+                            {ingredientsArray[0] && (
                             <div
                                 className="ingredient-type-recipe-box-div">
                                     <Card.Text
@@ -97,6 +98,8 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                                         </React.Fragment>
                                     ))}
                             </div>
+                            )}
+                            {ingredientsArray[1] && (
                             <div
                                 className="ingredient-type-recipe-box-div">
                                     <Card.Text
@@ -109,6 +112,8 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                                         </React.Fragment>
                                     ))}
                             </div>
+                            )}
+                            {ingredientsArray[2] && (
                             <div
                                 className="ingredient-type-recipe-box-div">
                                     <Card.Text
@@ -121,6 +126,8 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                                         </React.Fragment>
                                     ))}
                             </div>
+                            )}
+                            {ingredientsArray[3] && (
                             <div
                                 className="ingredient-type-recipe-box-div">
                                     <Card.Text
@@ -133,7 +140,8 @@ export default function RecipeBox({ children, titleText, timeText, difficultyTex
                                         </React.Fragment>
                                     ))}
                             </div>
-                    </Card.Text>
+                            )}
+                    </div>
                 </div>
                 <div
                     className="subsection-recipe-box-div">
