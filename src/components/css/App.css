@@ -21,3 +21,8 @@
 .leaflet-disabled {
     color: grey !important;
 }
+
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+  }
