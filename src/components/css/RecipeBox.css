@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.clicked-button {
+    background-color: pink;
+}
+
 #close-recipe-box {
     position: absolute;
     top: 0px;
@@ -69,4 +73,8 @@
 }
 #title-recipe-box {
     font-size: 3em;
+}
+
+.unclicked-button {
+    background-color: rgba(173, 216, 230, 0.5);
 }

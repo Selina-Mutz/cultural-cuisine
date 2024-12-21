@@ -43,7 +43,6 @@ export default function App() {
         attribution: '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>',
     };*/
 
-
     return (
         <MapContainer
             className='map-container'
