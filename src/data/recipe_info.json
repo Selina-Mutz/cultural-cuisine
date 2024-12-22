@@ -264,8 +264,7 @@
       "recipe": {
         "text": {
           "title": "Gyoza",
-          "culture": "Gyoza ist ein Klassiker der japanischen Küche, oft serviert als Vorspeise oder Snack. Diese knusprig gebratenen Teigtaschen, gefüllt mit Fleisch und Gemüse, haben jedoch ihre Wurzeln in den chinesischen Jiaozi. Im Laufe der Zeit entwickelte sich Gyoza zu einer eigenständigen, ikonischen Spezialität. Ursprünglich aus China stammend, wo Jiaozi seit über 1800 Jahren ein traditionelles Gericht ist, wurde Gyoza Anfang des 20. Jahrhunderts durch chinesische Einwanderer nach Japan gebracht. Nach dem Zweiten Weltkrieg gewann Gyoza dank neuer Kochtechniken und Zutaten an Popularität und wurde in den 1950er-Jahren zu einem Streetfood-Klassiker in Japan.",
-
+          "culture": "Gyoza ist ein Klassiker der japanischen Küche, oft serviert als Vorspeise oder Snack. Diese knusprig gebratenen Teigtaschen, gefüllt mit Fleisch und Gemüse, haben jedoch ihre Wurzeln in den chinesischen Jiaozi.Im Laufe der Zeit entwickelte sich Gyoza zu einer eigenständigen, ikonischen Spezialität. Ursprünglich aus China stammend, wo Jiaozi seit über 1800 Jahren ein traditionelles Gericht ist, wurde Gyoza Anfang des 20. Jahrhunderts durch chinesische Einwanderer nach Japan gebracht. Nach dem Zweiten Weltkrieg gewann Gyoza dank neuer Kochtechniken und Zutaten an Popularität und wurde in den 1950er-Jahren zu einem Streetfood-Klassiker in Japan.",
           "preparation": [
             "Als ersten Schritt entweder alle Zutaten in einer Küchenmaschine häckseln oder alles sehr fein hacken. Anschließend alle Zutaten in eine Schüssel geben und Salz, Zucker, Sojasauce und Sesamöl hinzufügen.",
             "Alles mit den Händen vermischen und für zwei Minuten durchkneten, bis die Masse gut vermengt und homogen ist.",
@@ -282,6 +281,7 @@
             {
               "name": "Gyozablätter",
               "quantity": "1 Packung"
+
             }
           ]
         },
@@ -359,10 +359,10 @@
         }
       ],
         "servings": 3,
-        "difficulty": "Einfach",
+        "difficulty": "Mittel",
         "time": "45 Minuten",
         "tips": [
-          "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
+        "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
         ],
         "metrics": [
           {
@@ -380,7 +380,7 @@
         ],
         "restaurants":
         [
-          "Gyoza Restaurantempfehlung Test"
+          "Sushi Ninja / Ehrenfeld"
         ]
       }
     },
@@ -389,7 +389,7 @@
       "type": "Feature",
       "properties": {
         "marker_location": "Australien",
-        "text": "Kurzinfo zu Golden Syrup Dumplings."
+        "text": "Ein Symbol der Esskultur in Australien und Neuseeland"
       },
       "geometry": {
         "coordinates": [
@@ -397,6 +397,96 @@
           -26.8533875
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Golden Syrup Dumplings",
+          "culture": "Golden Syrup Dumplings sind eines der beliebtesten Komfortgerichte in Australien und Neuseeland. Sie erinnern an warme Familienabende und hausgemachte Mahlzeiten. Die weichen Teiglinge, gekocht in einer süßen Goldsirup-Soße, vereinen britische Kocheinflüsse mit der Vorliebe beider Länder für einfache Desserts. ",
+          "preparation": [
+            "Reibe die Butter mit deinen Fingern durch das Mehl, bis kleine Brösel entstehen.",
+            "Füge die Milch und den Zucker hinzu und verrühre es, bis eine dicke Paste entsteht",
+            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",  
+            "Koche die Teigtaschen bei mittlerer Hitze abgedeckt während 15-20 Minuten",
+            "Die Teigtaschen auf einen Teller transferieren und nach Belieben mit Vanilleeis servieren"
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Butter",
+              "quantity": "50g"
+            },
+            {
+              "name": "Mehl",
+              "quantity": "225g"
+            },
+            {
+              "name": "Milch",
+              "quantity": "185ml"
+            },
+           {
+              "name": "Golden Syrup (oder Zuckerrübensirup)",
+              "quantity": "2 EL"
+          }
+          ]
+        },
+      {
+        "name": "Für die Sauce",
+        "ingredients": [
+        {
+          "name": "Wasser",
+          "quantity": "470ml"
+        },
+        {
+          "name": "Butter",
+          "quantity": "50g"
+        },
+        {
+          "name": "Golden Syrup (oder Zuckerrübensirup)",
+          "quantity": "120ml"
+        },
+        {
+          "name": "Brauner Zucker",
+          "quantity": "160g"
+        }
+        ]
+      },
+      {
+        "name": "Als Topping",
+        "ingredients": [
+        {
+          "name": "Vanilleeis",
+          "quantity": "Nach Geschmack"
+        }
+        ]
+      }
+    ],
+        "servings": 6,
+        "difficulty": "Einfach",
+        "time": "20 Minuten",
+        "tips": [
+        "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
+        "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "N/A"
+        ]
       }
     },
     {
