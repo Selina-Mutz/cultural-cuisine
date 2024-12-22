@@ -1,4 +1,3 @@
-FeedbackButton.js
 
 export default function FeedbackButton({ onClick }) {
   return (
