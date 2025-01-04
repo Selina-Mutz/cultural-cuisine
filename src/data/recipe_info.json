@@ -291,6 +291,21 @@
         ],
         "type": "Point"
       }
+    },
+    {
+    "id": 9,
+    "type": "Feature",
+    "properties": {
+      "marker_location": "Philippinen",
+      "text": "Kurzinfo zu Siopao."
+    },
+    "geometry": {
+      "coordinates": [
+        121.7740,
+        12.8797
+      ],
+      "type": "Point"
     }
+  }
   ]
 }

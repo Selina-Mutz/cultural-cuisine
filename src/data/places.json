@@ -112,6 +112,21 @@
         "type": "Point"
       },
       "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siopao, PHIL"
+      },
+      "geometry": {
+        "coordinates": [
+          12.8797,
+          121.7740
+        ],
+        "type": "Point"
+      },
+      "id": 9
     }
+
   ]
 }
