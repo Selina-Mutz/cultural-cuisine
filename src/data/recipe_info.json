@@ -292,8 +292,8 @@
       "id": 5,
       "type": "Feature",
       "properties": {
-        "marker_location": "Vereinigte Staaten - USA",
-        "text": "Super toll"
+        "marker_location": "Vereinigte Staaten, Colorado",
+        "text": "Pizzataschen"
       },
       "geometry": {
         "coordinates": [
@@ -301,6 +301,72 @@
           38.7251776
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Pizzataschen",
+          "culture": "Pizzataschen, bekannt als "Pizza Pockets" oder "Hot Pockets", stammen aus den USA und wurden in den 1980er Jahren als praktische Snack-Variante der Pizza entwickelt. Sie sind mit verschiedenen Füllungen wie Käse, Sauce und Fleisch gefüllt und ideal für unterwegs. Heute sind sie ein beliebter Tiefkühl-Snack, aber man kann sie auch selbst machen.",
+          "preparation": [
+            "Schritt 1: Der Pizzateig - Das Mehl auf die Arbeitsfläche sieben und in der Mitte eine Mulde formen. Die Hefe hineinbröseln, 1 TL Salz, Olivenöl und 150 ml Wasser hinzufügen. Alles zu einem glatten Teig verkneten und diesen an einem warmen Ort für 30 Minuten gehen lassen. Währenddessen die passierten Tomaten mit Oregano, Salz und Pfeffer würzen und bereitstellen.",
+            "Schritt 2: Die Füllung vorbereiten - Den Teig auf einer bemehlten Arbeitsfläche ausrollen und in fünf gleichgroße Vierecke schneiden. Jede Hälfte der Vierecke mit der gewürzten Tomatensauce bestreichen. Salami und Mozzarella in Scheiben schneiden. Den Basilikum waschen, abzupfen und bereitstellen. Die Pizzastücke mit Salami, Mozzarella und Basilikum belegen, anschließend zusammenklappen und die Ränder gut verschließen.",
+            "Schritt 3: Backen und genießen - Den Backofen auf 220 °C Umluft vorheizen. Die Pizzataschen auf ein Backblech legen und für 12 Minuten goldbraun backen. Vor dem Servieren mit frischem Basilikum garnieren und warm genießen."
+          ]
+        },
+        "ingredients": [
+    {
+      "name": "Weizenmehl (Type 550)",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Hefe",
+      "quantity": "1/4 Würfel"
+    },
+    {
+      "name": "Olivenöl, nativ",
+      "quantity": "1 1/2 Esslöffel"
+    },
+    {
+      "name": "Gehackte Tomaten",
+      "quantity": "100 ml"
+    },
+    {
+      "name": "Salz",
+      "quantity": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": "nach Geschmack"
+    },
+    {
+      "name": "Oregano",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Salami",
+      "quantity": "50 Gramm"
+    },
+    {
+      "name": "Mozzarella",
+      "quantity": "100 Gramm"
+    },
+    {
+      "name": "Basilikum",
+      "quantity": "1 Stängel"
+    }
+  ],
+  "servings": 2,
+  "difficulty": "Medium",
+  "time": "45 Minuten",
+  "tips": [
+    "Verwende frische Hefe für den besten Teig.",
+    "Füge geriebenen Käse in die Füllung für eine cremigere Konsistenz."
+  ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen",
+          "Keine Restaurant-Empfehlung vorhanden."
+        ]
+
       }
     },
     {
