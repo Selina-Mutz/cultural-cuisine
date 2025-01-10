@@ -106,13 +106,13 @@
       "id": 4,
       "type": "Feature",
       "properties": {
-        "marker_location": "China",
+        "marker_location": "Türkei",
         "text": "Hi Text"
       },
       "geometry": {
         "coordinates": [
-          103.79879738682659,
-          34.631477784554725
+          34.9249653,
+          38.9597594
         ],
         "type": "Point"
       }
@@ -121,13 +121,13 @@
       "id": 5,
       "type": "Feature",
       "properties": {
-        "marker_location": "Italien",
+        "marker_location": "Vereinigte Staaten - USA",
         "text": "Super toll"
       },
       "geometry": {
         "coordinates": [
-          12.39476670749703,
-          43.01977211651795
+          -105.607716,
+          38.7251776
         ],
         "type": "Point"
       }
