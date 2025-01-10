@@ -169,11 +169,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 3
           },
           {
             "name": "liked_by",
-            "value": 0
+            "value": 11
           },
           {
             "name": "disliked_by",
