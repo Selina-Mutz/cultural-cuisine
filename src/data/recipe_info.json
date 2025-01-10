@@ -194,7 +194,7 @@
       "type": "Feature",
       "properties": {
         "marker_location": "Türkei",
-        "text": "Hi Text"
+        "text": "Türkische Teigtaschen"
       },
       "geometry": {
         "coordinates": [
@@ -202,6 +202,90 @@
           38.9597594
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Türkische Empanadas",
+          "culture": "Türkische Gözleme sind dünne Fladenbrote, die traditionell auf einer heißen Platte gebacken werden. Ursprünglich aus der anatolischen Küche stammend, wurden sie von Nomaden entwickelt, um unterwegs schnell gefüllte Teiggerichte zuzubereiten. Heute sind sie ein beliebtes Streetfood, gefüllt mit Spinat, Käse, Hackfleisch oder Kartoffeln.",
+          "preparation": [
+            "Schritt 1: Der Teig - Mehl und Salz in einer großen Schüssel vermengen. Milch, warmes Wasser (im gleichen Verhältnis) und Olivenöl hinzufügen und zunächst mit einer Gabel grob vermischen. Anschließend den Teig mit den Händen etwa 8 Minuten lang zu einer glatten, geschmeidigen Masse kneten. Teile den Teig in 2 gleichgroße Kugeln, decke sie ab und lasse sie etwa 30 Minuten ruhen.",
+            "Schritt 2: Die Füllung - Während der Teig ruht, den Spinat waschen und trocken tupfen. Zwiebeln und Knoblauch schälen und fein würfeln. In einem Topf das Öl erhitzen, Zwiebeln und Knoblauch darin für ca. 2 Minuten anschwitzen. Den Spinat hinzufügen und unter Rühren zusammenfallen lassen. Mit Chili, Salz und Pfeffer abschmecken. Den Spinat abkühlen lassen, grob hacken und mit zerbröseltem Schafskäse in einer Schüssel vermischen.",
+            "Schritt 3: Die Gözleme formen und ausbacken - Die Teigkugeln sehr dünn (ca. 1 mm) zu runden Fladen ausrollen. Jeweils ¼ der Füllung auf eine Hälfte eines Teigfladens geben, die andere Hälfte darüber klappen und die Ränder fest andrücken, um sie zu verschließen. Öl in einer Pfanne erhitzen und die Gözleme darin nacheinander von beiden Seiten 2–3 Minuten goldbraun ausbacken. Nach dem Ausbacken bei Bedarf mit etwas Öl bestreichen und sofort servieren."
+          ]
+        },
+        "ingredients": [
+    {
+      "name": "Weizenmehl (Type 550)",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Salz",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Milch",
+      "quantity": "60 ml"
+    },
+    {
+      "name": "Babyspinat",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Gemüsezwiebel",
+      "quantity": "1 Stück"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "quantity": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Chiliflocken",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Salz",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Schafskäse",
+      "quantity": "150 Gramm"
+    }
+  ],
+  "servings": 2,
+  "difficulty": "Medium",
+  "time": "45 Minuten",
+  "tips": [
+    "Verwende frischen Spinat für den besten Geschmack.",
+    "Bestreiche die fertigen Gözleme mit etwas Butter für eine extra goldene Farbe."
+  ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 0
+          },
+          {
+            "name": "liked_by",
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
+          }
+        ],
+        "restaurants":
+        [
+          "Simitzade",
+          "Kalker Hauptstraße 139, 51103 Köln"
+        ]
+
       }
     },
     {
