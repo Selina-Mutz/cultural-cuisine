@@ -77,7 +77,7 @@
           },
           {
             "name": "(Veganes) Hackfleisch",
-            "quantity": "250 Gramm"
+            "quantity": "300 Gramm"
           },
           {
             "name": "Gemüsebrühe",
@@ -214,12 +214,24 @@
           "name": "Für den Teig",
           "ingredients": [
             {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
+              "name": "Mehl",
+              "quantity": "200 Gramm"
             },
             {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
+              "name": "Hartweizengrieß",
+              "quantity": "200 Gramm"
+            },
+            {
+              "name": "Wasser",
+              "quantity": "100 Milliliter"
+            },
+            {
+              "name": "Olivenöl",
+              "quantity": "1 Esslöffel"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1 Prise"
             }
           ]
         },
@@ -227,39 +239,76 @@
           "name": "Für die Füllung",
           "ingredients": [
             {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
+              "name": "(Veganes) Hackfleisch",
+              "quantity": "300 Gramm"
             },
             {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
+              "name": "Spinat",
+              "quantity": "200 Gramm"
+            },
+            {
+              "name": "Lauch - weißer Teil",
+              "quantity": "1 Stange"
+            },
+            {
+              "name": "Semmelbrösel",
+              "quantity": "50 Gramm"
+            },
+            {
+              "name": "Petersilie",
+              "quantity": "50 Gramm"
+            },
+            {
+              "name": "Zwiebel",
+              "quantity": "1"
+            },
+            {
+              "name": "Knoblauch",
+              "quantity": "1 Zehe"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1/2 Teelöffel"
+            },
+            {
+              "name": "Pfeffer",
+              "quantity": "1/2 Teelöffel"
+            },
+            {
+              "name": "Muskatnuss",
+              "quantity": "1 Prise"
             }
           ]
         },
         {
           "name": "Für die Sauce",
           "ingredients": [
-          {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
+            {
+              "name": "Gemüsebrühe",
+              "quantity": "1 Esslöffel"
+            },
+            {
+              "name": "Schmand oder Ketchup",
+              "quantity": "Nach Belieben"
+            }
           ]
         },
         {
           "name": "Als Topping",
           "ingredients": [
           {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
+            "name": "Schnittlauch oder Petersilie zum Anrichten",
+            "quantity": "Etwas"
           }
           ]
         }
       ],
-        "servings": 0,
+        "servings": 2,
         "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
         "time": "Zeit in Minuten",
         "tips": [
-          "Array von Tipps"
+          "Der Teig in diesem Rezept ist vegan und ähnlich wie ein klassischer Nudelteig. Traditionell können aber auch 2 Eier statt den 200 Gramm Hartweizengrieß verwendet werden.",
+          "Nicht zu viel Füllung in die Maultaschen geben, da diese sonst beim garen platzen können."
         ],
         "metrics": [
           {
