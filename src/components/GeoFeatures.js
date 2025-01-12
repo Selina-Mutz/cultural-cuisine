@@ -1,4 +1,4 @@
-import L from 'leaflet';
+import L, { marker } from 'leaflet';
 import { useMap } from 'react-leaflet/hooks';
 import { GeoJSON } from 'react-leaflet';
 import locations from './../data/recipe_info.json';
@@ -7,8 +7,14 @@ import siopaoIcon from '../data/icons/siopao_icon.png';
 import gyozaIcon from '../data/icons/gyoza_icon.png';
 import gsdIcon from '../data/icons/goldensyrupdumpling_icon.png';
 import pierogiIcon from '../data/icons/pierogi_icon.png';
-import jiaoziIcon from '../data/icons/jiaozi_icon.png';
 import momoIcon from '../data/icons/momo_icon.png';
+import gözlemeIcon from '../data/icons/gözleme_icon.png'
+import pizzaIcon from '../data/icons/pizzatasche_icon.png'
+import pirukadIcon from '../data/icons/pirukad_icon.png'
+import luqaimatIcon from '../data/icons/luqaimat_icon.png'
+import sambusaIcon from '../data/icons/sambusa_icon.png'
+import maultascheIcon from '../data/icons/maultasche_icon.png'
+
 
 /**
  * Component displaying the geo-objects representing the recipe info on the map
@@ -33,8 +39,14 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
         if (markerLocation.includes('japan')) return gyozaIcon;
         if (markerLocation.includes('australien')) return gsdIcon;
         if (markerLocation.includes('polen')) return pierogiIcon;
-        if (markerLocation.includes('china')) return jiaoziIcon;
         if (markerLocation.includes('argentinien')) return empanadaIcon;
+        if (markerLocation.includes('')) return gözlemeIcon;
+        if (markerLocation.includes('')) return pizzaIcon;
+        if (markerLocation.includes('')) return sambusaIcon;
+        if (markerLocation.includes('deutschland')) return maultascheIcon;
+        if (markerLocation.includes('')) return luqaimatIcon;
+        if (markerLocation.includes('')) return pirukadIcon;
+
         return empanadaIcon; // Default icon
     }
 
