@@ -1,4 +1,11 @@
 import RecipeBox from '../RecipeBox';
+import gyozaFertig from '../../data/gyoza/gyoza-11.jpeg';
+import gyozaZutaten from '../../data/gyoza/gyoza-zutaten.jpeg';
+import gyoza1 from '../../data/gyoza/gyoza-4.jpeg';
+import gyoza2 from '../../data/gyoza/gyoza-6.jpeg';
+import gyoza3 from '../../data/gyoza/gyoza-7.jpeg';
+import gyoza4 from '../../data/gyoza/gyoza-8.jpeg';
+import gyoza5 from '../../data/gyoza/gyoza-9.jpeg';
 
 /**
  * Component displaying the recipe and pictures for Gyoza
@@ -22,7 +29,7 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={['src/data/gyoza/gyoza-11.jpeg', 'src/data/gyoza/gyoza-zutaten.jpeg', 'src/data/gyoza/gyoza-4.jpeg', 'src/data/gyoza/gyoza-6.jpeg', 'src/data/gyoza/gyoza-7.jpeg', 'src/data/gyoza/gyoza-8.jpeg','src/data/gyoza/gyoza-9.jpeg']}>
+                images={[gyozaFertig, gyozaZutaten, gyoza1, gyoza2, gyoza3, gyoza4, gyoza5]}>
             </RecipeBox>
         </div>
     );

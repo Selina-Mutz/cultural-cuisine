@@ -1,4 +1,9 @@
-import RecipeBox from '../RecipeBox';
+import RecipeBox from '../RecipeBox'
+import momosZutatenQuer from '../../data/momos/momoszutatenquer.jpg';
+import momosZutatenGeschnibbelt from '../../data/momos/momoszutatengeschnibbelt.jpg';
+import momosTeig from '../../data/momos/momosteig.jpg';
+import momosFertigQuer from'../../data/momos/momosfertigquer.jpg';
+
 
 /**
  * Component displaying the recipe and pictures for Momos
@@ -22,7 +27,7 @@ export default function Momos({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={['src/data/momos/momoszutatenquer.jpg', 'src/data/momos/momoszutatengeschnibbelt.jpg', 'src/data/momos/momosteig.jpg', 'src/data/momos/momosfertigquer.jpg']}>
+                images={[momosFertigQuer, momosZutatenQuer, momosZutatenGeschnibbelt, momosTeig]}>
             </RecipeBox>
         </div>
     );
