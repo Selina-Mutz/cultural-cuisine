@@ -20,7 +20,7 @@
           "title": "Momos",
           "culture": "Momos sind nepalesische und tibetische Teigtaschen aus der Himalaya-Region, die aber auch in nördlichen Teilen Indiens verzehrt werden. Für die aus Tibet und Nepal stammenden Menschen vermitteln die Momos ein Heimatgefühl und gelten auch als Bestandteil ihrer Identität. Traditionell werden sie entweder mit Gemüse (Veg Momos), oder mit Hühnchen- oder Rindfleisch (tibetische Yaks) gefüllt und entweder dampfgegart oder frittiert. Serviert werden die Momos mit einem Tomaten-Chutney.",
           "preparation": [
-            "Für den Teig geben wir Mehl, Wasser, etwas Kokosöl und Salz in eine große Schüssel und verkneten alles zu einem Teig. Bei Bedarf ein wenig Mehl oder Wasser dazugeben, bis der Teig weich und geschmeidig ist. Danach die Schüssel mit einem Tuch abdecken und 30 Minuten ruhen lassen.",
+            "Für den Teig Mehl, Wasser, etwas Kokosöl und Salz in eine große Schüssel geben und alles zu einem Teig verkneten. Bei Bedarf ein wenig Mehl oder Wasser dazugeben, bis der Teig weich und geschmeidig ist. Danach die Schüssel mit einem Tuch abdecken und 30 Minuten ruhen lassen.",
             "Die Zwiebeln, Knoblauch und Ingwer fein würfeln. Kohl und Sellerie waschen und ebenfalls in kleine Würfel schneiden. Etwas Kokosöl in eine Pfanne geben und Zwiebeln, Ingwer und Knoblauch kurz andünsten. Das (in diesem Fall vegane) Hackfleisch und die Gewürze dazu geben und alles ein paar Minuten anbraten. Nun das Gemüse für eine gemischte Füllung in die selbe Pfanne geben und ebenfalls ein paar Minuten mit andünsten. Anschließend die Gemüsebrühe und etwas Wasser dazugeben, die Pfanne abdecken, und die Masse ein paar Minuten dünsten bis das Gemüse weich ist.",
             "Für die Sauce werden Tomaten und Chili ein paar Minuten in heißem Wasser gekocht, die Tomaten geschält, und anschließend mit gepellten Zwiebeln, Knoblauch und Ingwer, sowie etwas Sojasauce, in einen Mixer gegeben und gut püriert. Alternativ können Zwiebeln, Knoblauch, Ingwer und Chili auch fein gewürfelt, in einem Topf angebraten und mit gehackten Tomaten und etwas Sojasauce 20 Minuten eingekocht werden. Anschließend mit den Gewürzen abschmecken und lauwarm abkühlen lassen.",
             "Aus dem Teig kleine, 2-3cm dicke Bällchen formen, sodass diese ausgerollt 9-10 cm große, 2mm dicke Kreise bilden. Auf diese Kreise mittig 1 Teelöffel Füllung verteilen, den Teigrand im Uhrzeigersinn zusammen klappen und zu runden Taschen formen. Die Momos nun in einem Bambusdämpfer oder Dampfeinsatz für 10 Minuten dämpfen, alternativ die Momos in eine abgedeckte Pfanne geben, nach und nach Wasser hinzufügen und verdampfen lassen, bis der Teig der Momos weich ist.",
@@ -76,7 +76,7 @@
             "quantity": "1/4"
           },
           {
-            "name": "(Veganes) Hackfleisch",
+            "name": "(veganes) Hackfleisch",
             "quantity": "300 Gramm"
           },
           {
@@ -205,13 +205,12 @@
       "recipe": {
         "text": {
           "title": "Maultaschen",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Maultaschen sind eine Spezialität der schwäbischen Küche. Sie sind seit 2009 von der EU in ihrer Herkunftsbezeichnung geschützt unter der Klasse 'Geschützte geografische Angabe'. Damit muss für traditionelle schwäbische Maultaschen entweder die Produktion, Verarbeitung, oder Herstellung in Baden-Württemberg oder im bayerischen Schwaben erfolgen.",
           "preparation": [
-            "Für den Teig geben wir Mehl, Hartweizengrieß, Wasser, Olivenöl und Salz in eine Schüssel und verkneten alles, bis ein geschmeidiger Teig entsteht. Kurz beiseite stellen und abgedeckt ruhen lassen.",
+            "Für den Teig Mehl, Hartweizengrieß, Wasser, Olivenöl und Salz in eine Schüssel geben und alles verkneten, bis ein geschmeidiger Teig entsteht. Kurz beiseite stellen und abgedeckt ruhen lassen.",
             "Als nächstes Zwiebel, Knoblauch, Lauch, Spinat sehr fein hacken und zunächst die Zwiebeln in etwas Öl glasig anbraten. Den Knoblauch und Lauch dazu geben und andünsten. Das Hackfleisch und die Gewürze dazugeben und alles für ein paar Minuten anbraten. Sobald das Hackfleisch durch ist Spinat und Petersilie dazugeben und kurz mit erhitzen. Alles gut vermengen und beiseite stellen.",
-            "Den Teig in 3-4 Teile teilen und mit einem Nudelholz in ca. 8-12 cm breite Bahnen rollen. Auf jede Bahn die Füllung geben und dabei das untere Drittel frei lassen. Nun den Teig von oben bis zur Hälfte umklappen, und dann noch einmal umklappen, sodass der Teig bündig unten abschliesst. Mit den Händen vorsichtig zudrücken, dass die Luft entweichen kann.",
-            "Anschließend mit dem Stiel eines Suppenlöffels oder einem anderen schmalen Gegenstand die Teigrolle alle paar Zentimeter eindrücken und dann an der Stelle mit einem Messer durchschneiden. Die Teigtaschen an der Seite mit Daumen und Zeigefinger fest zudrücken.",
-            "Wasser und Gemüsebrühe in einem Topf zum kochen bringen und die Maultaschen bei mittlerer Hitze in der Brühe für 10-15 min garen, bis die Maultschen weich sind. In der Brühe, mit Schmand, oder mit Ketchup genießen."
+            "Den Teig in 3-4 Teile teilen und mit einem Nudelholz in ca. 8-12 cm breite Bahnen rollen. Auf jede Bahn die Füllung geben und dabei das untere Drittel frei lassen. Nun den Teig von oben bis zur Hälfte umklappen, und dann noch einmal umklappen, sodass der Teig bündig unten abschliesst. Mit den Händen vorsichtig zudrücken, dass die Luft entweichen kann. Anschließend mit dem Stiel eines Suppenlöffels oder einem anderen schmalen Gegenstand die Teigrolle alle paar Zentimeter eindrücken und dann an der Stelle mit einem Messer durchschneiden. Die Teigtaschen an der Seite mit Daumen und Zeigefinger fest zudrücken.",
+            "Wasser und Gemüsebrühe in einem Topf zum kochen bringen und die Maultaschen bei mittlerer Hitze in der Brühe für 10-15 min garen bis sie weich sind. In der Brühe, mit Schmand, oder mit Ketchup genießen."
           ]
         },
         "ingredients": [{
@@ -243,7 +242,7 @@
           "name": "Für die Füllung",
           "ingredients": [
             {
-              "name": "(Veganes) Hackfleisch",
+              "name": "(veganes) Hackfleisch",
               "quantity": "300 Gramm"
             },
             {
@@ -281,52 +280,32 @@
             {
               "name": "Muskatnuss",
               "quantity": "1 Prise"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+            },
             {
               "name": "Gemüsebrühe",
               "quantity": "1 Esslöffel"
-            },
-            {
-              "name": "Schmand oder Ketchup",
-              "quantity": "Nach Belieben"
             }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
-          {
-            "name": "Schnittlauch oder Petersilie zum Anrichten",
-            "quantity": "Etwas"
-          }
           ]
         }
       ],
         "servings": 2,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        "difficulty": "Mittel",
+        "time": "50 Minuten",
         "tips": [
           "Der Teig in diesem Rezept ist vegan und ähnlich wie ein klassischer Nudelteig. Traditionell können aber auch 2 Eier statt den 200 Gramm Hartweizengrieß verwendet werden.",
           "Nicht zu viel Füllung in die Maultaschen geben, da diese sonst beim garen platzen können.",
+          "Damit die Maultaschen nicht aufplatzen, kann ein wenig Wasser oder Hafermilch auf die Teigenden gestrichen werden, damit diese besser zusammen halten.",
+          "Maultschen schmecken auch hervorragend, wenn sie nach dem Garen nochmal angebraten werden.",
           "Als Beilage eignet sich gut ein Kartoffel- oder Krautsalat."
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 2
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 6
           }
         ],
         "restaurants":
