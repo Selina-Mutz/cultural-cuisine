@@ -21,7 +21,8 @@ export default function Jiaozi({ feature, setFeatureFocus }) {
                 ingredientsArray = {feature.recipe.ingredients}
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
-                setFeatureFocus={setFeatureFocus}>
+                setFeatureFocus={setFeatureFocus}
+                images={[]}>
             </RecipeBox>
         </div>
     );

@@ -4,6 +4,7 @@ import { useMap } from 'react-leaflet/hooks'
 import { Button, Card, Icon } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
 import './css/RecipeBox.css';
+import ImageCarousel from './ImageCarousel';
 
 /**
  * Component displaying a box containing a narrative fragment, the related media, any embedded child elements and the narrating character's bio
@@ -14,7 +15,7 @@ import './css/RecipeBox.css';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function RecipeBox({ children, titleText, servings, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus }) {
+export default function RecipeBox({ children, titleText, servings, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus, images }) {
     
     /**
      * The Leaflet map object
@@ -132,6 +133,10 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         {cultureText}<br />
                         <br />
                     </Card.Text>
+                </div>
+                <div
+                    className="subsection-recipe-box-div">
+                    <ImageCarousel images={images} />
                 </div>
                 <div
                     className="subsection-recipe-box-div">

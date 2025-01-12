@@ -21,7 +21,8 @@ export default function Momos({ feature, setFeatureFocus }) {
                 ingredientsArray = {feature.recipe.ingredients}
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
-                setFeatureFocus={setFeatureFocus}>
+                setFeatureFocus={setFeatureFocus}
+                images={['src/data/momos/momoszutatenquer.jpg', 'src/data/momos/momoszutatengeschnibbelt.jpg', 'src/data/momos/momosteig.jpg', 'src/data/momos/momosfertigquer.jpg']}>
             </RecipeBox>
         </div>
     );

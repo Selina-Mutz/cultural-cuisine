@@ -21,7 +21,8 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 ingredientsArray = {feature.recipe.ingredients}
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
-                setFeatureFocus={setFeatureFocus}>
+                setFeatureFocus={setFeatureFocus}
+                images={['src/data/goldensyrupdumplings/gsd-7.jpg', 'src/data/goldensyrupdumplings/gsd-zutaten.jpg', 'src/data/goldensyrupdumplings/gsd-3.jpg', 'src/data/goldensyrupdumplings/gsd-4.jpg', 'src/data/goldensyrupdumplings/gsd-6.jpg']}>
             </RecipeBox>
         </div>
     );

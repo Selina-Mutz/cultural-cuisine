@@ -21,7 +21,8 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 ingredientsArray = {feature.recipe.ingredients}
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
-                setFeatureFocus={setFeatureFocus}>
+                setFeatureFocus={setFeatureFocus}
+                images={['src/data/gyoza/gyoza-11.jpeg', 'src/data/gyoza/gyoza-zutaten.jpeg', 'src/data/gyoza/gyoza-4.jpeg', 'src/data/gyoza/gyoza-6.jpeg', 'src/data/gyoza/gyoza-7.jpeg', 'src/data/gyoza/gyoza-8.jpeg','src/data/gyoza/gyoza-9.jpeg']}>
             </RecipeBox>
         </div>
     );
