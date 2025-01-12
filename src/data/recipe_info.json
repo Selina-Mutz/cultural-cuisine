@@ -871,6 +871,183 @@
           "Array von Restaurantempfehlungen"
         ]
       }
+    },
+      {
+        "id": 9,
+        "type": "Feature",
+        "properties": {
+          "marker_location": "Philippinen",
+          "text": "Philippinische Siopao."
+        },
+        "geometry": {
+          "coordinates": [
+            121.7740,
+            12.8797
+          ],
+          "type": "Point"
+        },
+      
+        "recipe": {
+          "text": {
+            "title": "Siopao",
+            "culture": "Siopao, eine gedämpfte Teigtasche mit herzhaften Füllungen, hat in den Philippinen eine kulturelle Bedeutung, da es den historischen chinesischen Einfluss im Land widerspiegelt. Es ist ein beliebter Snack, der die Verschmelzung von philippinischen und chinesischen Küchentraditionen symbolisiert und ein fester Bestandteil der Merienda-Kultur sowie zwangloser Treffen ist.",
+            "preparation": [
+              "Fleisch:",
+              "Tupfe das Fleisch trocken und brate das Fleisch in einer hohen Pfanne mit Öl an, bis es goldbraun ist. Danach entnimm das Fleisch der Pfanne.",
+              "In der Zwischenzeit die Zwiebeln und den Knoblauch fein würfeln, hinzufügen und anrösten.",
+              "Wasser, Sojasauce und Salz hinzufügen, Fleisch wieder in den Topf geben, zudecken und eine Stunde bei niedriger Hitze schmoren lassen.",
+              "",
+              "Teig:",
+              "Da das Fleisch eine Stunde schmoren muss, kannst du in der Zwischenzeit den Teig vorbereiten.",
+              "Mehl, Backpulver und Stärke sieben, mit Hefe und Wasser kneten, bis ein glatter Teig entsteht.",
+              "In gefetteter Schüssel 1-2 Stunden an einem warmen Ort gehen lassen, bis sich der Teig verdoppelt hat.",
+              "",
+              "Asado Füllung:",
+              "Das nun weiche Fleisch auf ein Brett transferieren und in feine Stücke hacken.",
+              "Gib das Fleisch, die Fleischbrühe, die Austernsauce, die Hoisinsauce, den braunen Zucker und den Pfeffer in einen großen Topf bei mittlerer Hitze.",
+              "Vermisch alles, bis sich der Zucker und der Pfeffer aufgelöst hat, während einer Minute.",
+              "In einer kleinen Schüssel, die Maisstärke und das Wasser verrühren, bis sich die Stärke aufgelöst hat.",
+              "Erhöhe die Temperatur auf mittelhoch und füge die Wassermischung dem Topf hinzu. Bring die Sauce zum Kochen und verrühre alles während 8-10 Minuten oder bis die Sauce eine Puddingkonsistenz erlangt hat.",
+              "Nimm den Topf vom Herd und lass alles abkühlen, bevor du die Siopao zusammenstellen kannst.",
+              "",
+              "Zusammenstellung & Dämpfen:",
+              "Sobald sich der Teig verdoppelt hat, drück mit der Faust auf den Teig, damit die Gase entweichen können.",
+              "Den Teig auf einer bemehlten Fläche kurz kneten und anschließend in zwei Hälften teilen. Eine Hälfte abdecken, die andere zu einer ca. 15 cm Rolle formen und in 6 gleich große Stücke schneiden.",
+              "Jedes Stück zu einem Kreis von 10-13 cm Durchmesser ausrollen, dabei die Ränder dünner lassen als die Mitte.",
+              "Etwa 3 EL Füllung in die Mitte des Teiges geben und mit einem Viertel des hartgekochten Eis toppen.",
+              "Den Teig um die Füllung falten, dabei die Ränder in Falten legen und oben verschließen, so dass ein Wirbelmuster entsteht. Wiederhole diesen Vorgang mit jeder Teigtasche.",
+              "Anschließend die Teigtaschen in einen Dämpfer legen. Lasse dabei etwas Platz zwischen den Siopao, da sie im Dämpfer noch größer werden.",
+              "Dämpfe die Siopao für 20 Minuten und entferne in dieser Zeit nicht den Deckel vom Dämpfer.",
+              "Sobald die Siopao fertig sind, entnimm sie dem Dämpfer und serviere sie sofort!"
+            ]
+          },
+          "ingredients": [{
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "470g"
+              },
+              {
+                "name": "Maisstärke",
+                "quantity": "100g"
+              },
+              {
+                "name": "Backpulver",
+                "quantity": "10g"
+              },
+              {
+                "name": "Trockenhefe",
+                "quantity": "8g"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "100g"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "265ml"
+              },
+              {
+                "name": "Neutrales Öl",
+                "quantity": "60ml"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Schweinegulasch",
+                "quantity": "680g"
+              },
+              {
+                "name": "Knoblauchzehen",
+                "quantity": "5"
+              },
+              {
+                "name": "Zwiebel",
+                "quantity": "1"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "945ml + 4 EL"
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Hartgekochte Eier",
+                "quantity": "3"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+            {
+              "name": "Austersauce",
+              "quantity": "1 EL"
+            },
+            {
+              "name": "Hoisinsauce",
+              "quantity": "1 TL"
+            },
+            {
+              "name": "Brauner Zucker",
+              "quantity": "4 TL"
+            },              
+            {
+              "name": "Pfeffer",
+              "quantity": "1/4 TL"
+            },
+            {
+              "name": "Maisstärke",
+              "quantity": "2 TL"
+            }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+            {
+              "name": "",
+              "quantity": ""
+            }
+            ]
+          }
+        ],
+          "servings": 12,
+          "difficulty": "Schwierigkeit Anspruchsvoll",
+          "time": "205 Minuten",
+          "tips": [
+            "Das Anspruchsvollste an diesen Teigtaschen ist das Falten der Teiglinge. Wenn du den Teig ausrollst, solltest du unbedingt beachten, dass die Mitte des Teiges dicker ist als der Rand. Da die Füllung schwer ist, sackt sie durch, wenn der Teig nicht dick genug ist.",
+            "Achte außerdem darauf, dass die Teigtaschen nicht zu voll sind, denn damit erschwerst du dir das Falten."
+          ],
+          "metrics": [
+            {
+              "name": "cooked_by",
+              "value": 0
+            },
+            {
+              "name": "liked_by",
+              "value": 0
+            },
+            {
+              "name": "disliked_by",
+              "value": 0
+            }
+          ],
+          "restaurants":
+          [
+            "Array von Restaurantempfehlungen"
+          ]
+        }
     }
   ]
 }
