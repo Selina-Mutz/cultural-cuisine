@@ -207,7 +207,11 @@
           "title": "Maultaschen",
           "culture": "Kulturelle Bedutung der Teigtaschen",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Für den Teig geben wir Mehl, Hartweizengrieß, Wasser, Olivenöl und Salz in eine Schüssel und verkneten alles, bis ein geschmeidiger Teig entsteht. Kurz beiseite stellen und abgedeckt ruhen lassen.",
+            "Als nächstes Zwiebel, Knoblauch, Lauch, Spinat sehr fein hacken und zunächst die Zwiebeln in etwas Öl glasig anbraten. Den Knoblauch und Lauch dazu geben und andünsten. Das Hackfleisch und die Gewürze dazugeben und alles für ein paar Minuten anbraten. Sobald das Hackfleisch durch ist Spinat und Petersilie dazugeben und kurz mit erhitzen. Alles gut vermengen und beiseite stellen.",
+            "Den Teig in 3-4 Teile teilen und mit einem Nudelholz in ca. 8-12 cm breite Bahnen rollen. Auf jede Bahn die Füllung geben und dabei das untere Drittel frei lassen. Nun den Teig von oben bis zur Hälfte umklappen, und dann noch einmal umklappen, sodass der Teig bündig unten abschliesst. Mit den Händen vorsichtig zudrücken, dass die Luft entweichen kann.",
+            "Anschließend mit dem Stiel eines Suppenlöffels oder einem anderen schmalen Gegenstand die Teigrolle alle paar Zentimeter eindrücken und dann an der Stelle mit einem Messer durchschneiden. Die Teigtaschen an der Seite mit Daumen und Zeigefinger fest zudrücken.",
+            "Wasser und Gemüsebrühe in einem Topf zum kochen bringen und die Maultaschen bei mittlerer Hitze in der Brühe für 10-15 min garen, bis die Maultschen weich sind. In der Brühe, mit Schmand, oder mit Ketchup genießen."
           ]
         },
         "ingredients": [{
@@ -308,7 +312,8 @@
         "time": "Zeit in Minuten",
         "tips": [
           "Der Teig in diesem Rezept ist vegan und ähnlich wie ein klassischer Nudelteig. Traditionell können aber auch 2 Eier statt den 200 Gramm Hartweizengrieß verwendet werden.",
-          "Nicht zu viel Füllung in die Maultaschen geben, da diese sonst beim garen platzen können."
+          "Nicht zu viel Füllung in die Maultaschen geben, da diese sonst beim garen platzen können.",
+          "Als Beilage eignet sich gut ein Kartoffel- oder Krautsalat."
         ],
         "metrics": [
           {
