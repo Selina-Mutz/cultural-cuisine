@@ -120,9 +120,10 @@
             "name": "Salz",
             "quantity": "4 Löffel"
           },
-          "name": "Wasser",
-          "quantity": "halbe Tasse"
-        },
+          {
+            "name": "Wasser",
+            "quantity": "halbe Tasse"
+          },
           {
             "name": "gelbe Zwiebeln",
             "quantity": "2 mittelgroße"
@@ -305,7 +306,7 @@
       "recipe": {
         "text": {
           "title": "Pizzataschen",
-          "culture": "Pizzataschen, bekannt als "Pizza Pockets" oder "Hot Pockets", stammen aus den USA und wurden in den 1980er Jahren als praktische Snack-Variante der Pizza entwickelt. Sie sind mit verschiedenen Füllungen wie Käse, Sauce und Fleisch gefüllt und ideal für unterwegs. Heute sind sie ein beliebter Tiefkühl-Snack, aber man kann sie auch selbst machen.",
+          "culture": "Pizzataschen, bekannt als 'Pizza Pockets' oder 'Hot Pockets', stammen aus den USA und wurden in den 1980er Jahren als praktische Snack-Variante der Pizza entwickelt. Sie sind mit verschiedenen Füllungen wie Käse, Sauce und Fleisch gefüllt und ideal für unterwegs. Heute sind sie ein beliebter Tiefkühl-Snack, aber man kann sie auch selbst machen.",
           "preparation": [
             "Schritt 1: Der Pizzateig - Das Mehl auf die Arbeitsfläche sieben und in der Mitte eine Mulde formen. Die Hefe hineinbröseln, 1 TL Salz, Olivenöl und 150 ml Wasser hinzufügen. Alles zu einem glatten Teig verkneten und diesen an einem warmen Ort für 30 Minuten gehen lassen. Währenddessen die passierten Tomaten mit Oregano, Salz und Pfeffer würzen und bereitstellen.",
             "Schritt 2: Die Füllung vorbereiten - Den Teig auf einer bemehlten Arbeitsfläche ausrollen und in fünf gleichgroße Vierecke schneiden. Jede Hälfte der Vierecke mit der gewürzten Tomatensauce bestreichen. Salami und Mozzarella in Scheiben schneiden. Den Basilikum waschen, abzupfen und bereitstellen. Die Pizzastücke mit Salami, Mozzarella und Basilikum belegen, anschließend zusammenklappen und die Ränder gut verschließen.",
