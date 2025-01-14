@@ -27,135 +27,136 @@
             "Die Momos mit der Sauce als Dip und optional mit etwas Sesam, Koriander oder Frühlingszwiebeln servieren."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Mehl",
-              "quantity": "300 Gramm"
-            },
-            {
-              "name": "Wasser",
-              "quantity": "150 Milliliter"
-            },
-            {
-              "name": "Kokosöl",
-              "quantity": "1 Teelöffel"
-            },
-            {
-              "name": "Salz",
-              "quantity": "1 Prise"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Rote Zwiebeln",
-            "quantity": "2"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "300 Gramm"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "150 Milliliter"
+              },
+              {
+                "name": "Kokosöl",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Prise"
+              }
+            ]
           },
           {
-            "name": "Knoblauch",
-            "quantity": "1 Zehe"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Rote Zwiebeln",
+                "quantity": "2"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "Ingwer",
+                "quantity": "1 halber Daumen"
+              },
+              {
+                "name": "Kokosöl",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Staudensellerie",
+                "quantity": "2 Stangen"
+              },
+              {
+                "name": "Weißkohl",
+                "quantity": "1/4"
+              },
+              {
+                "name": "(veganes) Hackfleisch",
+                "quantity": "300 Gramm"
+              },
+              {
+                "name": "Gemüsebrühe",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "50 Milliliter"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 halber Teelöffel"
+              },
+              {
+                "name": "Szechuan oder schwarzer Pfeffer",
+                "quantity": "1 halber Teelöffel"
+              },
+              {
+                "name": "Kümmel",
+                "quantity": "1 halber Teelöffel"
+              },
+              {
+                "name": "Kurkuma",
+                "quantity": "1 halber Teelöffel"
+              }
+            ]
           },
           {
-            "name": "Ingwer",
-            "quantity": "1 halber Daumen"
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Tomaten",
+                "quantity": "2 Große"
+              },
+              {
+                "name": "Zwiebel",
+                "quantity": "1"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "Ingwer",
+                "quantity": "1 halber Daumen"
+              },
+              {
+                "name": "Chili",
+                "quantity": "1"
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Salz, Pfeffer und Zucker",
+                "quantity": "Nach Geschmack"
+              }
+            ]
           },
           {
-            "name": "Kokosöl",
-            "quantity": "1 Esslöffel"
-          },
-          {
-            "name": "Staudensellerie",
-            "quantity": "2 Stangen"
-          },
-          {
-            "name": "Weißkohl",
-            "quantity": "1/4"
-          },
-          {
-            "name": "(veganes) Hackfleisch",
-            "quantity": "300 Gramm"
-          },
-          {
-            "name": "Gemüsebrühe",
-            "quantity": "1 Esslöffel"
-          },
-          {
-            "name": "Wasser",
-            "quantity": "50 Milliliter"
-          },
-          {
-            "name": "Salz",
-            "quantity": "1 halber Teelöffel"
-          },
-          {
-            "name": "Szechuan oder schwarzer Pfeffer",
-            "quantity": "1 halber Teelöffel"
-          },
-          {
-            "name": "Kümmel",
-            "quantity": "1 halber Teelöffel"
-          },
-          {
-            "name": "Kurkuma",
-            "quantity": "1 halber Teelöffel"
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Sesam",
+                "quantity": "Nach Belieben"
+              },
+              {
+                "name": "Koriander",
+                "quantity": "Nach Belieben"
+              },
+              {
+                "name": "Frühlingszwiebeln",
+                "quantity": "Nach Belieben"
+              }
+            ]
           }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
-          {
-            "name": "Tomaten",
-            "quantity": "2 Große"
-          },
-          {
-            "name": "Zwiebel",
-            "quantity": "1"
-          },
-          {
-            "name": "Knoblauch",
-            "quantity": "1 Zehe"
-          },
-          {
-            "name": "Ingwer",
-            "quantity": "1 halber Daumen"
-          },
-          {
-            "name": "Chili",
-            "quantity": "1"
-          },
-          {
-            "name": "Sojasauce",
-            "quantity": "1 Teelöffel"
-          },
-          {
-            "name": "Salz, Pfeffer und Zucker",
-            "quantity": "Nach Geschmack"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
-          {
-            "name": "Sesam",
-            "quantity": "Nach Belieben"
-          },
-          {
-            "name": "Koriander",
-            "quantity": "Nach Belieben"
-          },
-          {
-            "name": "Frühlingszwiebeln",
-            "quantity": "Nach Belieben"
-          }
-          ]
-        }
-      ],
+        ],
         "servings": 2,
         "difficulty": "Mittel",
         "time": "60 Minuten",
@@ -176,12 +177,10 @@
             "value": 11
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen",
           "Nepal Kitchen, Erfundenplatz 17"
         ]
-
       }
     },
     {
@@ -193,7 +192,7 @@
       },
       "geometry": {
         "coordinates": [
-          10.451526, 
+          10.451526,
           51.165691
         ],
         "type": "Point"
@@ -209,81 +208,82 @@
             "Wasser und Gemüsebrühe in einem Topf zum kochen bringen und die Maultaschen bei mittlerer Hitze in der Brühe für 10-15 min garen bis sie weich sind. In der Brühe, mit Schmand, oder mit Ketchup genießen."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Mehl",
-              "quantity": "200 Gramm"
-            },
-            {
-              "name": "Hartweizengrieß",
-              "quantity": "200 Gramm"
-            },
-            {
-              "name": "Wasser",
-              "quantity": "100 Milliliter"
-            },
-            {
-              "name": "Olivenöl",
-              "quantity": "1 Esslöffel"
-            },
-            {
-              "name": "Salz",
-              "quantity": "1 Prise"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "(veganes) Hackfleisch",
-              "quantity": "300 Gramm"
-            },
-            {
-              "name": "Spinat",
-              "quantity": "200 Gramm"
-            },
-            {
-              "name": "Lauch - weißer Teil",
-              "quantity": "1 Stange"
-            },
-            {
-              "name": "Semmelbrösel",
-              "quantity": "50 Gramm"
-            },
-            {
-              "name": "Petersilie",
-              "quantity": "50 Gramm"
-            },
-            {
-              "name": "Zwiebel",
-              "quantity": "1"
-            },
-            {
-              "name": "Knoblauch",
-              "quantity": "1 Zehe"
-            },
-            {
-              "name": "Salz",
-              "quantity": "1/2 Teelöffel"
-            },
-            {
-              "name": "Pfeffer",
-              "quantity": "1/2 Teelöffel"
-            },
-            {
-              "name": "Muskatnuss",
-              "quantity": "1 Prise"
-            },
-            {
-              "name": "Gemüsebrühe",
-              "quantity": "1 Esslöffel"
-            }
-          ]
-        }
-      ],
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "200 Gramm"
+              },
+              {
+                "name": "Hartweizengrieß",
+                "quantity": "200 Gramm"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "100 Milliliter"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Prise"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "(veganes) Hackfleisch",
+                "quantity": "300 Gramm"
+              },
+              {
+                "name": "Spinat",
+                "quantity": "200 Gramm"
+              },
+              {
+                "name": "Lauch - weißer Teil",
+                "quantity": "1 Stange"
+              },
+              {
+                "name": "Semmelbrösel",
+                "quantity": "50 Gramm"
+              },
+              {
+                "name": "Petersilie",
+                "quantity": "50 Gramm"
+              },
+              {
+                "name": "Zwiebel",
+                "quantity": "1"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1/2 Teelöffel"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "1/2 Teelöffel"
+              },
+              {
+                "name": "Muskatnuss",
+                "quantity": "1 Prise"
+              },
+              {
+                "name": "Gemüsebrühe",
+                "quantity": "1 Esslöffel"
+              }
+            ]
+          }
+        ],
         "servings": 2,
         "difficulty": "Mittel",
         "time": "50 Minuten",
@@ -304,14 +304,13 @@
             "value": 6
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen"
         ]
       }
     },
     {
-     "id": 3,
+      "id": 3,
       "type": "Feature",
       "properties": {
         "marker_location": "Argentinien",
@@ -405,12 +404,10 @@
             "value": 0
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen",
           "Empanada Club, Friedensplatz 1-3 in Bonn"
         ]
-
       }
     },
     {
@@ -438,58 +435,58 @@
           ]
         },
         "ingredients": [
-    {
-      "name": "Weizenmehl (Type 550)",
-      "quantity": "250 Gramm"
-    },
-    {
-      "name": "Salz",
-      "quantity": "1/2 Teelöffel"
-    },
-    {
-      "name": "Milch",
-      "quantity": "60 ml"
-    },
-    {
-      "name": "Babyspinat",
-      "quantity": "250 Gramm"
-    },
-    {
-      "name": "Gemüsezwiebel",
-      "quantity": "1 Stück"
-    },
-    {
-      "name": "Knoblauchzehe",
-      "quantity": "1 Stück"
-    },
-    {
-      "name": "Olivenöl",
-      "quantity": "1 Esslöffel"
-    },
-    {
-      "name": "Chiliflocken",
-      "quantity": "1/2 Teelöffel"
-    },
-    {
-      "name": "Salz",
-      "quantity": "1 Esslöffel"
-    },
-    {
-      "name": "Pfeffer",
-      "quantity": "1 Esslöffel"
-    },
-    {
-      "name": "Schafskäse",
-      "quantity": "150 Gramm"
-    }
-  ],
-  "servings": 2,
-  "difficulty": "Medium",
-  "time": "45 Minuten",
-  "tips": [
-    "Verwende frischen Spinat für den besten Geschmack.",
-    "Bestreiche die fertigen Gözleme mit etwas Butter für eine extra goldene Farbe."
-  ],
+          {
+            "name": "Weizenmehl (Type 550)",
+            "quantity": "250 Gramm"
+          },
+          {
+            "name": "Salz",
+            "quantity": "1/2 Teelöffel"
+          },
+          {
+            "name": "Milch",
+            "quantity": "60 ml"
+          },
+          {
+            "name": "Babyspinat",
+            "quantity": "250 Gramm"
+          },
+          {
+            "name": "Gemüsezwiebel",
+            "quantity": "1 Stück"
+          },
+          {
+            "name": "Knoblauchzehe",
+            "quantity": "1 Stück"
+          },
+          {
+            "name": "Olivenöl",
+            "quantity": "1 Esslöffel"
+          },
+          {
+            "name": "Chiliflocken",
+            "quantity": "1/2 Teelöffel"
+          },
+          {
+            "name": "Salz",
+            "quantity": "1 Esslöffel"
+          },
+          {
+            "name": "Pfeffer",
+            "quantity": "1 Esslöffel"
+          },
+          {
+            "name": "Schafskäse",
+            "quantity": "150 Gramm"
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Medium",
+        "time": "45 Minuten",
+        "tips": [
+          "Verwende frischen Spinat für den besten Geschmack.",
+          "Bestreiche die fertigen Gözleme mit etwas Butter für eine extra goldene Farbe."
+        ],
         "metrics": [
           {
             "name": "cooked_by",
@@ -504,12 +501,10 @@
             "value": 0
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Simitzade",
           "Kalker Hauptstraße 139, 51103 Köln"
         ]
-
       }
     },
     {
@@ -537,60 +532,68 @@
           ]
         },
         "ingredients": [
-    {
-      "name": "Weizenmehl (Type 550)",
-      "quantity": "250 Gramm"
-    },
-    {
-      "name": "Hefe",
-      "quantity": "1/4 Würfel"
-    },
-    {
-      "name": "Olivenöl, nativ",
-      "quantity": "1 1/2 Esslöffel"
-    },
-    {
-      "name": "Gehackte Tomaten",
-      "quantity": "100 ml"
-    },
-    {
-      "name": "Salz",
-      "quantity": "nach Geschmack"
-    },
-    {
-      "name": "Pfeffer",
-      "quantity": "nach Geschmack"
-    },
-    {
-      "name": "Oregano",
-      "quantity": "1/2 Teelöffel"
-    },
-    {
-      "name": "Salami",
-      "quantity": "50 Gramm"
-    },
-    {
-      "name": "Mozzarella",
-      "quantity": "100 Gramm"
-    },
-    {
-      "name": "Basilikum",
-      "quantity": "1 Stängel"
-    }
-  ],
-  "servings": 2,
-  "difficulty": "Medium",
-  "time": "45 Minuten",
-  "tips": [
-    "Verwende frische Hefe für den besten Teig.",
-    "Füge geriebenen Käse in die Füllung für eine cremigere Konsistenz."
-  ],
-        "restaurants":
-        [
+          {
+            "name": "Weizenmehl (Type 550)",
+            "quantity": "250 Gramm"
+          },
+          {
+            "name": "Hefe",
+            "quantity": "1/4 Würfel"
+          },
+          {
+            "name": "Olivenöl, nativ",
+            "quantity": "1 1/2 Esslöffel"
+          },
+          {
+            "name": "Gehackte Tomaten",
+            "quantity": "100 ml"
+          },
+          {
+            "name": "Salz",
+            "quantity": "nach Geschmack"
+          },
+          {
+            "name": "Pfeffer",
+            "quantity": "nach Geschmack"
+          },
+          {
+            "name": "Oregano",
+            "quantity": "1/2 Teelöffel"
+          },
+          {
+            "name": "Salami",
+            "quantity": "50 Gramm"
+          },
+          {
+            "name": "Mozzarella",
+            "quantity": "100 Gramm"
+          },
+          {
+            "name": "Basilikum",
+            "quantity": "1 Stängel"
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Medium",
+        "time": "45 Minuten",
+        "tips": [
+          "Verwende frische Hefe für den besten Teig.",
+          "Füge geriebenen Käse in die Füllung für eine cremigere Konsistenz."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 5
+          },
+          {
+            "name": "liked_by",
+            "value": 5
+          }
+        ],
+        "restaurants": [
           "Array von Restaurantempfehlungen",
           "Keine Restaurant-Empfehlung vorhanden."
         ]
-
       }
     },
     {
@@ -615,51 +618,52 @@
             "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Zutat1Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat2Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
           {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Zutat3Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat4Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Zutat5Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Zutat6Name",
+                "quantity": "Wieviel"
+              }
+            ]
           }
-          ]
-        }
-      ],
+        ],
         "servings": 0,
         "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
         "time": "Zeit in Minuten",
@@ -676,8 +680,7 @@
             "value": 23
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen"
         ]
       }
@@ -704,51 +707,52 @@
             "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Zutat1Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat2Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
           {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Zutat3Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat4Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Zutat5Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Zutat6Name",
+                "quantity": "Wieviel"
+              }
+            ]
           }
-          ]
-        }
-      ],
+        ],
         "servings": 0,
         "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
         "time": "Zeit in Minuten",
@@ -765,8 +769,7 @@
             "value": 13
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen"
         ]
       }
@@ -793,51 +796,52 @@
             "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Zutat1Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat2Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
           {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Zutat3Name",
+                "quantity": "Wieviel"
+              },
+              {
+                "name": "Zutat4Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Zutat5Name",
+                "quantity": "Wieviel"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Zutat6Name",
+                "quantity": "Wieviel"
+              }
+            ]
           }
-          ]
-        }
-      ],
+        ],
         "servings": 0,
         "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
         "time": "Zeit in Minuten",
@@ -854,62 +858,61 @@
             "value": 10
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Array von Restaurantempfehlungen"
         ]
       }
     },
-      {
-        "id": 9,
-        "type": "Feature",
-        "properties": {
-          "marker_location": "Philippinen",
-          "text": "Philippinische Siopao."
+    {
+      "id": 9,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Philippinen",
+        "text": "Philippinische Siopao."
+      },
+      "geometry": {
+        "coordinates": [
+          121.7740,
+          12.8797
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Siopao",
+          "culture": "Siopao, eine gedämpfte Teigtasche mit herzhaften Füllungen, hat in den Philippinen eine kulturelle Bedeutung, da es den historischen chinesischen Einfluss im Land widerspiegelt. Es ist ein beliebter Snack, der die Verschmelzung von philippinischen und chinesischen Küchentraditionen symbolisiert und ein fester Bestandteil der Merienda-Kultur sowie zwangloser Treffen ist.",
+          "preparation": [
+            "Fleisch:",
+            "Tupfe das Fleisch trocken und brate das Fleisch in einer hohen Pfanne mit Öl an, bis es goldbraun ist. Danach entnimm das Fleisch der Pfanne.",
+            "In der Zwischenzeit die Zwiebeln und den Knoblauch fein würfeln, hinzufügen und anrösten.",
+            "Wasser, Sojasauce und Salz hinzufügen, Fleisch wieder in den Topf geben, zudecken und eine Stunde bei niedriger Hitze schmoren lassen.",
+            "",
+            "Teig:",
+            "Da das Fleisch eine Stunde schmoren muss, kannst du in der Zwischenzeit den Teig vorbereiten.",
+            "Mehl, Backpulver und Stärke sieben, mit Hefe und Wasser kneten, bis ein glatter Teig entsteht.",
+            "In gefetteter Schüssel 1-2 Stunden an einem warmen Ort gehen lassen, bis sich der Teig verdoppelt hat.",
+            "",
+            "Asado Füllung:",
+            "Das nun weiche Fleisch auf ein Brett transferieren und in feine Stücke hacken.",
+            "Gib das Fleisch, die Fleischbrühe, die Austernsauce, die Hoisinsauce, den braunen Zucker und den Pfeffer in einen großen Topf bei mittlerer Hitze.",
+            "Vermisch alles, bis sich der Zucker und der Pfeffer aufgelöst hat, während einer Minute.",
+            "In einer kleinen Schüssel, die Maisstärke und das Wasser verrühren, bis sich die Stärke aufgelöst hat.",
+            "Erhöhe die Temperatur auf mittelhoch und füge die Wassermischung dem Topf hinzu. Bring die Sauce zum Kochen und verrühre alles während 8-10 Minuten oder bis die Sauce eine Puddingkonsistenz erlangt hat.",
+            "Nimm den Topf vom Herd und lass alles abkühlen, bevor du die Siopao zusammenstellen kannst.",
+            "",
+            "Zusammenstellung & Dämpfen:",
+            "Sobald sich der Teig verdoppelt hat, drück mit der Faust auf den Teig, damit die Gase entweichen können.",
+            "Den Teig auf einer bemehlten Fläche kurz kneten und anschließend in zwei Hälften teilen. Eine Hälfte abdecken, die andere zu einer ca. 15 cm Rolle formen und in 6 gleich große Stücke schneiden.",
+            "Jedes Stück zu einem Kreis von 10-13 cm Durchmesser ausrollen, dabei die Ränder dünner lassen als die Mitte.",
+            "Etwa 3 EL Füllung in die Mitte des Teiges geben und mit einem Viertel des hartgekochten Eis toppen.",
+            "Den Teig um die Füllung falten, dabei die Ränder in Falten legen und oben verschließen, so dass ein Wirbelmuster entsteht. Wiederhole diesen Vorgang mit jeder Teigtasche.",
+            "Anschließend die Teigtaschen in einen Dämpfer legen. Lasse dabei etwas Platz zwischen den Siopao, da sie im Dämpfer noch größer werden.",
+            "Dämpfe die Siopao für 20 Minuten und entferne in dieser Zeit nicht den Deckel vom Dämpfer.",
+            "Sobald die Siopao fertig sind, entnimm sie dem Dämpfer und serviere sie sofort!"
+          ]
         },
-        "geometry": {
-          "coordinates": [
-            121.7740,
-            12.8797
-          ],
-          "type": "Point"
-        },
-      
-        "recipe": {
-          "text": {
-            "title": "Siopao",
-            "culture": "Siopao, eine gedämpfte Teigtasche mit herzhaften Füllungen, hat in den Philippinen eine kulturelle Bedeutung, da es den historischen chinesischen Einfluss im Land widerspiegelt. Es ist ein beliebter Snack, der die Verschmelzung von philippinischen und chinesischen Küchentraditionen symbolisiert und ein fester Bestandteil der Merienda-Kultur sowie zwangloser Treffen ist.",
-            "preparation": [
-              "Fleisch:",
-              "Tupfe das Fleisch trocken und brate das Fleisch in einer hohen Pfanne mit Öl an, bis es goldbraun ist. Danach entnimm das Fleisch der Pfanne.",
-              "In der Zwischenzeit die Zwiebeln und den Knoblauch fein würfeln, hinzufügen und anrösten.",
-              "Wasser, Sojasauce und Salz hinzufügen, Fleisch wieder in den Topf geben, zudecken und eine Stunde bei niedriger Hitze schmoren lassen.",
-              "",
-              "Teig:",
-              "Da das Fleisch eine Stunde schmoren muss, kannst du in der Zwischenzeit den Teig vorbereiten.",
-              "Mehl, Backpulver und Stärke sieben, mit Hefe und Wasser kneten, bis ein glatter Teig entsteht.",
-              "In gefetteter Schüssel 1-2 Stunden an einem warmen Ort gehen lassen, bis sich der Teig verdoppelt hat.",
-              "",
-              "Asado Füllung:",
-              "Das nun weiche Fleisch auf ein Brett transferieren und in feine Stücke hacken.",
-              "Gib das Fleisch, die Fleischbrühe, die Austernsauce, die Hoisinsauce, den braunen Zucker und den Pfeffer in einen großen Topf bei mittlerer Hitze.",
-              "Vermisch alles, bis sich der Zucker und der Pfeffer aufgelöst hat, während einer Minute.",
-              "In einer kleinen Schüssel, die Maisstärke und das Wasser verrühren, bis sich die Stärke aufgelöst hat.",
-              "Erhöhe die Temperatur auf mittelhoch und füge die Wassermischung dem Topf hinzu. Bring die Sauce zum Kochen und verrühre alles während 8-10 Minuten oder bis die Sauce eine Puddingkonsistenz erlangt hat.",
-              "Nimm den Topf vom Herd und lass alles abkühlen, bevor du die Siopao zusammenstellen kannst.",
-              "",
-              "Zusammenstellung & Dämpfen:",
-              "Sobald sich der Teig verdoppelt hat, drück mit der Faust auf den Teig, damit die Gase entweichen können.",
-              "Den Teig auf einer bemehlten Fläche kurz kneten und anschließend in zwei Hälften teilen. Eine Hälfte abdecken, die andere zu einer ca. 15 cm Rolle formen und in 6 gleich große Stücke schneiden.",
-              "Jedes Stück zu einem Kreis von 10-13 cm Durchmesser ausrollen, dabei die Ränder dünner lassen als die Mitte.",
-              "Etwa 3 EL Füllung in die Mitte des Teiges geben und mit einem Viertel des hartgekochten Eis toppen.",
-              "Den Teig um die Füllung falten, dabei die Ränder in Falten legen und oben verschließen, so dass ein Wirbelmuster entsteht. Wiederhole diesen Vorgang mit jeder Teigtasche.",
-              "Anschließend die Teigtaschen in einen Dämpfer legen. Lasse dabei etwas Platz zwischen den Siopao, da sie im Dämpfer noch größer werden.",
-              "Dämpfe die Siopao für 20 Minuten und entferne in dieser Zeit nicht den Deckel vom Dämpfer.",
-              "Sobald die Siopao fertig sind, entnimm sie dem Dämpfer und serviere sie sofort!"
-            ]
-          },
-          "ingredients": [{
+        "ingredients": [
+          {
             "name": "Für den Teig",
             "ingredients": [
               {
@@ -978,60 +981,59 @@
           {
             "name": "Für die Sauce",
             "ingredients": [
-            {
-              "name": "Austersauce",
-              "quantity": "1 EL"
-            },
-            {
-              "name": "Hoisinsauce",
-              "quantity": "1 TL"
-            },
-            {
-              "name": "Brauner Zucker",
-              "quantity": "4 TL"
-            },              
-            {
-              "name": "Pfeffer",
-              "quantity": "1/4 TL"
-            },
-            {
-              "name": "Maisstärke",
-              "quantity": "2 TL"
-            }
+              {
+                "name": "Austersauce",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Hoisinsauce",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Brauner Zucker",
+                "quantity": "4 TL"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "1/4 TL"
+              },
+              {
+                "name": "Maisstärke",
+                "quantity": "2 TL"
+              }
             ]
           },
           {
             "name": "Als Topping",
             "ingredients": [
-            {
-              "name": "",
-              "quantity": ""
-            }
+              {
+                "name": "",
+                "quantity": ""
+              }
             ]
           }
         ],
-          "servings": 12,
-          "difficulty": "Schwierigkeit Anspruchsvoll",
-          "time": "205 Minuten",
-          "tips": [
-            "Das Anspruchsvollste an diesen Teigtaschen ist das Falten der Teiglinge. Wenn du den Teig ausrollst, solltest du unbedingt beachten, dass die Mitte des Teiges dicker ist als der Rand. Da die Füllung schwer ist, sackt sie durch, wenn der Teig nicht dick genug ist.",
-            "Achte außerdem darauf, dass die Teigtaschen nicht zu voll sind, denn damit erschwerst du dir das Falten."
-          ],
-          "metrics": [
-            {
-              "name": "cooked_by",
-              "value": 2
-            },
-            {
-              "name": "liked_by",
-              "value": 6
-            }
-          ],
-          "restaurants":
-          [
-            "Array von Restaurantempfehlungen"
-          ]
-        }
+        "servings": 12,
+        "difficulty": "Schwierigkeit Anspruchsvoll",
+        "time": "205 Minuten",
+        "tips": [
+          "Das Anspruchsvollste an diesen Teigtaschen ist das Falten der Teiglinge. Wenn du den Teig ausrollst, solltest du unbedingt beachten, dass die Mitte des Teiges dicker ist als der Rand. Da die Füllung schwer ist, sackt sie durch, wenn der Teig nicht dick genug ist.",
+          "Achte außerdem darauf, dass die Teigtaschen nicht zu voll sind, denn damit erschwerst du dir das Falten."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 2
+          },
+          {
+            "name": "liked_by",
+            "value": 6
+          }
+        ],
+        "restaurants": [
+          "Array von Restaurantempfehlungen"
+        ]
+      }
     }
   ]
 }
