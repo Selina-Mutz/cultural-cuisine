@@ -24,7 +24,8 @@ export default function Jiaozi({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[flagChina]}>
+                flagImages = {[flagChina]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

@@ -24,7 +24,8 @@ export default function Tortellini({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[flagItaly]}>
+                flagImages = {[flagItaly]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

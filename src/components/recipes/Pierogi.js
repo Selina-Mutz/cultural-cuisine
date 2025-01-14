@@ -25,7 +25,8 @@ export default function Pierogi({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[flagPoland]}>
+                flagImages = {[flagPoland]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

@@ -31,7 +31,8 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[gyozaFertig, gyozaZutaten, gyoza1, gyoza2, gyoza3, gyoza4, gyoza5]}
-                flagImages = {[flagJapan]}>
+                flagImages = {[flagJapan]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

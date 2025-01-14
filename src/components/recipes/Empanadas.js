@@ -25,7 +25,8 @@ export default function Empanadas({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[flagArgentina]}>
+                flagImages = {[flagArgentina]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );
