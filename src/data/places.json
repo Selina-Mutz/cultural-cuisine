@@ -46,12 +46,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jiaozi, CHN"
+        "name": "Gözleme, TUR"
       },
       "geometry": {
         "coordinates": [
-          34.631477784554725,
-          103.79879738682659
+          38.9597594,
+          34.9249653
         ],
         "type": "Point"
       },
@@ -60,12 +60,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Tortellini, ITA"
+        "name": "Pizzataschen, USA"
       },
       "geometry": {
         "coordinates": [
-          43.01977211651795,
-          12.39476670749703
+          38.7251776,
+          -105.607716
         ],
         "type": "Point"
       },

@@ -311,11 +311,11 @@
       }
     },
     {
-      "id": 3,
+     "id": 3,
       "type": "Feature",
       "properties": {
         "marker_location": "Argentinien",
-        "text": "Argentinien T"
+        "text": "Argentinische Empanadas"
       },
       "geometry": {
         "coordinates": [
@@ -326,255 +326,271 @@
       },
       "recipe": {
         "text": {
-          "title": "Empanadas",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "title": "Argentinische Empanadas",
+          "culture": "Argentinische Empanadas sind gefüllte Teigtaschen, die ihren Ursprung in der spanischen Kolonialzeit haben. Sie wurden von Einwanderern nach Argentinien gebracht und an regionale Geschmäcker angepasst. Heute sind sie ein vielseitiger Klassiker der argentinischen Küche, gefüllt mit Fleisch, Käse oder Gemüse.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Schritt 1: Der Teig -Für den Teig mische 500 g Mehl, 2 Esslöffel Salz, halbe Tasse Butter, halbe Tasse Wasser und 1/4 Tasse Essig in einer Schüssel. Knete alles zu einem geschmeidigen Teig und lasse ihn 15 Minuten ruhen. Danach rolle den Teig aus und stich kreisförmige Stücke aus.",
+            "Schritt 2: Die Füllung -Erhitze etwas Öl in einer Pfanne und brate darin 2 gelbe Zwiebeln an. Füge eine gewürfelte Paprika, 250 g Hackfleisch, 2 Esslöffel Salz, 2 Esslöffel Oregano und 2 Esslöffel Pfeffer hinzu. Zum Schluss gebe gehackte gekochte Eier und Oliven nach Geschmack dazu.",
+            "Schritt 3: Die Empanadas formen und backen -Fülle die Teigkreise mit der vorbereiteten Masse und klappe sie zusammen, um die typische Empanada-Form zu erhalten. Streiche etwas geschmolzene Butter darüber und backe die Empanadas bei 200 °C Ober- und Unterhitze für 30 Minuten goldbraun. Guten Appetit! "
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
+            "name": "Mehl",
+            "quantity": "500 Gramm"
+          },
           {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
+            "name": "Salz",
+            "quantity": "4 Löffel"
+          },
+          {
+            "name": "Wasser",
+            "quantity": "halbe Tasse"
+          },
+          {
+            "name": "gelbe Zwiebeln",
+            "quantity": "2 mittelgroße"
+          },
+          {
+            "name": "Essig",
+            "quantity": "1/4 Tasse"
+          },
+          {
+            "name": "Hackfleisch",
+            "quantity": "250gramm"
+          },
+          {
+            "name": "Paprika",
+            "quantity": "1 rote"
+          },
+          {
+            "name": "Oregano",
+            "quantity": "2 Esslöffel"
+          },
+          {
+            "name": "Pfeffer",
+            "quantity": "2 Esslöffel"
+          },
+          {
+            "name": "Eier",
+            "quantity": "2 gekochte Eier"
+          },
+          {
+            "name": "Oliven",
+            "quantity": "halbes Glas"
+          },
+          {
+            "name": "Butter",
+            "quantity": "halbe Tasse"
           }
-          ]
-        }
-      ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        ],
+        "servings": 2,
+        "difficulty": "Medium",
+        "time": "2 Stunden",
         "tips": [
-          "Array von Tipps"
+          "Verwende gekühlten Teig, um ihn leichter auszurollen.",
+          "Man kann die Füllung nach belieben anpassen."
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 1
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 3
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
         "restaurants":
         [
-          "Array von Restaurantempfehlungen"
+          "Array von Restaurantempfehlungen",
+          "Empanada Club, Friedensplatz 1-3 in Bonn"
         ]
+
       }
     },
     {
       "id": 4,
       "type": "Feature",
       "properties": {
-        "marker_location": "China",
-        "text": "Hi Text"
+        "marker_location": "Türkei",
+        "text": "Türkische Teigtaschen"
       },
       "geometry": {
         "coordinates": [
-          103.79879738682659,
-          34.631477784554725
+          34.9249653,
+          38.9597594
         ],
         "type": "Point"
       },
       "recipe": {
         "text": {
-          "title": "Jiaozi",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "title": "Türkische Empanadas",
+          "culture": "Türkische Gözleme sind dünne Fladenbrote, die traditionell auf einer heißen Platte gebacken werden. Ursprünglich aus der anatolischen Küche stammend, wurden sie von Nomaden entwickelt, um unterwegs schnell gefüllte Teiggerichte zuzubereiten. Heute sind sie ein beliebtes Streetfood, gefüllt mit Spinat, Käse, Hackfleisch oder Kartoffeln.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Schritt 1: Der Teig - Mehl und Salz in einer großen Schüssel vermengen. Milch, warmes Wasser (im gleichen Verhältnis) und Olivenöl hinzufügen und zunächst mit einer Gabel grob vermischen. Anschließend den Teig mit den Händen etwa 8 Minuten lang zu einer glatten, geschmeidigen Masse kneten. Teile den Teig in 2 gleichgroße Kugeln, decke sie ab und lasse sie etwa 30 Minuten ruhen.",
+            "Schritt 2: Die Füllung - Während der Teig ruht, den Spinat waschen und trocken tupfen. Zwiebeln und Knoblauch schälen und fein würfeln. In einem Topf das Öl erhitzen, Zwiebeln und Knoblauch darin für ca. 2 Minuten anschwitzen. Den Spinat hinzufügen und unter Rühren zusammenfallen lassen. Mit Chili, Salz und Pfeffer abschmecken. Den Spinat abkühlen lassen, grob hacken und mit zerbröseltem Schafskäse in einer Schüssel vermischen.",
+            "Schritt 3: Die Gözleme formen und ausbacken - Die Teigkugeln sehr dünn (ca. 1 mm) zu runden Fladen ausrollen. Jeweils ¼ der Füllung auf eine Hälfte eines Teigfladens geben, die andere Hälfte darüber klappen und die Ränder fest andrücken, um sie zu verschließen. Öl in einer Pfanne erhitzen und die Gözleme darin nacheinander von beiden Seiten 2–3 Minuten goldbraun ausbacken. Nach dem Ausbacken bei Bedarf mit etwas Öl bestreichen und sofort servieren."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
-          {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
-          {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        }
-      ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
-        "tips": [
-          "Array von Tipps"
-        ],
+        "ingredients": [
+    {
+      "name": "Weizenmehl (Type 550)",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Salz",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Milch",
+      "quantity": "60 ml"
+    },
+    {
+      "name": "Babyspinat",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Gemüsezwiebel",
+      "quantity": "1 Stück"
+    },
+    {
+      "name": "Knoblauchzehe",
+      "quantity": "1 Stück"
+    },
+    {
+      "name": "Olivenöl",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Chiliflocken",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Salz",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": "1 Esslöffel"
+    },
+    {
+      "name": "Schafskäse",
+      "quantity": "150 Gramm"
+    }
+  ],
+  "servings": 2,
+  "difficulty": "Medium",
+  "time": "45 Minuten",
+  "tips": [
+    "Verwende frischen Spinat für den besten Geschmack.",
+    "Bestreiche die fertigen Gözleme mit etwas Butter für eine extra goldene Farbe."
+  ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 10
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 19
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
         "restaurants":
         [
-          "Array von Restaurantempfehlungen"
+          "Simitzade",
+          "Kalker Hauptstraße 139, 51103 Köln"
         ]
+
       }
     },
     {
       "id": 5,
       "type": "Feature",
       "properties": {
-        "marker_location": "Italien",
-        "text": "Super toll"
+        "marker_location": "Vereinigte Staaten, Colorado",
+        "text": "Pizzataschen"
       },
       "geometry": {
         "coordinates": [
-          12.39476670749703,
-          43.01977211651795
+          -105.607716,
+          38.7251776
         ],
         "type": "Point"
       },
       "recipe": {
         "text": {
-          "title": "Tortellini",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "title": "Pizzataschen",
+          "culture": "Pizzataschen, bekannt als 'Pizza Pockets' oder 'Hot Pockets', stammen aus den USA und wurden in den 1980er Jahren als praktische Snack-Variante der Pizza entwickelt. Sie sind mit verschiedenen Füllungen wie Käse, Sauce und Fleisch gefüllt und ideal für unterwegs. Heute sind sie ein beliebter Tiefkühl-Snack, aber man kann sie auch selbst machen.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Schritt 1: Der Pizzateig - Das Mehl auf die Arbeitsfläche sieben und in der Mitte eine Mulde formen. Die Hefe hineinbröseln, 1 TL Salz, Olivenöl und 150 ml Wasser hinzufügen. Alles zu einem glatten Teig verkneten und diesen an einem warmen Ort für 30 Minuten gehen lassen. Währenddessen die passierten Tomaten mit Oregano, Salz und Pfeffer würzen und bereitstellen.",
+            "Schritt 2: Die Füllung vorbereiten - Den Teig auf einer bemehlten Arbeitsfläche ausrollen und in fünf gleichgroße Vierecke schneiden. Jede Hälfte der Vierecke mit der gewürzten Tomatensauce bestreichen. Salami und Mozzarella in Scheiben schneiden. Den Basilikum waschen, abzupfen und bereitstellen. Die Pizzastücke mit Salami, Mozzarella und Basilikum belegen, anschließend zusammenklappen und die Ränder gut verschließen.",
+            "Schritt 3: Backen und genießen - Den Backofen auf 220 °C Umluft vorheizen. Die Pizzataschen auf ein Backblech legen und für 12 Minuten goldbraun backen. Vor dem Servieren mit frischem Basilikum garnieren und warm genießen."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Zutat1Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat2Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Zutat3Name",
-              "quantity": "Wieviel"
-            },
-            {
-              "name": "Zutat4Name",
-              "quantity": "Wieviel"
-            }
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
-          {
-            "name": "Zutat5Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
-          {
-            "name": "Zutat6Name",
-            "quantity": "Wieviel"
-          }
-          ]
-        }
-      ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
-        "tips": [
-          "Array von Tipps"
-        ],
-        "metrics": [
-          {
-            "name": "cooked_by",
-            "value": 5
-          },
-          {
-            "name": "liked_by",
-            "value": 5
-          }
-        ],
+        "ingredients": [
+    {
+      "name": "Weizenmehl (Type 550)",
+      "quantity": "250 Gramm"
+    },
+    {
+      "name": "Hefe",
+      "quantity": "1/4 Würfel"
+    },
+    {
+      "name": "Olivenöl, nativ",
+      "quantity": "1 1/2 Esslöffel"
+    },
+    {
+      "name": "Gehackte Tomaten",
+      "quantity": "100 ml"
+    },
+    {
+      "name": "Salz",
+      "quantity": "nach Geschmack"
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": "nach Geschmack"
+    },
+    {
+      "name": "Oregano",
+      "quantity": "1/2 Teelöffel"
+    },
+    {
+      "name": "Salami",
+      "quantity": "50 Gramm"
+    },
+    {
+      "name": "Mozzarella",
+      "quantity": "100 Gramm"
+    },
+    {
+      "name": "Basilikum",
+      "quantity": "1 Stängel"
+    }
+  ],
+  "servings": 2,
+  "difficulty": "Medium",
+  "time": "45 Minuten",
+  "tips": [
+    "Verwende frische Hefe für den besten Teig.",
+    "Füge geriebenen Käse in die Füllung für eine cremigere Konsistenz."
+  ],
         "restaurants":
         [
-          "Array von Restaurantempfehlungen"
+          "Array von Restaurantempfehlungen",
+          "Keine Restaurant-Empfehlung vorhanden."
         ]
+
       }
     },
     {
