@@ -1,4 +1,6 @@
 import RecipeBox from '../RecipeBox';
+import flagArgentina from '../../data/flags/argentina.png';
+
 
 /**
  * Component displaying the recipe and pictures for Empanadas
@@ -13,13 +15,18 @@ export default function Empanadas({ feature, setFeatureFocus }) {
     return (
         <div>
             <RecipeBox
-                narrativeFragment={feature.properties.text}
-                //person={feature.properties.person}
-                setFeatureFocus={setFeatureFocus}>
-                <span
-                    style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Empanadas Test.<br />
-                </span>
+                titleText={feature.recipe.text.title}
+                timeText={feature.recipe.time}
+                servings={feature.recipe.servings}
+                difficultyText = {feature.recipe.difficulty}
+                cultureText = {feature.recipe.text.culture}
+                ingredientsArray = {feature.recipe.ingredients}
+                preparationTextArray = {feature.recipe.text.preparation}
+                tipsTextArray = {feature.recipe.tips}
+                setFeatureFocus={setFeatureFocus}
+                images={[]}
+                flagImages = {[flagArgentina]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

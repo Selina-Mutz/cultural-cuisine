@@ -1,22 +1,15 @@
-import RecipeBox from '../RecipeBox'
-import momosZutatenQuer from '../../data/momos/momoszutatenquer.jpg';
-import momosZutatenGeschnibbelt from '../../data/momos/momoszutatengeschnibbelt.jpg';
-import momosTeig from '../../data/momos/momosteig.jpg';
-import momosFertigQuer from'../../data/momos/momosfertigquer.jpg';
-import flagNepal from '../../data/flags/nepal.png';
-import flagIndia from '../../data/flags/india.png';
+import RecipeBox from '../RecipeBox';
 import flagChina from '../../data/flags/china.png';
 
-
 /**
- * Component displaying the recipe and pictures for Momos
+ * Component displaying the recipe and pictures for Jiaozi
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function Momos({ feature, setFeatureFocus }) {
+export default function Jiaozi({ feature, setFeatureFocus }) {
 
     return (
         <div>
@@ -30,8 +23,8 @@ export default function Momos({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[momosFertigQuer, momosZutatenQuer, momosZutatenGeschnibbelt, momosTeig]}
-                flagImages = {[flagNepal, flagIndia, flagChina]}
+                images={[]}
+                flagImages = {[flagChina]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>

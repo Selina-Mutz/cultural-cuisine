@@ -1,4 +1,16 @@
 import RecipeBox from '../RecipeBox';
+import maultaschenFertigQuer from '../../data/maultaschen/maultaschenfertigquer.jpg';
+import maultaschenZutaten from '../../data/maultaschen/maultaschenzutaten.jpg';
+import maultaschenTeig from '../../data/maultaschen/maultaschenteig.jpg';
+import maultaschenFüllung from '../../data/maultaschen/maultaschenfüllung.jpg';
+import maultaschenBahn from '../../data/maultaschen/maultaschenbahn.jpg';
+import maultaschenBahnHalbZu from '../../data/maultaschen/maultaschenbahnhalbzu.jpg';
+import maultaschenBahnZu from '../../data/maultaschen/maultaschenbahnzu.jpg';
+import maultaschenKochend from '../../data/maultaschen/maultaschenkochend.jpg';
+import flagGermany from '../../data/flags/germany.png';
+
+
+
 
 /**
  * Component displaying the recipe and pictures for Maultaschen
@@ -13,13 +25,18 @@ export default function Empanadas({ feature, setFeatureFocus }) {
     return (
         <div>
             <RecipeBox
-                narrativeFragment={feature.properties.text}
-                //person={feature.properties.person}
-                setFeatureFocus={setFeatureFocus}>
-                <span
-                    style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Maultaschen Test.<br />
-                </span>
+                titleText={feature.recipe.text.title}
+                timeText={feature.recipe.time}
+                servings={feature.recipe.servings}
+                difficultyText = {feature.recipe.difficulty}
+                cultureText = {feature.recipe.text.culture}
+                ingredientsArray = {feature.recipe.ingredients}
+                preparationTextArray = {feature.recipe.text.preparation}
+                tipsTextArray = {feature.recipe.tips}
+                setFeatureFocus={setFeatureFocus}
+                images={[maultaschenFertigQuer, maultaschenZutaten, maultaschenTeig, maultaschenFüllung, maultaschenBahn, maultaschenBahnHalbZu, maultaschenBahnZu, maultaschenKochend]}
+                flagImages = {[flagGermany]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );

@@ -17,10 +17,10 @@
       },
       "recipe": {
         "text": {
-          "title": "Nepalesische Momos",
+          "title": "Momos",
           "culture": "Momos sind nepalesische und tibetische Teigtaschen aus der Himalaya-Region, die aber auch in nördlichen Teilen Indiens verzehrt werden. Für die aus Tibet und Nepal stammenden Menschen vermitteln die Momos ein Heimatgefühl und gelten auch als Bestandteil ihrer Identität. Traditionell werden sie entweder mit Gemüse (Veg Momos), oder mit Hühnchen- oder Rindfleisch (tibetische Yaks) gefüllt und entweder dampfgegart oder frittiert. Serviert werden die Momos mit einem Tomaten-Chutney.",
           "preparation": [
-            "Für den Teig geben wir Mehl, Wasser, etwas Kokosöl und Salz in eine große Schüssel und verkneten alles zu einem Teig. Bei Bedarf ein wenig Mehl oder Wasser dazugeben, bis der Teig weich und geschmeidig ist. Danach die Schüssel mit einem Tuch abdecken und 30 Minuten ruhen lassen.",
+            "Für den Teig Mehl, Wasser, etwas Kokosöl und Salz in eine große Schüssel geben und alles zu einem Teig verkneten. Bei Bedarf ein wenig Mehl oder Wasser dazugeben, bis der Teig weich und geschmeidig ist. Danach die Schüssel mit einem Tuch abdecken und 30 Minuten ruhen lassen.",
             "Die Zwiebeln, Knoblauch und Ingwer fein würfeln. Kohl und Sellerie waschen und ebenfalls in kleine Würfel schneiden. Etwas Kokosöl in eine Pfanne geben und Zwiebeln, Ingwer und Knoblauch kurz andünsten. Das (in diesem Fall vegane) Hackfleisch und die Gewürze dazu geben und alles ein paar Minuten anbraten. Nun das Gemüse für eine gemischte Füllung in die selbe Pfanne geben und ebenfalls ein paar Minuten mit andünsten. Anschließend die Gemüsebrühe und etwas Wasser dazugeben, die Pfanne abdecken, und die Masse ein paar Minuten dünsten bis das Gemüse weich ist.",
             "Für die Sauce werden Tomaten und Chili ein paar Minuten in heißem Wasser gekocht, die Tomaten geschält, und anschließend mit gepellten Zwiebeln, Knoblauch und Ingwer, sowie etwas Sojasauce, in einen Mixer gegeben und gut püriert. Alternativ können Zwiebeln, Knoblauch, Ingwer und Chili auch fein gewürfelt, in einem Topf angebraten und mit gehackten Tomaten und etwas Sojasauce 20 Minuten eingekocht werden. Anschließend mit den Gewürzen abschmecken und lauwarm abkühlen lassen.",
             "Aus dem Teig kleine, 2-3cm dicke Bällchen formen, sodass diese ausgerollt 9-10 cm große, 2mm dicke Kreise bilden. Auf diese Kreise mittig 1 Teelöffel Füllung verteilen, den Teigrand im Uhrzeigersinn zusammen klappen und zu runden Taschen formen. Die Momos nun in einem Bambusdämpfer oder Dampfeinsatz für 10 Minuten dämpfen, alternativ die Momos in eine abgedeckte Pfanne geben, nach und nach Wasser hinzufügen und verdampfen lassen, bis der Teig der Momos weich ist.",
@@ -76,8 +76,8 @@
             "quantity": "1/4"
           },
           {
-            "name": "(Veganes) Hackfleisch",
-            "quantity": "250 Gramm"
+            "name": "(veganes) Hackfleisch",
+            "quantity": "300 Gramm"
           },
           {
             "name": "Gemüsebrühe",
@@ -157,26 +157,23 @@
         }
       ],
         "servings": 2,
-        "difficulty": "Medium",
-        "time": "45 minutes",
+        "difficulty": "Mittel",
+        "time": "60 Minuten",
         "tips": [
           "Das Falten der Momos ist sicher das anspruchsvollste an diesem Rezept. Übung macht den Meister, und der Teig sollte nicht zu dünn sein, damit er nicht reisst, und auch nicht zu dick, da die Momos sonst zu teigig schmecken.",
           "Momos werden keinesfalls immer so wie hier beschrieben gefüllt und eurer Kreativität sind keine Grenzen gesetzt! Kartoffeln, Brokkoli, Koriander, oder Minze sind zum Beispiel andere leckere Optionen für die Füllung.",
           "Auch der Dip kann nach euren Vorlieben verändert werden. Angebratene und dann pürierte Paprika gibt einen leckeren, zusätzlichen Geschmack, während pürierte Cashews den Dip noch cremiger machen. Ein Erdnussdip aus Erdnussbutter und Sojasauce passt auch hervorragend zu Momos.",
-          "Besonders in der indischen Küche wird statt Kokosöl Ghee (Butterschmalz) für den Teig und zum anbraten benutzt."
+          "Besonders in der indischen Küche wird statt Kokosöl Ghee (Butterschmalz) für den Teig und zum Anbraten benutzt.",
+          "Momos schmecken auch hervorragend frittiert!"
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 3
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 11
           }
         ],
         "restaurants":
@@ -200,6 +197,117 @@
           51.165691
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Maultaschen",
+          "culture": "Maultaschen sind eine Spezialität der schwäbischen Küche. Sie sind seit 2009 von der EU in ihrer Herkunftsbezeichnung geschützt unter der Klasse 'Geschützte geografische Angabe'. Damit muss für traditionelle schwäbische Maultaschen entweder die Produktion, Verarbeitung, oder Herstellung in Baden-Württemberg oder im bayerischen Schwaben erfolgen.",
+          "preparation": [
+            "Für den Teig Mehl, Hartweizengrieß, Wasser, Olivenöl und Salz in eine Schüssel geben und alles verkneten, bis ein geschmeidiger Teig entsteht. Kurz beiseite stellen und abgedeckt ruhen lassen.",
+            "Als nächstes Zwiebel, Knoblauch, Lauch, Spinat sehr fein hacken und zunächst die Zwiebeln in etwas Öl glasig anbraten. Den Knoblauch und Lauch dazu geben und andünsten. Das Hackfleisch und die Gewürze dazugeben und alles für ein paar Minuten anbraten. Sobald das Hackfleisch durch ist Spinat, Petersilie und Semmelbrösel dazugeben und kurz mit erhitzen. Alles gut vermengen und beiseite stellen.",
+            "Den Teig in 3-4 Teile teilen und mit einem Nudelholz in ca. 8-12 cm breite Bahnen rollen. Auf jede Bahn die Füllung geben und dabei das untere Drittel frei lassen. Nun den Teig von oben bis zur Hälfte umklappen, und dann noch einmal umklappen, sodass der Teig bündig unten abschliesst. Mit den Händen vorsichtig zudrücken, dass die Luft entweichen kann. Anschließend mit dem Stiel eines Suppenlöffels oder einem anderen schmalen Gegenstand die Teigrolle alle paar Zentimeter eindrücken und dann an der Stelle mit einem Messer durchschneiden. Die Teigtaschen an der Seite mit Daumen und Zeigefinger fest zudrücken.",
+            "Wasser und Gemüsebrühe in einem Topf zum kochen bringen und die Maultaschen bei mittlerer Hitze in der Brühe für 10-15 min garen bis sie weich sind. In der Brühe, mit Schmand, oder mit Ketchup genießen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Mehl",
+              "quantity": "200 Gramm"
+            },
+            {
+              "name": "Hartweizengrieß",
+              "quantity": "200 Gramm"
+            },
+            {
+              "name": "Wasser",
+              "quantity": "100 Milliliter"
+            },
+            {
+              "name": "Olivenöl",
+              "quantity": "1 Esslöffel"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1 Prise"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "(veganes) Hackfleisch",
+              "quantity": "300 Gramm"
+            },
+            {
+              "name": "Spinat",
+              "quantity": "200 Gramm"
+            },
+            {
+              "name": "Lauch - weißer Teil",
+              "quantity": "1 Stange"
+            },
+            {
+              "name": "Semmelbrösel",
+              "quantity": "50 Gramm"
+            },
+            {
+              "name": "Petersilie",
+              "quantity": "50 Gramm"
+            },
+            {
+              "name": "Zwiebel",
+              "quantity": "1"
+            },
+            {
+              "name": "Knoblauch",
+              "quantity": "1 Zehe"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1/2 Teelöffel"
+            },
+            {
+              "name": "Pfeffer",
+              "quantity": "1/2 Teelöffel"
+            },
+            {
+              "name": "Muskatnuss",
+              "quantity": "1 Prise"
+            },
+            {
+              "name": "Gemüsebrühe",
+              "quantity": "1 Esslöffel"
+            }
+          ]
+        }
+      ],
+        "servings": 2,
+        "difficulty": "Mittel",
+        "time": "50 Minuten",
+        "tips": [
+          "Der Teig in diesem Rezept ist vegan und ähnlich wie ein klassischer Nudelteig. Traditionell können aber auch 2 Eier statt den 200 Gramm Hartweizengrieß verwendet werden.",
+          "Nicht zu viel Füllung in die Maultaschen geben, da diese sonst beim garen platzen können.",
+          "Damit die Maultaschen nicht aufplatzen, kann ein wenig Wasser oder Hafermilch auf die Teigenden gestrichen werden, damit diese besser zusammen halten.",
+          "Maultschen schmecken auch hervorragend, wenn sie nach dem Garen nochmal angebraten werden.",
+          "Als Beilage eignet sich gut ein Kartoffel- oder Krautsalat."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 2
+          },
+          {
+            "name": "liked_by",
+            "value": 6
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -215,6 +323,80 @@
           -34.996496
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Empanadas",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 1
+          },
+          {
+            "name": "liked_by",
+            "value": 3
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -230,6 +412,80 @@
           34.631477784554725
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Jiaozi",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 10
+          },
+          {
+            "name": "liked_by",
+            "value": 19
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -245,6 +501,80 @@
           43.01977211651795
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Tortellini",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 5
+          },
+          {
+            "name": "liked_by",
+            "value": 5
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
     },
     {
@@ -264,24 +594,21 @@
       "recipe": {
         "text": {
           "title": "Gyoza",
-          "culture": "Gyoza ist ein Klassiker der japanischen Küche, oft serviert als Vorspeise oder Snack. Diese knusprig gebratenen Teigtaschen, gefüllt mit Fleisch und Gemüse, haben jedoch ihre Wurzeln in den chinesischen Jiaozi.Im Laufe der Zeit entwickelte sich Gyoza zu einer eigenständigen, ikonischen Spezialität. Ursprünglich aus China stammend, wo Jiaozi seit über 1800 Jahren ein traditionelles Gericht ist, wurde Gyoza Anfang des 20. Jahrhunderts durch chinesische Einwanderer nach Japan gebracht. Nach dem Zweiten Weltkrieg gewann Gyoza dank neuer Kochtechniken und Zutaten an Popularität und wurde in den 1950er-Jahren zu einem Streetfood-Klassiker in Japan.",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
           "preparation": [
-            "Als ersten Schritt entweder alle Zutaten in einer Küchenmaschine häckseln oder alles sehr fein hacken. Anschließend alle Zutaten in eine Schüssel geben und Salz, Zucker, Sojasauce und Sesamöl hinzufügen.",
-            "Alles mit den Händen vermischen und für zwei Minuten durchkneten, bis die Masse gut vermengt und homogen ist.",
-            "Lege alle Gyozablätter auf ein Backblech. Gib einen gehäuften Teelöffel der Füllung in die Mitte jedes Blattes und bestreiche den Rand leicht mit Wasser.",
-            "Zum Formen werden die Gyozablätter wie ein Taco geschlossen, indem ein Teil des Teiges zur Mitte hin gefaltet wird und die Falte festgedrückt wird. Dieser Vorgang wird bis zum Rand und auf beiden Seiten wiederholt.",
-            "In eine große, beschichtete Pfanne genügend Öl hinzufügen, um den Boden mit einer dünnen Schicht zu bedecken. Die Pfanne auf mittlerer Hitze erwärmen.Die Teigtaschen in die Pfanne legen, ohne dass sie sich überlappen und 2 bis 3 Minuten anbraten, oder bis der Boden der Gyoza goldbraun ist.",
-            "Sofort 60 ml Wasser hinzufügen, mit einem Deckel abdecken und 3 Minuten bei konstanter Temperatur dämpfen.",
-            "Den Deckel entfernen und das verbleibende Wasser verdampfen lassen. Im Anschluss die Gyoza auf einen Teller mit Küchenpapier transferieren, um überschüssiges Öl abtropfen zu lassen. Zum Schluss die Gyoza anrichten und nach Belieben mit Frühlingszwiebeln, Koriander oder Sauce garnieren." 
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
           ]
         },
         "ingredients": [{
           "name": "Für den Teig",
           "ingredients": [
             {
-              "name": "Gyozablätter",
-              "quantity": "1 Packung"
-
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
             }
           ]
         },
@@ -289,58 +616,21 @@
           "name": "Für die Füllung",
           "ingredients": [
             {
-              "name": "Hähnchenfleisch",
-              "quantity": "450g"
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
             },
             {
-              "name": "Weißkohl",
-              "quantity": "3 Blätter"
-            },
-            {
-              "name": "Ingwer",
-              "quantity": "7,5g"
-            },
-            {
-              "name": "Knoblauchzehen",
-              "quantity": "2"
-            },
-            {
-              "name": "Frühlingszwiebeln",
-              "quantity": "3"
-            },
-            {
-              "name": "Salz",
-              "quantity": "1 TL"
-            },
-            {
-              "name": "Zucker",
-              "quantity": "1/2 TL "
-            },
-            {
-              "name": "Sojasauce",
-              "quantity": "1 EL"
-            },
-            {
-              "name": "Sesamöl",
-              "quantity": "1 TL"
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
             }
-
           ]
         },
         {
           "name": "Für die Sauce",
           "ingredients": [
           {
-            "name": "Weißweinessig",
-            "quantity": "4 EL"
-          },
-          {
-            "name": "Sojasauce",
-            "quantity": "4 EL"
-          },
-          {
-            "name": "Chiliöl",
-            "quantity": "1 TL"
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
           }
           ]
         },
@@ -348,39 +638,31 @@
           "name": "Als Topping",
           "ingredients": [
           {
-            "name": "Koriander",
-            "quantity": "Nach Geschmack"
-          },
-          {
-            "name": "Frühlingszwiebeln",
-            "quantity": "Nach Geschmack"
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
           }
           ]
         }
       ],
-        "servings": 3,
-        "difficulty": "Mittel",
-        "time": "45 Minuten",
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
         "tips": [
-        "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
+          "Array von Tipps"
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 9
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 23
           }
         ],
         "restaurants":
         [
-          "Sushi Ninja / Ehrenfeld"
+          "Array von Restaurantempfehlungen"
         ]
       }
     },
@@ -401,91 +683,75 @@
       "recipe": {
         "text": {
           "title": "Golden Syrup Dumplings",
-          "culture": "Golden Syrup Dumplings sind eines der beliebtesten Komfortgerichte in Australien und Neuseeland. Sie erinnern an warme Familienabende und hausgemachte Mahlzeiten. Die weichen Teiglinge, gekocht in einer süßen Goldsirup-Soße, vereinen britische Kocheinflüsse mit der Vorliebe beider Länder für einfache Desserts. ",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
           "preparation": [
-            "Reibe die Butter mit deinen Fingern durch das Mehl, bis kleine Brösel entstehen.",
-            "Füge die Milch und den Zucker hinzu und verrühre es, bis eine dicke Paste entsteht",
-            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",  
-            "Koche die Teigtaschen bei mittlerer Hitze abgedeckt während 15-20 Minuten",
-            "Die Teigtaschen auf einen Teller transferieren und nach Belieben mit Vanilleeis servieren"
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
           ]
         },
         "ingredients": [{
           "name": "Für den Teig",
           "ingredients": [
             {
-              "name": "Butter",
-              "quantity": "50g"
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
             },
             {
-              "name": "Mehl",
-              "quantity": "225g"
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
             },
             {
-              "name": "Milch",
-              "quantity": "185ml"
-            },
-           {
-              "name": "Golden Syrup (oder Zuckerrübensirup)",
-              "quantity": "2 EL"
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
           }
           ]
         },
-      {
-        "name": "Für die Sauce",
-        "ingredients": [
         {
-          "name": "Wasser",
-          "quantity": "470ml"
-        },
-        {
-          "name": "Butter",
-          "quantity": "50g"
-        },
-        {
-          "name": "Golden Syrup (oder Zuckerrübensirup)",
-          "quantity": "120ml"
-        },
-        {
-          "name": "Brauner Zucker",
-          "quantity": "160g"
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
         }
-        ]
-      },
-      {
-        "name": "Als Topping",
-        "ingredients": [
-        {
-          "name": "Vanilleeis",
-          "quantity": "Nach Geschmack"
-        }
-        ]
-      }
-    ],
-        "servings": 6,
-        "difficulty": "Einfach",
-        "time": "20 Minuten",
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
         "tips": [
-        "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
-        "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
+          "Array von Tipps"
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 7
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 13
           }
         ],
         "restaurants":
         [
-          "N/A"
+          "Array von Restaurantempfehlungen"
         ]
       }
     },
@@ -502,7 +768,254 @@
           51.8842890
         ],
         "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Pierogi",
+          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "preparation": [
+            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+          ]
+        },
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Zutat1Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat2Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Zutat3Name",
+              "quantity": "Wieviel"
+            },
+            {
+              "name": "Zutat4Name",
+              "quantity": "Wieviel"
+            }
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
+          {
+            "name": "Zutat5Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Zutat6Name",
+            "quantity": "Wieviel"
+          }
+          ]
+        }
+      ],
+        "servings": 0,
+        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
+        "time": "Zeit in Minuten",
+        "tips": [
+          "Array von Tipps"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 4
+          },
+          {
+            "name": "liked_by",
+            "value": 10
+          }
+        ],
+        "restaurants":
+        [
+          "Array von Restaurantempfehlungen"
+        ]
       }
+    },
+      {
+        "id": 9,
+        "type": "Feature",
+        "properties": {
+          "marker_location": "Philippinen",
+          "text": "Philippinische Siopao."
+        },
+        "geometry": {
+          "coordinates": [
+            121.7740,
+            12.8797
+          ],
+          "type": "Point"
+        },
+      
+        "recipe": {
+          "text": {
+            "title": "Siopao",
+            "culture": "Siopao, eine gedämpfte Teigtasche mit herzhaften Füllungen, hat in den Philippinen eine kulturelle Bedeutung, da es den historischen chinesischen Einfluss im Land widerspiegelt. Es ist ein beliebter Snack, der die Verschmelzung von philippinischen und chinesischen Küchentraditionen symbolisiert und ein fester Bestandteil der Merienda-Kultur sowie zwangloser Treffen ist.",
+            "preparation": [
+              "Fleisch:",
+              "Tupfe das Fleisch trocken und brate das Fleisch in einer hohen Pfanne mit Öl an, bis es goldbraun ist. Danach entnimm das Fleisch der Pfanne.",
+              "In der Zwischenzeit die Zwiebeln und den Knoblauch fein würfeln, hinzufügen und anrösten.",
+              "Wasser, Sojasauce und Salz hinzufügen, Fleisch wieder in den Topf geben, zudecken und eine Stunde bei niedriger Hitze schmoren lassen.",
+              "",
+              "Teig:",
+              "Da das Fleisch eine Stunde schmoren muss, kannst du in der Zwischenzeit den Teig vorbereiten.",
+              "Mehl, Backpulver und Stärke sieben, mit Hefe und Wasser kneten, bis ein glatter Teig entsteht.",
+              "In gefetteter Schüssel 1-2 Stunden an einem warmen Ort gehen lassen, bis sich der Teig verdoppelt hat.",
+              "",
+              "Asado Füllung:",
+              "Das nun weiche Fleisch auf ein Brett transferieren und in feine Stücke hacken.",
+              "Gib das Fleisch, die Fleischbrühe, die Austernsauce, die Hoisinsauce, den braunen Zucker und den Pfeffer in einen großen Topf bei mittlerer Hitze.",
+              "Vermisch alles, bis sich der Zucker und der Pfeffer aufgelöst hat, während einer Minute.",
+              "In einer kleinen Schüssel, die Maisstärke und das Wasser verrühren, bis sich die Stärke aufgelöst hat.",
+              "Erhöhe die Temperatur auf mittelhoch und füge die Wassermischung dem Topf hinzu. Bring die Sauce zum Kochen und verrühre alles während 8-10 Minuten oder bis die Sauce eine Puddingkonsistenz erlangt hat.",
+              "Nimm den Topf vom Herd und lass alles abkühlen, bevor du die Siopao zusammenstellen kannst.",
+              "",
+              "Zusammenstellung & Dämpfen:",
+              "Sobald sich der Teig verdoppelt hat, drück mit der Faust auf den Teig, damit die Gase entweichen können.",
+              "Den Teig auf einer bemehlten Fläche kurz kneten und anschließend in zwei Hälften teilen. Eine Hälfte abdecken, die andere zu einer ca. 15 cm Rolle formen und in 6 gleich große Stücke schneiden.",
+              "Jedes Stück zu einem Kreis von 10-13 cm Durchmesser ausrollen, dabei die Ränder dünner lassen als die Mitte.",
+              "Etwa 3 EL Füllung in die Mitte des Teiges geben und mit einem Viertel des hartgekochten Eis toppen.",
+              "Den Teig um die Füllung falten, dabei die Ränder in Falten legen und oben verschließen, so dass ein Wirbelmuster entsteht. Wiederhole diesen Vorgang mit jeder Teigtasche.",
+              "Anschließend die Teigtaschen in einen Dämpfer legen. Lasse dabei etwas Platz zwischen den Siopao, da sie im Dämpfer noch größer werden.",
+              "Dämpfe die Siopao für 20 Minuten und entferne in dieser Zeit nicht den Deckel vom Dämpfer.",
+              "Sobald die Siopao fertig sind, entnimm sie dem Dämpfer und serviere sie sofort!"
+            ]
+          },
+          "ingredients": [{
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "470g"
+              },
+              {
+                "name": "Maisstärke",
+                "quantity": "100g"
+              },
+              {
+                "name": "Backpulver",
+                "quantity": "10g"
+              },
+              {
+                "name": "Trockenhefe",
+                "quantity": "8g"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "100g"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "265ml"
+              },
+              {
+                "name": "Neutrales Öl",
+                "quantity": "60ml"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Schweinegulasch",
+                "quantity": "680g"
+              },
+              {
+                "name": "Knoblauchzehen",
+                "quantity": "5"
+              },
+              {
+                "name": "Zwiebel",
+                "quantity": "1"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "945ml + 4 EL"
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Hartgekochte Eier",
+                "quantity": "3"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+            {
+              "name": "Austersauce",
+              "quantity": "1 EL"
+            },
+            {
+              "name": "Hoisinsauce",
+              "quantity": "1 TL"
+            },
+            {
+              "name": "Brauner Zucker",
+              "quantity": "4 TL"
+            },              
+            {
+              "name": "Pfeffer",
+              "quantity": "1/4 TL"
+            },
+            {
+              "name": "Maisstärke",
+              "quantity": "2 TL"
+            }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+            {
+              "name": "",
+              "quantity": ""
+            }
+            ]
+          }
+        ],
+          "servings": 12,
+          "difficulty": "Schwierigkeit Anspruchsvoll",
+          "time": "205 Minuten",
+          "tips": [
+            "Das Anspruchsvollste an diesen Teigtaschen ist das Falten der Teiglinge. Wenn du den Teig ausrollst, solltest du unbedingt beachten, dass die Mitte des Teiges dicker ist als der Rand. Da die Füllung schwer ist, sackt sie durch, wenn der Teig nicht dick genug ist.",
+            "Achte außerdem darauf, dass die Teigtaschen nicht zu voll sind, denn damit erschwerst du dir das Falten."
+          ],
+          "metrics": [
+            {
+              "name": "cooked_by",
+              "value": 2
+            },
+            {
+              "name": "liked_by",
+              "value": 6
+            }
+          ],
+          "restaurants":
+          [
+            "Array von Restaurantempfehlungen"
+          ]
+        }
     }
   ]
 }
