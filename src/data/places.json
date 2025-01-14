@@ -126,6 +126,20 @@
       "type": "Point"
     },
     "id": 9
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Sambusas, SOM"
+    },
+    "geometry": {
+      "coordinates": [
+        10.000,
+        49.0000
+      ],
+      "type": "Point"
+    },
+    "id": 10
   }
   ]
 }
