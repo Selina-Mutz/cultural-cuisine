@@ -5,6 +5,9 @@ import { Button, Card } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
 import './css/RecipeBox.css';
 import ImageCarousel from './ImageCarousel';
+import flagJapan from '../data/flags/japan.png';
+import flagPoland from '../data/flags/poland.png';
+
 
 /**
  * Component displaying a box containing a narrative fragment, the related media, any embedded child elements and the narrating character's bio
@@ -66,15 +69,16 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         {titleText}
                     </Card.Title>
                     <div className="flags-container">
-    {flagImages.map((imageSrc, index) => (
-        <img 
-            key={index} 
-            src={imageSrc} 
-            alt={`Flag ${index + 1}`} 
-            className="flag-image" 
-        />
-    ))}
-</div>
+                        {flagImages.map((imageSrc, index) => (
+                            <img 
+                                key={index} 
+                                src={imageSrc} 
+                                alt={`Flag ${index + 1}`} 
+                                className="flag-image"
+                                id={imageSrc === flagJapan || imageSrc === flagPoland ? "flag-with-border" : undefined} 
+                            />
+                        ))}
+                    </div>
                 </div>
                 <div
                     id="properties-recipe-box-div">

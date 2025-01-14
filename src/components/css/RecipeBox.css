@@ -41,7 +41,13 @@
 
 .flag-image {
     width: auto;
-    height: 2em; 
+    height: 2em;
+    border-radius: 2px; 
+}
+
+#flag-with-border {
+    border: 0.5px solid #636363;
+    border-radius: 2px; 
 }
 
 #ingredient-recipe-box-div {
