@@ -1,5 +1,10 @@
 import RecipeBox from '../RecipeBox';
 import flagPoland from '../../data/flags/poland.png';
+import pierogi_fertig2 from '../../data/pierogi/pierogi_fertig2.jpg';
+import pierogi_fertig1 from '../../data/pierogi/pierogi_fertig.jpg';
+import pierogi1 from '../../data/pierogi/pierogi1.jpg';
+import pierogi2 from '../../data/pierogi/pierogi2.jpg';
+import pierogi3 from '../../data/pierogi/pierogi3.jpg';
 
 
 /**
@@ -24,7 +29,7 @@ export default function Pierogi({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}
+                images={[pierogi_fertig2, pierogi_fertig1, pierogi1, pierogi2, pierogi3]}
                 flagImages = {[flagPoland]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
