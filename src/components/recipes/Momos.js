@@ -31,7 +31,8 @@ export default function Momos({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[momosFertigQuer, momosZutatenQuer, momosZutatenGeschnibbelt, momosTeig]}
-                flagImages = {[flagNepal, flagIndia, flagChina]}>
+                flagImages = {[flagNepal, flagIndia, flagChina]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );
