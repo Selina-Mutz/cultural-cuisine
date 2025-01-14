@@ -613,75 +613,123 @@
       "recipe": {
         "text": {
           "title": "Gyoza",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Gyoza ist ein Klassiker der japanischen Küche, oft serviert als Vorspeise oder Snack. Diese knusprig gebratenen Teigtaschen, gefüllt mit Fleisch und Gemüse, haben jedoch ihre Wurzeln in den chinesischen Jiaozi.Im Laufe der Zeit entwickelte sich Gyoza zu einer eigenständigen, ikonischen Spezialität. Ursprünglich aus China stammend, wo Jiaozi seit über 1800 Jahren ein traditionelles Gericht ist, wurde Gyoza Anfang des 20. Jahrhunderts durch chinesische Einwanderer nach Japan gebracht. Nach dem Zweiten Weltkrieg gewann Gyoza dank neuer Kochtechniken und Zutaten an Popularität und wurde in den 1950er-Jahren zu einem Streetfood-Klassiker in Japan.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Als ersten Schritt entweder alle Zutaten in einer Küchenmaschine häckseln oder alles sehr fein hacken. Anschließend alle Zutaten in eine Schüssel geben und Salz, Zucker, Sojasauce und Sesamöl hinzufügen.",
+            "Alles mit den Händen vermischen und für zwei Minuten durchkneten, bis die Masse gut vermengt und homogen ist.",
+            "Lege alle Gyozablätter auf ein Backblech. Gib einen gehäuften Teelöffel der Füllung in die Mitte jedes Blattes und bestreiche den Rand leicht mit Wasser.",
+            "Zum Formen werden die Gyozablätter wie ein Taco geschlossen, indem ein Teil des Teiges zur Mitte hin gefaltet wird und die Falte festgedrückt wird. Dieser Vorgang wird bis zum Rand und auf beiden Seiten wiederholt.",
+            "In eine große, beschichtete Pfanne genügend Öl hinzufügen, um den Boden mit einer dünnen Schicht zu bedecken. Die Pfanne auf mittlerer Hitze erwärmen.Die Teigtaschen in die Pfanne legen, ohne dass sie sich überlappen und 2 bis 3 Minuten anbraten, oder bis der Boden der Gyoza goldbraun ist.",
+            "Sofort 60 ml Wasser hinzufügen, mit einem Deckel abdecken und 3 Minuten bei konstanter Temperatur dämpfen.",
+            "Den Deckel entfernen und das verbleibende Wasser verdampfen lassen. Im Anschluss die Gyoza auf einen Teller mit Küchenpapier transferieren, um überschüssiges Öl abtropfen zu lassen. Zum Schluss die Gyoza anrichten und nach Belieben mit Frühlingszwiebeln, Koriander oder Sauce garnieren." 
           ]
         },
-        "ingredients": [
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Gyozablätter",
+              "quantity": "1 Packung"
+
+            }
+          ]
+        },
+        {
+          "name": "Für die Füllung",
+          "ingredients": [
+            {
+              "name": "Hähnchenfleisch",
+              "quantity": "450g"
+            },
+            {
+              "name": "Weißkohl",
+              "quantity": "3 Blätter"
+            },
+            {
+              "name": "Ingwer",
+              "quantity": "7,5g"
+            },
+            {
+              "name": "Knoblauchzehen",
+              "quantity": "2"
+            },
+            {
+              "name": "Frühlingszwiebeln",
+              "quantity": "3"
+            },
+            {
+              "name": "Salz",
+              "quantity": "1 TL"
+            },
+            {
+              "name": "Zucker",
+              "quantity": "1/2 TL "
+            },
+            {
+              "name": "Sojasauce",
+              "quantity": "1 EL"
+            },
+            {
+              "name": "Sesamöl",
+              "quantity": "1 TL"
+            }
+
+          ]
+        },
+        {
+          "name": "Für die Sauce",
+          "ingredients": [
           {
-            "name": "Für den Teig",
-            "ingredients": [
-              {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
-              },
-              {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
-              }
-            ]
+            "name": "Weißweinessig",
+            "quantity": "4 EL"
           },
           {
-            "name": "Für die Füllung",
-            "ingredients": [
-              {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
-              },
-              {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
-              }
-            ]
+            "name": "Sojasauce",
+            "quantity": "4 EL"
           },
           {
-            "name": "Für die Sauce",
-            "ingredients": [
-              {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
-              }
-            ]
-          },
-          {
-            "name": "Als Topping",
-            "ingredients": [
-              {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
-              }
-            ]
+            "name": "Chiliöl",
+            "quantity": "1 TL"
           }
-        ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+          ]
+        },
+        {
+          "name": "Als Topping",
+          "ingredients": [
+          {
+            "name": "Koriander",
+            "quantity": "Nach Geschmack"
+          },
+          {
+            "name": "Frühlingszwiebeln",
+            "quantity": "Nach Geschmack"
+          }
+          ]
+        }
+      ],
+        "servings": 3,
+        "difficulty": "Mittel",
+        "time": "45 Minuten",
         "tips": [
-          "Array von Tipps"
+        "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 9
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 23
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
-        "restaurants": [
-          "Array von Restaurantempfehlungen"
+        "restaurants":
+        [
+          "Sushi Ninja / Ehrenfeld"
         ]
       }
     },
@@ -702,75 +750,91 @@
       "recipe": {
         "text": {
           "title": "Golden Syrup Dumplings",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Golden Syrup Dumplings sind eines der beliebtesten Komfortgerichte in Australien und Neuseeland. Sie erinnern an warme Familienabende und hausgemachte Mahlzeiten. Die weichen Teiglinge, gekocht in einer süßen Goldsirup-Soße, vereinen britische Kocheinflüsse mit der Vorliebe beider Länder für einfache Desserts. ",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Reibe die Butter mit deinen Fingern durch das Mehl, bis kleine Brösel entstehen.",
+            "Füge die Milch und den Zucker hinzu und verrühre es, bis eine dicke Paste entsteht",
+            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",  
+            "Koche die Teigtaschen bei mittlerer Hitze abgedeckt während 15-20 Minuten",
+            "Die Teigtaschen auf einen Teller transferieren und nach Belieben mit Vanilleeis servieren"
           ]
         },
-        "ingredients": [
-          {
-            "name": "Für den Teig",
-            "ingredients": [
-              {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
-              },
-              {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
-              }
-            ]
-          },
-          {
-            "name": "Für die Füllung",
-            "ingredients": [
-              {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
-              },
-              {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
-              }
-            ]
-          },
-          {
-            "name": "Für die Sauce",
-            "ingredients": [
-              {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
-              }
-            ]
-          },
-          {
-            "name": "Als Topping",
-            "ingredients": [
-              {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
-              }
-            ]
+        "ingredients": [{
+          "name": "Für den Teig",
+          "ingredients": [
+            {
+              "name": "Butter",
+              "quantity": "50g"
+            },
+            {
+              "name": "Mehl",
+              "quantity": "225g"
+            },
+            {
+              "name": "Milch",
+              "quantity": "185ml"
+            },
+           {
+              "name": "Golden Syrup (oder Zuckerrübensirup)",
+              "quantity": "2 EL"
           }
-        ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+          ]
+        },
+      {
+        "name": "Für die Sauce",
+        "ingredients": [
+        {
+          "name": "Wasser",
+          "quantity": "470ml"
+        },
+        {
+          "name": "Butter",
+          "quantity": "50g"
+        },
+        {
+          "name": "Golden Syrup (oder Zuckerrübensirup)",
+          "quantity": "120ml"
+        },
+        {
+          "name": "Brauner Zucker",
+          "quantity": "160g"
+        }
+        ]
+      },
+      {
+        "name": "Als Topping",
+        "ingredients": [
+        {
+          "name": "Vanilleeis",
+          "quantity": "Nach Geschmack"
+        }
+        ]
+      }
+    ],
+        "servings": 6,
+        "difficulty": "Einfach",
+        "time": "20 Minuten",
         "tips": [
-          "Array von Tipps"
+        "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
+        "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 7
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 13
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
-        "restaurants": [
-          "Array von Restaurantempfehlungen"
+        "restaurants":
+        [
+          "N/A"
         ]
       }
     },
