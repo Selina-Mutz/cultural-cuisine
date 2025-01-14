@@ -35,7 +35,7 @@ export default function Empanadas({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[maultaschenFertigQuer, maultaschenZutaten, maultaschenTeig, maultaschenFüllung, maultaschenBahn, maultaschenBahnHalbZu, maultaschenBahnZu, maultaschenKochend]}
-                flagImage = {flagGermany}>
+                flagImages = {[flagGermany]}>
             </RecipeBox>
         </div>
     );

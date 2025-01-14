@@ -30,6 +30,18 @@
     background-color: var(--background) !important;
 }
 
+.flags-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.flag-image {
+    width: auto;
+    height: 2em; 
+}
+
 #ingredient-recipe-box-div {
     display: flex;
 }
@@ -73,6 +85,10 @@
 }
 #title-recipe-box {
     font-size: 3em;
+}
+
+#title-recipe-box-div {
+    display: flex;
 }
 
 .unclicked-button {

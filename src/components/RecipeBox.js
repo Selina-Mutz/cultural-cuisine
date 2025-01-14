@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import React from 'react';
 import { useMap } from 'react-leaflet/hooks'
-import { Button, Card, Icon } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { mapCenter, mapZoom } from './App';
 import './css/RecipeBox.css';
 import ImageCarousel from './ImageCarousel';
@@ -15,14 +15,12 @@ import ImageCarousel from './ImageCarousel';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function RecipeBox({ children, titleText, servings, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus, images, flagImage }) {
+export default function RecipeBox({ children, titleText, servings, timeText, difficultyText, cultureText, ingredientsArray, preparationTextArray, tipsTextArray, setFeatureFocus, images, flagImages }) {
     
     /**
      * The Leaflet map object
      */
     const map = useMap();
-
-    const test = "flag flag-germany"
 
     const [clickedCooked, setClickedCooked] = useState(false);
 
@@ -67,8 +65,16 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         id="title-recipe-box">
                         {titleText}
                     </Card.Title>
-                    <img src={flagImage} alt="Flag" className="flag-image" />
-
+                    <div className="flags-container">
+    {flagImages.map((imageSrc, index) => (
+        <img 
+            key={index} 
+            src={imageSrc} 
+            alt={`Flag ${index + 1}`} 
+            className="flag-image" 
+        />
+    ))}
+</div>
                 </div>
                 <div
                     id="properties-recipe-box-div">

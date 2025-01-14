@@ -3,6 +3,9 @@ import momosZutatenQuer from '../../data/momos/momoszutatenquer.jpg';
 import momosZutatenGeschnibbelt from '../../data/momos/momoszutatengeschnibbelt.jpg';
 import momosTeig from '../../data/momos/momosteig.jpg';
 import momosFertigQuer from'../../data/momos/momosfertigquer.jpg';
+import flagNepal from '../../data/flags/nepal.png';
+import flagIndia from '../../data/flags/india.png';
+import flagChina from '../../data/flags/china.png';
 
 
 /**
@@ -27,7 +30,8 @@ export default function Momos({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[momosFertigQuer, momosZutatenQuer, momosZutatenGeschnibbelt, momosTeig]}>
+                images={[momosFertigQuer, momosZutatenQuer, momosZutatenGeschnibbelt, momosTeig]}
+                flagImages = {[flagNepal, flagIndia, flagChina]}>
             </RecipeBox>
         </div>
     );
