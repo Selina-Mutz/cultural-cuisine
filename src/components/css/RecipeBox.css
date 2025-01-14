@@ -18,7 +18,10 @@
 }
 
 .clicked-button {
-    background-color: pink;
+    color: black !important;
+    background-color: lightgreen !important;
+    border-radius: 20px !important;
+    margin-right: 10px;
 }
 
 #close-recipe-box {
@@ -27,7 +30,7 @@
     right: 10px;
     font-size: 1.6rem;
     color: black;
-    background-color: var(--background) !important;
+    background-color: white;
 }
 
 .flags-container {
@@ -100,5 +103,8 @@
 }
 
 .unclicked-button {
-    background-color: rgba(173, 216, 230, 0.5);
+    color: black;
+    background-color: rgba(173, 216, 230, 0.5) !important;
+    border-radius: 20px !important;
+    margin-right: 10px;
 }
