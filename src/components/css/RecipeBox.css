@@ -34,7 +34,9 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .flag-image {
