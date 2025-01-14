@@ -7,6 +7,7 @@ import maultaschenBahn from '../../data/maultaschen/maultaschenbahn.jpg';
 import maultaschenBahnHalbZu from '../../data/maultaschen/maultaschenbahnhalbzu.jpg';
 import maultaschenBahnZu from '../../data/maultaschen/maultaschenbahnzu.jpg';
 import maultaschenKochend from '../../data/maultaschen/maultaschenkochend.jpg';
+import flagGermany from '../../data/flags/germany.png';
 
 
 
@@ -33,7 +34,8 @@ export default function Empanadas({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[maultaschenFertigQuer, maultaschenZutaten, maultaschenTeig, maultaschenFüllung, maultaschenBahn, maultaschenBahnHalbZu, maultaschenBahnZu, maultaschenKochend]}>
+                images={[maultaschenFertigQuer, maultaschenZutaten, maultaschenTeig, maultaschenFüllung, maultaschenBahn, maultaschenBahnHalbZu, maultaschenBahnZu, maultaschenKochend]}
+                flagImage = {flagGermany}>
             </RecipeBox>
         </div>
     );
