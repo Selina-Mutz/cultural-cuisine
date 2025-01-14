@@ -158,7 +158,7 @@
       ],
         "servings": 2,
         "difficulty": "Mittel",
-        "time": "45 Minuten",
+        "time": "60 Minuten",
         "tips": [
           "Das Falten der Momos ist sicher das anspruchsvollste an diesem Rezept. Übung macht den Meister, und der Teig sollte nicht zu dünn sein, damit er nicht reisst, und auch nicht zu dick, da die Momos sonst zu teigig schmecken.",
           "Momos werden keinesfalls immer so wie hier beschrieben gefüllt und eurer Kreativität sind keine Grenzen gesetzt! Kartoffeln, Brokkoli, Koriander, oder Minze sind zum Beispiel andere leckere Optionen für die Füllung.",
@@ -386,15 +386,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 1
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 3
           }
         ],
         "restaurants":
@@ -479,15 +475,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 10
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 19
           }
         ],
         "restaurants":
@@ -572,15 +564,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 5
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 5
           }
         ],
         "restaurants":
@@ -665,15 +653,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 9
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 23
           }
         ],
         "restaurants":
@@ -758,15 +742,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 7
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 13
           }
         ],
         "restaurants":
@@ -851,15 +831,11 @@
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 0
+            "value": 4
           },
           {
             "name": "liked_by",
-            "value": 0
-          },
-          {
-            "name": "disliked_by",
-            "value": 0
+            "value": 10
           }
         ],
         "restaurants":
@@ -1028,15 +1004,11 @@
           "metrics": [
             {
               "name": "cooked_by",
-              "value": 0
+              "value": 2
             },
             {
               "name": "liked_by",
-              "value": 0
-            },
-            {
-              "name": "disliked_by",
-              "value": 0
+              "value": 6
             }
           ],
           "restaurants":
