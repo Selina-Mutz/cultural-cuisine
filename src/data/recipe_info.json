@@ -1034,6 +1034,91 @@
           "Array von Restaurantempfehlungen"
         ]
       }
+    },
+    {
+      "id": 10,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Somalia",
+        "text": "Somalische Sambusas"
+      },
+      "geometry": {
+        "coordinates": [
+          10.000,
+          49.000
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Sambusas",
+          "culture": "Kultur hier Indien Samosas dies das",
+          "preparation": [
+            "Schritte hier"
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "hier"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "100g"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "(veganes) Hackfleisch",
+                "quantity": "500 gramm"
+              }
+            ]
+          },
+          {
+            "name": "Für den Dip",
+            "ingredients": [
+              {
+                "name": "(veganer) Joghurt",
+                "quantity": "200 Gramm"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "",
+                "quantity": ""
+              }
+            ]
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Anspruchsvoll",
+        "time": "80 Minuten",
+        "tips": [
+          "Tippssss"
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 3
+          },
+          {
+            "name": "liked_by",
+            "value": 4
+          }
+        ],
+        "restaurants": [
+          "Array von Restaurantempfehlungen"
+        ]
+      }
     }
   ]
 }
