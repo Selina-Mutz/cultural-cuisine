@@ -5,6 +5,9 @@ import FragmentViz from './FragmentViz';
 import PlaceList from './PlaceList';
 import InfoToast from './InfoToast';
 import './css/App.css';
+import FeedbackForm from './FeedbackForm';
+import FeedbackButton from './FeedbackButton'; 
+import "../components/css/Feedback.css";
 
 /**
  * Coordinates of the initial map center

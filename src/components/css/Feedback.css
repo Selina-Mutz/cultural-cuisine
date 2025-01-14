@@ -1,0 +1,87 @@
+/* Button style */
+.feedback-form {  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px 40px;
+  width: 400px;
+  max-width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+
+  .feedback-button:hover {
+    background-color: #04203d8e;
+  }
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.feedback-form button.submit-button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+     margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%; 
+}  
+
+.feedback-form button.close-button {
+  background-color: #635b5b4d; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 48%; 
+}
+
+.feedback-form button.submit-button:hover {
+  background-color: #218838;
+}
+
+.feedback-form button.close-button:hover {
+  background-color: #c22713ee;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .feedback-button {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    padding: 10px 20px;
+    background-color: #022e5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1100;
+}
+
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+}
