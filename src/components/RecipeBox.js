@@ -95,7 +95,7 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         variant='light'
                         className="clicked-button"
                         onClick={handleLikeClick}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"></path>
                         </svg>
                         Gefällt mir! { metricsArray[1]&&(metricsArray[1].value + 1)}
@@ -119,7 +119,7 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         type="button" 
                         className="clicked-button"
                         onClick={handleCookedClick}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
                             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
                         </svg>
                         Gekocht! { metricsArray[0]&&(metricsArray[0].value + 1)}
