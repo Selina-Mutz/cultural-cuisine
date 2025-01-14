@@ -4,6 +4,8 @@ import gsdZutaten from '../../data/goldensyrupdumplings/gsd-zutaten.jpg';
 import gsd1 from '../../data/goldensyrupdumplings/gsd-3.jpg';
 import gsd2 from '../../data/goldensyrupdumplings/gsd-4.jpg';
 import gsd3 from '../../data/goldensyrupdumplings/gsd-6.jpg';
+import flagAustralia from '../../data/flags/australia.png';
+
 /**
  * Component displaying the recipe and pictures for Golden Syrup Dumplings
  * 
@@ -26,7 +28,8 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[gsdFertig, gsdZutaten, gsd1, gsd2, gsd3]}>
+                images={[gsdFertig, gsdZutaten, gsd1, gsd2, gsd3]}
+                flagImages = {[flagAustralia]}>
             </RecipeBox>
         </div>
     );

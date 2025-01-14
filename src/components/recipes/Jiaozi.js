@@ -1,4 +1,5 @@
 import RecipeBox from '../RecipeBox';
+import flagChina from '../../data/flags/china.png';
 
 /**
  * Component displaying the recipe and pictures for Jiaozi
@@ -22,7 +23,8 @@ export default function Jiaozi({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}>
+                images={[]}
+                flagImages = {[flagChina]}>
             </RecipeBox>
         </div>
     );

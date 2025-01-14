@@ -6,6 +6,7 @@ import gyoza2 from '../../data/gyoza/gyoza-6.jpeg';
 import gyoza3 from '../../data/gyoza/gyoza-7.jpeg';
 import gyoza4 from '../../data/gyoza/gyoza-8.jpeg';
 import gyoza5 from '../../data/gyoza/gyoza-9.jpeg';
+import flagJapan from '../../data/flags/japan.png';
 
 /**
  * Component displaying the recipe and pictures for Gyoza
@@ -29,7 +30,8 @@ export default function Gyoza({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[gyozaFertig, gyozaZutaten, gyoza1, gyoza2, gyoza3, gyoza4, gyoza5]}>
+                images={[gyozaFertig, gyozaZutaten, gyoza1, gyoza2, gyoza3, gyoza4, gyoza5]}
+                flagImages = {[flagJapan]}>
             </RecipeBox>
         </div>
     );

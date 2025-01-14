@@ -1,4 +1,5 @@
 import RecipeBox from '../RecipeBox';
+import flagItaly from '../../data/flags/italy.png';
 
 /**
  * Component displaying the recipe and pictures for Tortellini
@@ -22,7 +23,8 @@ export default function Tortellini({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}>
+                images={[]}
+                flagImages = {[flagItaly]}>
             </RecipeBox>
         </div>
     );

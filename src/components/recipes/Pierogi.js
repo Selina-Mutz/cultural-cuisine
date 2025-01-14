@@ -1,4 +1,6 @@
 import RecipeBox from '../RecipeBox';
+import flagPoland from '../../data/flags/poland.png';
+
 
 /**
  * Component displaying the recipe and pictures for Pierogi
@@ -22,7 +24,8 @@ export default function Pierogi({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}>
+                images={[]}
+                flagImages = {[flagPoland]}>
             </RecipeBox>
         </div>
     );
