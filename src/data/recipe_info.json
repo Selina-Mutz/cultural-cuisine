@@ -434,7 +434,11 @@
             "Schritt 3: Die Gözleme formen und ausbacken - Die Teigkugeln sehr dünn (ca. 1 mm) zu runden Fladen ausrollen. Jeweils ¼ der Füllung auf eine Hälfte eines Teigfladens geben, die andere Hälfte darüber klappen und die Ränder fest andrücken, um sie zu verschließen. Öl in einer Pfanne erhitzen und die Gözleme darin nacheinander von beiden Seiten 2–3 Minuten goldbraun ausbacken. Nach dem Ausbacken bei Bedarf mit etwas Öl bestreichen und sofort servieren."
           ]
         },
-        "ingredients": [
+        "ingredients": [{
+          "name": "Test",
+          "ingredients":
+          [
+
           {
             "name": "Weizenmehl (Type 550)",
             "quantity": "250 Gramm"
@@ -479,6 +483,7 @@
             "name": "Schafskäse",
             "quantity": "150 Gramm"
           }
+          ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
