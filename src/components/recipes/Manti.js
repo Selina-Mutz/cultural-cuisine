@@ -1,20 +1,13 @@
 import RecipeBox from '../RecipeBox'
-import sambusasFertig from'../../data/sambusas/sambusasfertig.jpg';
-import sambusasZutaten from'../../data/sambusas/sambusaszutaten.jpg';
-import sambusasFladen from'../../data/sambusas/sambusasfladen.jpg';
-import sambusasViertel from'../../data/sambusas/sambusasviertel.jpg';
-import sambusasFüllung from'../../data/sambusas/sambusasfüllung.jpg';
-import sambusasTüte from'../../data/sambusas/sambusastüte.jpg';
-import sambusasFrittiert from'../../data/sambusas/sambusasfrittiert.jpg';
-import sambusasDip from'../../data/sambusas/sambusasdip.jpg';
-
-
-
-
-
-
-
-import flagSomalia from '../../data/flags/somalia.png';
+import mantiFertig from '../../data/manti/manti_fertig.jpg'
+import mantiZutaten from '../../data/manti/manti_zutaten.jpg'
+import manti1 from '../../data/manti/manti1.jpg'
+import manti2 from '../../data/manti/manti2.jpg'
+import manti3 from '../../data/manti/manti3.jpg'
+import manti4 from '../../data/manti/manti4.jpg'
+import manti5 from '../../data/manti/manti5.jpg'
+import manti6 from '../../data/manti/manti6.jpg'
+import flagTurkey from '../../data/flags/turkey.png'
 
 
 
@@ -26,7 +19,7 @@ import flagSomalia from '../../data/flags/somalia.png';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function Sambusas({ feature, setFeatureFocus }) {
+export default function Manti({ feature, setFeatureFocus }) {
 
     return (
         <div>
@@ -40,8 +33,8 @@ export default function Sambusas({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[sambusasFertig,sambusasZutaten,sambusasFladen,sambusasViertel,sambusasFüllung,sambusasTüte,sambusasFrittiert,sambusasDip]}
-                flagImages = {[flagSomalia]}
+                images={[mantiFertig, mantiZutaten, manti1, manti2, manti3, manti4, manti5, manti6]}
+                flagImages = {[flagTurkey]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>

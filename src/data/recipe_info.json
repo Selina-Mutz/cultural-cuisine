@@ -335,6 +335,10 @@
         },
         "ingredients": [
           {
+            "name": "Test",
+            "ingredients":
+            [
+          {
             "name": "Mehl",
             "quantity": "500 Gramm"
           },
@@ -382,6 +386,7 @@
             "name": "Butter",
             "quantity": "halbe Tasse"
           }
+        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -434,7 +439,11 @@
             "Schritt 3: Die Gözleme formen und ausbacken - Die Teigkugeln sehr dünn (ca. 1 mm) zu runden Fladen ausrollen. Jeweils ¼ der Füllung auf eine Hälfte eines Teigfladens geben, die andere Hälfte darüber klappen und die Ränder fest andrücken, um sie zu verschließen. Öl in einer Pfanne erhitzen und die Gözleme darin nacheinander von beiden Seiten 2–3 Minuten goldbraun ausbacken. Nach dem Ausbacken bei Bedarf mit etwas Öl bestreichen und sofort servieren."
           ]
         },
-        "ingredients": [
+        "ingredients": [{
+          "name": "Test",
+          "ingredients":
+          [
+
           {
             "name": "Weizenmehl (Type 550)",
             "quantity": "250 Gramm"
@@ -479,6 +488,7 @@
             "name": "Schafskäse",
             "quantity": "150 Gramm"
           }
+          ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -533,6 +543,10 @@
         },
         "ingredients": [
           {
+            "name": "Test",
+            "ingredients":
+            [
+          {
             "name": "Weizenmehl (Type 550)",
             "quantity": "250 Gramm"
           },
@@ -572,6 +586,7 @@
             "name": "Basilikum",
             "quantity": "1 Stängel"
           }
+        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -621,97 +636,96 @@
             "Zum Formen werden die Gyozablätter wie ein Taco geschlossen, indem ein Teil des Teiges zur Mitte hin gefaltet wird und die Falte festgedrückt wird. Dieser Vorgang wird bis zum Rand und auf beiden Seiten wiederholt.",
             "In eine große, beschichtete Pfanne genügend Öl hinzufügen, um den Boden mit einer dünnen Schicht zu bedecken. Die Pfanne auf mittlerer Hitze erwärmen.Die Teigtaschen in die Pfanne legen, ohne dass sie sich überlappen und 2 bis 3 Minuten anbraten, oder bis der Boden der Gyoza goldbraun ist.",
             "Sofort 60 ml Wasser hinzufügen, mit einem Deckel abdecken und 3 Minuten bei konstanter Temperatur dämpfen.",
-            "Den Deckel entfernen und das verbleibende Wasser verdampfen lassen. Im Anschluss die Gyoza auf einen Teller mit Küchenpapier transferieren, um überschüssiges Öl abtropfen zu lassen. Zum Schluss die Gyoza anrichten und nach Belieben mit Frühlingszwiebeln, Koriander oder Sauce garnieren." 
+            "Den Deckel entfernen und das verbleibende Wasser verdampfen lassen. Im Anschluss die Gyoza auf einen Teller mit Küchenpapier transferieren, um überschüssiges Öl abtropfen zu lassen. Zum Schluss die Gyoza anrichten und nach Belieben mit Frühlingszwiebeln, Koriander oder Sauce garnieren."
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Gyozablätter",
-              "quantity": "1 Packung"
-
-            }
-          ]
-        },
-        {
-          "name": "Für die Füllung",
-          "ingredients": [
-            {
-              "name": "Hähnchenfleisch",
-              "quantity": "450g"
-            },
-            {
-              "name": "Weißkohl",
-              "quantity": "3 Blätter"
-            },
-            {
-              "name": "Ingwer",
-              "quantity": "7,5g"
-            },
-            {
-              "name": "Knoblauchzehen",
-              "quantity": "2"
-            },
-            {
-              "name": "Frühlingszwiebeln",
-              "quantity": "3"
-            },
-            {
-              "name": "Salz",
-              "quantity": "1 TL"
-            },
-            {
-              "name": "Zucker",
-              "quantity": "1/2 TL "
-            },
-            {
-              "name": "Sojasauce",
-              "quantity": "1 EL"
-            },
-            {
-              "name": "Sesamöl",
-              "quantity": "1 TL"
-            }
-
-          ]
-        },
-        {
-          "name": "Für die Sauce",
-          "ingredients": [
+        "ingredients": [
           {
-            "name": "Weißweinessig",
-            "quantity": "4 EL"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Gyozablätter",
+                "quantity": "1 Packung"
+              }
+            ]
           },
           {
-            "name": "Sojasauce",
-            "quantity": "4 EL"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Hähnchenfleisch",
+                "quantity": "450g"
+              },
+              {
+                "name": "Weißkohl",
+                "quantity": "3 Blätter"
+              },
+              {
+                "name": "Ingwer",
+                "quantity": "7,5g"
+              },
+              {
+                "name": "Knoblauchzehen",
+                "quantity": "2"
+              },
+              {
+                "name": "Frühlingszwiebeln",
+                "quantity": "3"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "1/2 TL "
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Sesamöl",
+                "quantity": "1 TL"
+              }
+            ]
           },
           {
-            "name": "Chiliöl",
-            "quantity": "1 TL"
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Weißweinessig",
+                "quantity": "4 EL"
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "4 EL"
+              },
+              {
+                "name": "Chiliöl",
+                "quantity": "1 TL"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Koriander",
+                "quantity": "Nach Geschmack"
+              },
+              {
+                "name": "Frühlingszwiebeln",
+                "quantity": "Nach Geschmack"
+              }
+            ]
           }
-          ]
-        },
-        {
-          "name": "Als Topping",
-          "ingredients": [
-          {
-            "name": "Koriander",
-            "quantity": "Nach Geschmack"
-          },
-          {
-            "name": "Frühlingszwiebeln",
-            "quantity": "Nach Geschmack"
-          }
-          ]
-        }
-      ],
+        ],
         "servings": 3,
         "difficulty": "Mittel",
         "time": "45 Minuten",
         "tips": [
-        "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
+          "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
         ],
         "metrics": [
           {
@@ -727,8 +741,7 @@
             "value": 0
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "Sushi Ninja / Ehrenfeld"
         ]
       }
@@ -754,69 +767,70 @@
           "preparation": [
             "Reibe die Butter mit deinen Fingern durch das Mehl, bis kleine Brösel entstehen.",
             "Füge die Milch und den Zucker hinzu und verrühre es, bis eine dicke Paste entsteht",
-            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",  
+            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",
             "Koche die Teigtaschen bei mittlerer Hitze abgedeckt während 15-20 Minuten",
             "Die Teigtaschen auf einen Teller transferieren und nach Belieben mit Vanilleeis servieren"
           ]
         },
-        "ingredients": [{
-          "name": "Für den Teig",
-          "ingredients": [
-            {
-              "name": "Butter",
-              "quantity": "50g"
-            },
-            {
-              "name": "Mehl",
-              "quantity": "225g"
-            },
-            {
-              "name": "Milch",
-              "quantity": "185ml"
-            },
-           {
-              "name": "Golden Syrup (oder Zuckerrübensirup)",
-              "quantity": "2 EL"
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Butter",
+                "quantity": "50g"
+              },
+              {
+                "name": "Mehl",
+                "quantity": "225g"
+              },
+              {
+                "name": "Milch",
+                "quantity": "185ml"
+              },
+              {
+                "name": "Golden Syrup (oder Zuckerrübensirup)",
+                "quantity": "2 EL"
+              }
+            ]
+          },
+          {
+            "name": "Für die Sauce",
+            "ingredients": [
+              {
+                "name": "Wasser",
+                "quantity": "470ml"
+              },
+              {
+                "name": "Butter",
+                "quantity": "50g"
+              },
+              {
+                "name": "Golden Syrup (oder Zuckerrübensirup)",
+                "quantity": "120ml"
+              },
+              {
+                "name": "Brauner Zucker",
+                "quantity": "160g"
+              }
+            ]
+          },
+          {
+            "name": "Als Topping",
+            "ingredients": [
+              {
+                "name": "Vanilleeis",
+                "quantity": "Nach Geschmack"
+              }
+            ]
           }
-          ]
-        },
-      {
-        "name": "Für die Sauce",
-        "ingredients": [
-        {
-          "name": "Wasser",
-          "quantity": "470ml"
-        },
-        {
-          "name": "Butter",
-          "quantity": "50g"
-        },
-        {
-          "name": "Golden Syrup (oder Zuckerrübensirup)",
-          "quantity": "120ml"
-        },
-        {
-          "name": "Brauner Zucker",
-          "quantity": "160g"
-        }
-        ]
-      },
-      {
-        "name": "Als Topping",
-        "ingredients": [
-        {
-          "name": "Vanilleeis",
-          "quantity": "Nach Geschmack"
-        }
-        ]
-      }
-    ],
+        ],
         "servings": 6,
         "difficulty": "Einfach",
         "time": "20 Minuten",
         "tips": [
-        "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
-        "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
+          "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
+          "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
         ],
         "metrics": [
           {
@@ -832,8 +846,7 @@
             "value": 0
           }
         ],
-        "restaurants":
-        [
+        "restaurants": [
           "N/A"
         ]
       }
@@ -843,7 +856,7 @@
       "type": "Feature",
       "properties": {
         "marker_location": "Polen",
-        "text": "Kurzinfo zu Pierogi."
+        "text": "Das Nationalgericht Polens."
       },
       "geometry": {
         "coordinates": [
@@ -855,9 +868,13 @@
       "recipe": {
         "text": {
           "title": "Pierogi",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Das polnische Wort pieróg ist seit dem 17. Jahrhundert belegt, die ersten Rezepte dafür gab es allerdings schon im 13. Jahrhundert.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "In einer Schüssel Mehl, Salz, Öl und Wasser mischen und kneten, bis ein glatter Teig entsteht. Den Teig in Frischhaltefolie wickeln und 30 Minuten im Kühlschrank ruhen lassen.",
+            "In der Zwischenzeit die Kartoffeln in Salzwasser kochen und Pilze und Tofu in grobe Stücke schneiden und anbraten. Zusammen mit den gekochten Kartoffeln in eine Schüssel geben, pürieren und mit Salz und Pfeffer abschmecken.",
+            "Mit einem Glas runde Formen ausstechen und die Füllung mittig darauf legen. Darauf achten das es nicht zu viel ist, da die Füllung beim Kochen sonst herausquillt und die Pierogi zerfallen. Den Teig zu einem Halbkreis falten und die Ränder gut zusammendrücken.",
+            "Die Pierogi in Salzwasser kochen, bis sie an der Oberfläche schwimmen. Danach noch ca. 2-3 Minuten kochen, und in einem Sieb abtropfen lassen.",
+            "Zum Abschluss die Pierogi noch einmal von beiden Seiten in einer Pfanne mit etwas Öl kross braten und warm servieren."
           ]
         },
         "ingredients": [
@@ -865,12 +882,20 @@
             "name": "Für den Teig",
             "ingredients": [
               {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
+                "name": "Mehl",
+                "quantity": "500 gr"
               },
               {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
+                "name": "Wasser",
+                "quantity": "200 ml"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
               }
             ]
           },
@@ -878,12 +903,20 @@
             "name": "Für die Füllung",
             "ingredients": [
               {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
+                "name": "Kartoffeln",
+                "quantity": "500 gr"
               },
               {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Tofu",
+                "quantity": "200 gr"
               }
             ]
           },
@@ -891,8 +924,8 @@
             "name": "Für die Sauce",
             "ingredients": [
               {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
+                "name": "Sauerrahm",
+                "quantity": "nach Geschmack"
               }
             ]
           },
@@ -900,17 +933,17 @@
             "name": "Als Topping",
             "ingredients": [
               {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
+                "name": "Petersilie",
+                "quantity": "nach Geschmack"
               }
             ]
           }
         ],
         "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        "difficulty": "Einfach",
+        "time": "60 Minuten",
         "tips": [
-          "Array von Tipps"
+          "Beim Falten die Kanten etwas mit Wasser anfeuchten, damit der Teig gut zusammenhält."
         ],
         "metrics": [
           {
@@ -923,7 +956,7 @@
           }
         ],
         "restaurants": [
-          "Array von Restaurantempfehlungen"
+          "Maxima, Marsilstein 9-13, 50676 Köln"
         ]
       }
     },
@@ -1099,17 +1132,23 @@
       },
       "geometry": {
         "coordinates": [
-          10.000,
-          49.000
+          49.000,
+          10.000
         ],
         "type": "Point"
       },
       "recipe": {
         "text": {
           "title": "Sambusas",
-          "culture": "Kultur hier Indien Samosas dies das",
+          "culture": " Die somalischen Sambusas haben ihre Wurzeln in den ähnlich aussehenden indischen Samosas, die durch den Handel und kulturellen Austausch im Laufe der Jahrhunderte nach Ostafrika gelangten. Sie repräsentieren Herzlichkeit und Gastlichkeit und werden oft zum Iftar, dem Fastenbrechen während des Ramadan, oder als Snack zwischendurch verzehrt.",
           "preparation": [
-            "Schritte hier"
+            "Für den Teig Mehl, Olivenöl, etwas Wasser und Salz verkneten. Bei Bedarf etwas mehr Wasser oder Mehl dazugeben, bis ein weicher Teig entsteht, der sich trocken anfühlt.",
+            "Den Teigballen anschließend in zwei Stücke teilen und flachdrücken, bis zwei kleine Fladen entstehen. Einen der Fladen mit einem Esslöffel Olivenöl bestreichen, den anderen drauf legen und die Fladen sanft zusammendrücken. Den doppelten Teigfladen von beiden Seiten vorsichtig zu einem dünnen, runden Boden ausrollen.",
+            "Danach das Teigstück in vier gleich große Teile schneiden, eine Pfanne ohne Öl erhitzen und jedes der Stücke von beiden Seiten rund eine Minute braten. Die beiden Schichten der Teigviertel lassen sich anscheinend voneinander lösen und man erhält zwei dünnere Teigstücke: die Umhüllung für die Sambusas.",
+            "Für die Füllung Zwiebeln und Knoblauch sehr fein hacken und in einer Pfanne anbraten. Das Hackfleisch dazugeben und alles gut anbraten, bis das Fleisch durch ist. Die Gewürze dazugeben und das Hackfleisch zu feinen Stücken zerteilen.",
+            "Minze und Gurke sehr fein hacken und mit dem Joghurt und dem Saft einer halben Zitrone zu einem Dip verrühren. Mit Salz und etwas Pfeffer abschmecken.",
+            "Einen Esslöffel Wasser und einen Esslöffel Mehl in einer kleinen Schlüssel zu einer klebrigen Masse verrühren. Die Spitze der Teigviertel zur Rundung umklappen und danach eine der beiden Seiten über das entstandene Dreieck klappen, bis eine Art Eiswaffel entsteht. Dabei die Ränder des Teigs mit dem Kleber befeuchten und leicht zudrücken. Die entstandene Tüte mit 2 Esslöffel der Füllung befüllen, und die letzte verbliebene Seite umklappen und alles gut schließen.",
+            "Das Öl in einer großen Pfanne oder Topf stark erhitzen, anschließend die Teigtaschen von beiden Seiten rund eine Minute frittieren, bis sie gebräunt sind. Auf Küchenpapier abtropfen lassen und heiß oder kalt mit dem Dip genießen."
           ]
         },
         "ingredients": [
@@ -1118,11 +1157,19 @@
             "ingredients": [
               {
                 "name": "Mehl",
-                "quantity": "hier"
+                "quantity": "300 Gramm"
               },
               {
                 "name": "Wasser",
-                "quantity": "100g"
+                "quantity": "Nach Bedarf (ca. 50-100 Milliliter)"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "2 Esslöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "Eine Prise"
               }
             ]
           },
@@ -1132,6 +1179,34 @@
               {
                 "name": "(veganes) Hackfleisch",
                 "quantity": "500 gramm"
+              },
+              {
+                "name": "Zwiebeln",
+                "quantity": "2"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "gemahlener Koriander",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Kümmel",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Massala Gewürz",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "1/2 Teelöffel"
               }
             ]
           },
@@ -1141,15 +1216,35 @@
               {
                 "name": "(veganer) Joghurt",
                 "quantity": "200 Gramm"
+              },
+              {
+                "name": "Minze",
+                "quantity": "50 Gramm"
+              },
+              {
+                "name": "Gurke",
+                "quantity": "1/4"
+              },
+              {
+                "name": "Zitrone",
+                "quantity": "1/2"
+              },
+              {
+                "name": "Salz",
+                "quantity": "Nach Belieben"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "Nach Belieben"
               }
             ]
           },
           {
-            "name": "Als Topping",
+            "name": "Zum Frittieren",
             "ingredients": [
               {
-                "name": "",
-                "quantity": ""
+                "name": "Pflanzliches Öl",
+                "quantity": "ca. 300 Milliliter"
               }
             ]
           }
@@ -1158,7 +1253,11 @@
         "difficulty": "Anspruchsvoll",
         "time": "80 Minuten",
         "tips": [
-          "Tippssss"
+          "Achte darauf, den doppelten Teigboden flach, aber auch nicht zu fest auszurollen, weil er sich sonst nur schwer ablösen lässt. Das Ablösen erfordert ausserdem viel Geduld, es kann helfen die zwei Hälften vorsichtig mit einem Messer voneinander zu lösen.",
+          "Es kann ein wenig dauern, bis man das Falten der Sambusas drauf hat. Schau dir gerne ein Video zu der optimallen Falttechnik an. Falls es mal nicht klappt: die Form der fertigen Sambusas ist zweitrangig, Hauptsache die Taschen halten beim Frittieren!",
+          "Wer es sich einfacher machen will, kann auch fertigen Blätterteig verwenden.",
+          "Traditionell werden auch oft Frühlingszwiebeln für die Füllung verwendet, aber auch Kartoffeln oder Gemüse wie Möhren oder Brokkoli eignen sich gut.",
+          "Etwas Tzatzikigewürz kann helfen, den Dip noch leckerer zu machen. Außerdem kann man die Sambusas auch problemlos mit jedem anderen Dip genießen."
         ],
         "metrics": [
           {
@@ -1172,6 +1271,237 @@
         ],
         "restaurants": [
           "Array von Restaurantempfehlungen"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Turkey",
+        "text": "Manti"
+      },
+      "geometry": {
+        "coordinates": [
+          28.543668,
+          38.963745
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Manti",
+          "culture": "Dieses Gericht ist seit den Tagen des Osmanischen Reiches weit verbreitet und soll sogar ein persönlicher Favorit der Sultane gewesen sein. Heute wird das Gericht bei einer traditionellen Zeremonie vor der Hochzeit in der Türkei verwendet, bei der eine besondere Art von Mantı aus der Stadt Kayseri, bekannt als „Kayseri Mantısı“, gegessen wird.",
+          "preparation": [
+            "Mehl und Salz vermengen und in der Mitte eine Mulde formen. Das lauwarme Wasser vorsichtig hineingießen und das Mehl von außen nach innen einarbeiten und zu einem glatten Teig verkneten. (Sollte der Teig zu trocken sein, kann man etwas mehr Wasser dazugeben). Den Teig fest in Folie wickeln und 20-30 Minuten ruhen lassen.",
+            "Währrendessen die Süßkartoffel schälen, in grobe Stücke schneiden und kochen. Den Knoblauch, Tofu und Pilze schneiden und in etwas Öl in einer Pfanne braten. Alle Zutaten mit dem Tomatenmark und Petersilie in eine Schüssel geben und pürieren.",
+            "Für die Joghurtsauce die Knoblauchzehen pressen oder sehr fein hacken und mit dem Joghurt verrühren und mit Salz abschmecken.",
+            "Nach der Ruhezeit den Teig in 4 Teile teilen. Ein Viertel des Teigs nehmen und den Rest wieder einwickeln, damit er nicht austrocknet. Den Teig ca. 2 mm dünn ausrollen (nach Bedarf mit etwas Hartweizengrieß bestäuben, wenn er kleben sollte). Mit einem Messer oder Pizzaroller in ca. 2 x 2 cm große Quadrate schneiden.",
+            "Etwa ½ Teelöffel der Füllung in die Mitte eines Teigstücks geben. Die jeweils gegenüberliegenden Ecken der Quadrate zu einem Kreuz oben fest zusammendrücken und anschließend auf ein bemehltes Tablett legen.",
+            "Ein Topf mit Salzwasser zum Sieden bringen (es sollte nicht sprudelnd kochen). Die Manti ca. 5 Minuten im Wasser sieden lassen. Anschließend die Teigtaschen mit einer Schaumkelle herausnehmen und etwas abtropfen lassen.",
+            "Für die Buttersauce, die Butter oder Margarine in einem Topf schmelzen lassen und mit dem Tomatenmark und dem Paprikagewürz mischen.",
+            "Die Joghurtsoße auf tiefen Tellern verteilen. Die Mantis darauf anrichten und die Tomatenbutter darüber träufeln."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "300 gr"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "150 ml"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Süßkartoffel",
+                "quantity": "1 große"
+              },
+              {
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Räuchertofu",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Tomatenmark",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "Petersilie",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Paprikapulver",
+                "quantity": "nach Geschmack"
+              }
+            ]
+          },
+          {
+            "name": "Für den Dip",
+            "ingredients": [
+              {
+                "name": "(veganer) Joghurt",
+                "quantity": "200 Gramm"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "2 Zehen"
+              }
+            ]
+          },
+          {
+            "name": "Für die Buttersauce",
+            "ingredients": [
+              {
+                "name": "Butter / Margarine",
+                "quantity": "3 EL"
+              },
+              {
+                "name": "Tomatenmark",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Paprikapulver",
+                "quantity": "1 EL"
+              }
+            ]
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Mittel",
+        "time": "80 Minuten",
+        "tips": [
+          "Beim Falten die Ecken etwas anziehen, damit das Zusammendrücken der Kanten leichter wird."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 3
+          },
+          {
+            "name": "liked_by",
+            "value": 4
+          }
+        ],
+        "restaurants": [
+          "Lezizel Manti Köln, Lieferservice"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Oman",
+        "text": "Luqaimat"
+      },
+      "geometry": {
+        "coordinates": [
+          55.923255,
+          21.512583
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Luqaimat",
+          "culture": "Luqaimat wird häufig zu Eid, dem Fastenbrechen nach Ramadan, und zu anderen festlichen Anlässen zubereitet.",
+          "preparation": [
+            "Mehl und Wasser miteinander verrühren, bis der Teig nicht mehr klumpig ist. Anschließend Zucker, Backpulver, die Hefe und eine Prise Salz dazugeben. Den Teig dann mit einem Tuch abdecken und für ungefähr eine Stunde an einem warmen Ort gehen lassen.",
+            "Nach der Ruhezeit den Frischkäse in kleine Stücke schneiden und das Öl in einer Pfanne aufkochen.",
+            "Mithilfe eines Löffels kleine Kugeln formen und ein Stück Frischkäse hineinstecken. Die Kugeln frittieren, bis sie goldbraun sind.",
+            "Nach Geschmack mit Zuckersirup und Sesam servieren."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "250 gr"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "300 ml"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Prise"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Hefe",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Backpulver",
+                "quantity": "1 TL"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Frischkäse",
+                "quantity": ""
+              }
+            ]
+          },
+          {
+            "name": "Für den Dip",
+            "ingredients": [
+              {
+                "name": "Zuckersirup",
+                "quantity": "nach Geschmack"
+              },
+              {
+                "name": "Sesam",
+                "quantity": "nach Geschmack"
+              }
+            ]
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Mittel",
+        "time": "80 Minuten",
+        "tips": [
+          ""
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 5
+          },
+          {
+            "name": "liked_by",
+            "value": 4
+          }
+        ],
+        "restaurants": [
+          ""
         ]
       }
     }

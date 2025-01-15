@@ -3,11 +3,15 @@ import { Marker } from 'react-leaflet';
 import Momos from './recipes/Momos'
 import Maultaschen from './recipes/Maultaschen'
 import Empanadas from './recipes/Empanadas'
-import Jiaozi from './recipes/Jiaozi'
-import Tortellini from './recipes/Tortellini'
+import Pizzataschen from './recipes/Jiaozi'
+import Gözleme from './recipes/Gözleme'
 import Gyoza from './recipes/Gyoza'
 import GoldenSyrupDumplings from './recipes/GoldenSyrupDumplings'
 import Pierogi from './recipes/Pierogi'
+import Sambusas from './recipes/Sambusas'
+import Manti from './recipes/Manti';
+import Luqaimat from './recipes/Luqaimat';
+
 
 
 
@@ -53,15 +57,21 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
                     case 3:
                         return <Empanadas feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
                     case 4:
-                        return <Jiaozi feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
+                        return <Gözleme feature={selectedFeature} setFeatureFocus={setFeatureFocus} /> 
                     case 5:
-                        return <Tortellini feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                        return <Pizzataschen feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 6:
                         return <Gyoza feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 7:
                         return <GoldenSyrupDumplings feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 8:
-                        return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                        return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus}/>
+                    case 10:
+                        return <Sambusas feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                    case 11:
+                        return <Manti feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                    case 12:
+                        return <Luqaimat feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     default:
                         return null
                 }

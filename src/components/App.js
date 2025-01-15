@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MapContainer, ZoomControl, TileLayer } from 'react-leaflet';
+import { MapContainer, ZoomControl, TileLayer, useMap } from 'react-leaflet';
 import GeoFeatures from './GeoFeatures';
 import FragmentViz from './FragmentViz';
 import PlaceList from './PlaceList';
@@ -18,6 +18,21 @@ export const mapCenter = [40.637262, 32.083669];
  * Initial zoom level of the map
  */
 export const mapZoom = 4.5;
+
+/**
+ * Component to toggle map scroll interactivity
+ */
+function MapInteractivityToggle({ isInteractive }) {
+    const map = useMap();
+    if (isInteractive) {
+        map.scrollWheelZoom.enable();
+        map.dragging.enable();
+    } else {
+        map.scrollWheelZoom.disable();
+        map.dragging.disable();
+    }
+    return null;
+}
 
 /**
  * Component displaying the map container and all embedded child elements
@@ -48,7 +63,9 @@ export default function App() {
                 zoomSnap={0.5}
                 zoomDelta={0.5}
                 maxBounds={[[90, -180], [-90, 180]]}
-                maxBoundsViscosity={1.0}>
+                maxBoundsViscosity={1.0}
+                attributionControl={false}>
+                <MapInteractivityToggle isInteractive={!featureFocus} />
                 <TileLayer
                     attribution={esriWorldPhysical.attribution}
                     url={esriWorldPhysical.url}

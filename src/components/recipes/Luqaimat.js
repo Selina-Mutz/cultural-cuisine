@@ -1,15 +1,17 @@
-import RecipeBox from '../RecipeBox';
-import flagItaly from '../../data/flags/italy.png';
+import RecipeBox from '../RecipeBox'
+import flagOman from '../../data/flags/oman.png';
+import luqaimatFertig from '../../data/luqaimat/luqaimat_fertig.jpg';
+
 
 /**
- * Component displaying the recipe and pictures for Tortellini
+ * Component displaying the recipe and pictures for Momos
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function Tortellini({ feature, setFeatureFocus }) {
+export default function Luqaimat({ feature, setFeatureFocus }) {
 
     return (
         <div>
@@ -23,8 +25,8 @@ export default function Tortellini({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}
-                flagImages = {[flagItaly]}
+                images={[luqaimatFertig]}
+                flagImages = {[flagOman]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
