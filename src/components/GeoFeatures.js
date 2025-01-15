@@ -41,9 +41,9 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
         if (markerLocation.includes('argentinien')) return empanadaIcon;
         if (markerLocation.includes('türkei')) return gözlemeIcon;
         if (markerLocation.includes('vereinigte staaten')) return pizzaIcon;
-        if (markerLocation.includes('somalien')) return sambusaIcon;
+        if (markerLocation.includes('somalia')) return sambusaIcon;
         if (markerLocation.includes('deutschland')) return maultascheIcon;
-        if (markerLocation.includes('türkei')) return mantiIcon;
+        if (markerLocation.includes('turkey')) return mantiIcon;
 
         return empanadaIcon; // Default icon
     }
