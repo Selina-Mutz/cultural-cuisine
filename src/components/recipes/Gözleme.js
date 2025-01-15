@@ -1,5 +1,5 @@
 import RecipeBox from '../RecipeBox';
-import flagItaly from '../../data/flags/italy.png';
+import flagTurkey from '../../data/flags/turkey.png';
 
 /**
  * Component displaying the recipe and pictures for Tortellini
@@ -9,7 +9,7 @@ import flagItaly from '../../data/flags/italy.png';
  * @param {React.Dispatch} props.setFeatureFocus Function to update the value indicating whether a geo-object is currently selected or not
  * @returns {React.JSX.Element}
  */
-export default function Tortellini({ feature, setFeatureFocus }) {
+export default function Gözleme({ feature, setFeatureFocus }) {
 
     return (
         <div>
@@ -24,7 +24,7 @@ export default function Tortellini({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[flagItaly]}
+                flagImages = {[flagTurkey]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
