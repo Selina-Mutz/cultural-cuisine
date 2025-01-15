@@ -7,6 +7,7 @@ import './css/RecipeBox.css';
 import ImageCarousel from './ImageCarousel';
 import flagJapan from '../data/flags/japan.png';
 import flagPoland from '../data/flags/poland.png';
+import flagOman from '../data/flags/oman.png';
 
 
 /**
@@ -75,7 +76,7 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                                 src={imageSrc} 
                                 alt={`Flag ${index + 1}`} 
                                 className="flag-image"
-                                id={imageSrc === flagJapan || imageSrc === flagPoland ? "flag-with-border" : undefined} 
+                                id={imageSrc === flagJapan || imageSrc === flagPoland || imageSrc === flagOman ? "flag-with-border" : undefined} 
                             />
                         ))}
                     </div>
