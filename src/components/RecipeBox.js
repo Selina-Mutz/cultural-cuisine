@@ -141,6 +141,10 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                 </div>
                 <div
                     className="subsection-recipe-box-div">
+                    <ImageCarousel images={images}/>
+                </div>
+                <div
+                    className="subsection-recipe-box-div">
                     <Card.Text
                         className="subsection-title-recipe-box">
                         Kulturelle Bedeutung der {titleText}:
@@ -150,10 +154,6 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                         {cultureText}<br />
                         <br />
                     </Card.Text>
-                </div>
-                <div
-                    className="subsection-recipe-box-div">
-                    <ImageCarousel images={images}/>
                 </div>
                 <div
                     className="subsection-recipe-box-div">
