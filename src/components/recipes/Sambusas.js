@@ -1,4 +1,19 @@
 import RecipeBox from '../RecipeBox'
+import sambusasFertig from'../../data/sambusas/sambusasfertig.jpg';
+import sambusasZutaten from'../../data/sambusas/sambusaszutaten.jpg';
+import sambusasFladen from'../../data/sambusas/sambusasfladen.jpg';
+import sambusasViertel from'../../data/sambusas/sambusasviertel.jpg';
+import sambusasFüllung from'../../data/sambusas/sambusasfüllung.jpg';
+import sambusasTüte from'../../data/sambusas/sambusastüte.jpg';
+import sambusasFrittiert from'../../data/sambusas/sambusasfrittiert.jpg';
+import sambusasDip from'../../data/sambusas/sambusasdip.jpg';
+
+
+
+
+
+
+
 import flagSomalia from '../../data/flags/somalia.png';
 
 
@@ -25,7 +40,7 @@ export default function Sambusas({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}
+                images={[sambusasFertig,sambusasZutaten,sambusasFladen,sambusasViertel,sambusasFüllung,sambusasTüte,sambusasFrittiert,sambusasDip]}
                 flagImages = {[flagSomalia]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
