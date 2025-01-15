@@ -1,5 +1,6 @@
 import RecipeBox from '../RecipeBox'
 import flagOman from '../../data/flags/oman.png';
+import luqaimatFertig from '../../data/luqaimat/luqaimat_fertig.jpg';
 
 
 /**
@@ -24,7 +25,7 @@ export default function Luqaimat({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[]}
+                images={[luqaimatFertig]}
                 flagImages = {[flagOman]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
