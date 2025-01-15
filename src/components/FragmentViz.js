@@ -3,7 +3,7 @@ import { Marker } from 'react-leaflet';
 import Momos from './recipes/Momos'
 import Maultaschen from './recipes/Maultaschen'
 import Empanadas from './recipes/Empanadas'
-import Pizzataschen from './recipes/Jiaozi'
+import Pizzataschen from './recipes/Pizzataschen'
 import Gözleme from './recipes/Gözleme'
 import Gyoza from './recipes/Gyoza'
 import GoldenSyrupDumplings from './recipes/GoldenSyrupDumplings'

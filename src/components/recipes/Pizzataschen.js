@@ -1,4 +1,5 @@
 import RecipeBox from '../RecipeBox';
+import usaFlag from '../../data/flags/usa.png';
 
 
 /**
@@ -24,7 +25,7 @@ export default function Pizzataschen({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[]}
+                flagImages = {[usaFlag]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
