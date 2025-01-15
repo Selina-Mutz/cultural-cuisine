@@ -140,6 +140,20 @@
       "type": "Point"
     },
     "id": 10
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Manti, TUR"
+    },
+    "geometry": {
+      "coordinates": [
+        28.543668,
+        38.963745
+      ],
+      "type": "Point"
+    },
+    "id": 11
   }
   ]
 }
