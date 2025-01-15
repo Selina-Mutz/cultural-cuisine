@@ -613,9 +613,15 @@
       "recipe": {
         "text": {
           "title": "Gyoza",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Gyoza ist ein Klassiker der japanischen Küche, oft serviert als Vorspeise oder Snack. Diese knusprig gebratenen Teigtaschen, gefüllt mit Fleisch und Gemüse, haben jedoch ihre Wurzeln in den chinesischen Jiaozi.Im Laufe der Zeit entwickelte sich Gyoza zu einer eigenständigen, ikonischen Spezialität. Ursprünglich aus China stammend, wo Jiaozi seit über 1800 Jahren ein traditionelles Gericht ist, wurde Gyoza Anfang des 20. Jahrhunderts durch chinesische Einwanderer nach Japan gebracht. Nach dem Zweiten Weltkrieg gewann Gyoza dank neuer Kochtechniken und Zutaten an Popularität und wurde in den 1950er-Jahren zu einem Streetfood-Klassiker in Japan.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Als ersten Schritt entweder alle Zutaten in einer Küchenmaschine häckseln oder alles sehr fein hacken. Anschließend alle Zutaten in eine Schüssel geben und Salz, Zucker, Sojasauce und Sesamöl hinzufügen.",
+            "Alles mit den Händen vermischen und für zwei Minuten durchkneten, bis die Masse gut vermengt und homogen ist.",
+            "Lege alle Gyozablätter auf ein Backblech. Gib einen gehäuften Teelöffel der Füllung in die Mitte jedes Blattes und bestreiche den Rand leicht mit Wasser.",
+            "Zum Formen werden die Gyozablätter wie ein Taco geschlossen, indem ein Teil des Teiges zur Mitte hin gefaltet wird und die Falte festgedrückt wird. Dieser Vorgang wird bis zum Rand und auf beiden Seiten wiederholt.",
+            "In eine große, beschichtete Pfanne genügend Öl hinzufügen, um den Boden mit einer dünnen Schicht zu bedecken. Die Pfanne auf mittlerer Hitze erwärmen.Die Teigtaschen in die Pfanne legen, ohne dass sie sich überlappen und 2 bis 3 Minuten anbraten, oder bis der Boden der Gyoza goldbraun ist.",
+            "Sofort 60 ml Wasser hinzufügen, mit einem Deckel abdecken und 3 Minuten bei konstanter Temperatur dämpfen.",
+            "Den Deckel entfernen und das verbleibende Wasser verdampfen lassen. Im Anschluss die Gyoza auf einen Teller mit Küchenpapier transferieren, um überschüssiges Öl abtropfen zu lassen. Zum Schluss die Gyoza anrichten und nach Belieben mit Frühlingszwiebeln, Koriander oder Sauce garnieren."
           ]
         },
         "ingredients": [
@@ -623,12 +629,8 @@
             "name": "Für den Teig",
             "ingredients": [
               {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
-              },
-              {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
+                "name": "Gyozablätter",
+                "quantity": "1 Packung"
               }
             ]
           },
@@ -636,12 +638,40 @@
             "name": "Für die Füllung",
             "ingredients": [
               {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
+                "name": "Hähnchenfleisch",
+                "quantity": "450g"
               },
               {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
+                "name": "Weißkohl",
+                "quantity": "3 Blätter"
+              },
+              {
+                "name": "Ingwer",
+                "quantity": "7,5g"
+              },
+              {
+                "name": "Knoblauchzehen",
+                "quantity": "2"
+              },
+              {
+                "name": "Frühlingszwiebeln",
+                "quantity": "3"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "1/2 TL "
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Sesamöl",
+                "quantity": "1 TL"
               }
             ]
           },
@@ -649,8 +679,16 @@
             "name": "Für die Sauce",
             "ingredients": [
               {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
+                "name": "Weißweinessig",
+                "quantity": "4 EL"
+              },
+              {
+                "name": "Sojasauce",
+                "quantity": "4 EL"
+              },
+              {
+                "name": "Chiliöl",
+                "quantity": "1 TL"
               }
             ]
           },
@@ -658,30 +696,38 @@
             "name": "Als Topping",
             "ingredients": [
               {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
+                "name": "Koriander",
+                "quantity": "Nach Geschmack"
+              },
+              {
+                "name": "Frühlingszwiebeln",
+                "quantity": "Nach Geschmack"
               }
             ]
           }
         ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        "servings": 3,
+        "difficulty": "Mittel",
+        "time": "45 Minuten",
         "tips": [
-          "Array von Tipps"
+          "Verwende ausreichend Wasser beim Falten der Gyoza, damit die Ränder fest verschlossen bleiben. Achte außerdem darauf, dass keine Luftblasen im Inneren bleiben!"
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 9
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 23
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
         "restaurants": [
-          "Array von Restaurantempfehlungen"
+          "Sushi Ninja / Ehrenfeld"
         ]
       }
     },
@@ -702,9 +748,13 @@
       "recipe": {
         "text": {
           "title": "Golden Syrup Dumplings",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Golden Syrup Dumplings sind eines der beliebtesten Komfortgerichte in Australien und Neuseeland. Sie erinnern an warme Familienabende und hausgemachte Mahlzeiten. Die weichen Teiglinge, gekocht in einer süßen Goldsirup-Soße, vereinen britische Kocheinflüsse mit der Vorliebe beider Länder für einfache Desserts. ",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "Reibe die Butter mit deinen Fingern durch das Mehl, bis kleine Brösel entstehen.",
+            "Füge die Milch und den Zucker hinzu und verrühre es, bis eine dicke Paste entsteht",
+            "Gib währenddessen die Zutaten für die Sauce in einen großen Topf und bringe diesen zum Kochen. Reduziere anschließend die Hitze und füge die Teigtaschen hinzu.",
+            "Koche die Teigtaschen bei mittlerer Hitze abgedeckt während 15-20 Minuten",
+            "Die Teigtaschen auf einen Teller transferieren und nach Belieben mit Vanilleeis servieren"
           ]
         },
         "ingredients": [
@@ -712,25 +762,20 @@
             "name": "Für den Teig",
             "ingredients": [
               {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
+                "name": "Butter",
+                "quantity": "50g"
               },
               {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
-              }
-            ]
-          },
-          {
-            "name": "Für die Füllung",
-            "ingredients": [
-              {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
+                "name": "Mehl",
+                "quantity": "225g"
               },
               {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
+                "name": "Milch",
+                "quantity": "185ml"
+              },
+              {
+                "name": "Golden Syrup (oder Zuckerrübensirup)",
+                "quantity": "2 EL"
               }
             ]
           },
@@ -738,8 +783,20 @@
             "name": "Für die Sauce",
             "ingredients": [
               {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
+                "name": "Wasser",
+                "quantity": "470ml"
+              },
+              {
+                "name": "Butter",
+                "quantity": "50g"
+              },
+              {
+                "name": "Golden Syrup (oder Zuckerrübensirup)",
+                "quantity": "120ml"
+              },
+              {
+                "name": "Brauner Zucker",
+                "quantity": "160g"
               }
             ]
           },
@@ -747,30 +804,35 @@
             "name": "Als Topping",
             "ingredients": [
               {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
+                "name": "Vanilleeis",
+                "quantity": "Nach Geschmack"
               }
             ]
           }
         ],
-        "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        "servings": 6,
+        "difficulty": "Einfach",
+        "time": "20 Minuten",
         "tips": [
-          "Array von Tipps"
+          "Wenn du dir unsicher bist, ob die Teiglinge durch sind, stich mit ein Messer hinein. Wenn das Messer sauber herauskommt, dann sind sie fertig!",
+          "Falls du keinen Golden Syrup (oder Zuckerrübensirup) finden solltest, kannst du stattdessen auch Honig oder Ahornsirup verwenden."
         ],
         "metrics": [
           {
             "name": "cooked_by",
-            "value": 7
+            "value": 0
           },
           {
             "name": "liked_by",
-            "value": 13
+            "value": 0
+          },
+          {
+            "name": "disliked_by",
+            "value": 0
           }
         ],
         "restaurants": [
-          "Array von Restaurantempfehlungen"
+          "N/A"
         ]
       }
     },
@@ -779,7 +841,7 @@
       "type": "Feature",
       "properties": {
         "marker_location": "Polen",
-        "text": "Kurzinfo zu Pierogi."
+        "text": "Das Nationalgericht Polens."
       },
       "geometry": {
         "coordinates": [
@@ -791,9 +853,13 @@
       "recipe": {
         "text": {
           "title": "Pierogi",
-          "culture": "Kulturelle Bedutung der Teigtaschen",
+          "culture": "Das polnische Wort pieróg ist seit dem 17. Jahrhundert belegt, die ersten Rezepte dafür gab es allerdings schon im 13. Jahrhundert.",
           "preparation": [
-            "Array an Zubereitungsschritten. Für jeden Absatz einen String erstellen."
+            "In einer Schüssel Mehl, Salz, Öl und Wasser mischen und kneten, bis ein glatter Teig entsteht. Den Teig in Frischhaltefolie wickeln und 30 Minuten im Kühlschrank ruhen lassen.",
+            "In der Zwischenzeit die Kartoffeln in Salzwasser kochen und Pilze und Tofu in grobe Stücke schneiden und anbraten. Zusammen mit den gekochten Kartoffeln in eine Schüssel geben, pürieren und mit Salz und Pfeffer abschmecken.",
+            "Mit einem Glas runde Formen ausstechen und die Füllung mittig darauf legen. Darauf achten das es nicht zu viel ist, da die Füllung beim Kochen sonst herausquillt und die Pierogi zerfallen. Den Teig zu einem Halbkreis falten und die Ränder gut zusammendrücken.",
+            "Die Pierogi in Salzwasser kochen, bis sie an der Oberfläche schwimmen. Danach noch ca. 2-3 Minuten kochen, und in einem Sieb abtropfen lassen.",
+            "Zum Abschluss die Pierogi noch einmal von beiden Seiten in einer Pfanne mit etwas Öl kross braten und warm servieren."
           ]
         },
         "ingredients": [
@@ -801,12 +867,20 @@
             "name": "Für den Teig",
             "ingredients": [
               {
-                "name": "Zutat1Name",
-                "quantity": "Wieviel"
+                "name": "Mehl",
+                "quantity": "500 gr"
               },
               {
-                "name": "Zutat2Name",
-                "quantity": "Wieviel"
+                "name": "Wasser",
+                "quantity": "200 ml"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
               }
             ]
           },
@@ -814,12 +888,20 @@
             "name": "Für die Füllung",
             "ingredients": [
               {
-                "name": "Zutat3Name",
-                "quantity": "Wieviel"
+                "name": "Kartoffeln",
+                "quantity": "500 gr"
               },
               {
-                "name": "Zutat4Name",
-                "quantity": "Wieviel"
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Tofu",
+                "quantity": "200 gr"
               }
             ]
           },
@@ -827,8 +909,8 @@
             "name": "Für die Sauce",
             "ingredients": [
               {
-                "name": "Zutat5Name",
-                "quantity": "Wieviel"
+                "name": "Sauerrahm",
+                "quantity": "nach Geschmack"
               }
             ]
           },
@@ -836,17 +918,17 @@
             "name": "Als Topping",
             "ingredients": [
               {
-                "name": "Zutat6Name",
-                "quantity": "Wieviel"
+                "name": "Petersilie",
+                "quantity": "nach Geschmack"
               }
             ]
           }
         ],
         "servings": 0,
-        "difficulty": "Schwierigkeit Einfach/Mittel/Anspruchsvoll",
-        "time": "Zeit in Minuten",
+        "difficulty": "Einfach",
+        "time": "60 Minuten",
         "tips": [
-          "Array von Tipps"
+          "Beim Falten die Kanten etwas mit Wasser anfeuchten, damit der Teig gut zusammenhält."
         ],
         "metrics": [
           {
@@ -859,7 +941,7 @@
           }
         ],
         "restaurants": [
-          "Array von Restaurantempfehlungen"
+          "Maxima, Marsilstein 9-13, 50676 Köln"
         ]
       }
     },
@@ -1178,6 +1260,138 @@
         ],
         "restaurants": [
           "Array von Restaurantempfehlungen"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Turkey",
+        "text": "Manti"
+      },
+      "geometry": {
+        "coordinates": [
+          28.543668,
+          38.963745
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Manti",
+          "culture": "Dieses Gericht ist seit den Tagen des Osmanischen Reiches weit verbreitet und soll sogar ein persönlicher Favorit der Sultane gewesen sein. Heute wird das Gericht bei einer traditionellen Zeremonie vor der Hochzeit in der Türkei verwendet, bei der eine besondere Art von Mantı aus der Stadt Kayseri, bekannt als „Kayseri Mantısı“, gegessen wird.",
+          "preparation": [
+            "Mehl und Salz vermengen und in der Mitte eine Mulde formen. Das lauwarme Wasser vorsichtig hineingießen und das Mehl von außen nach innen einarbeiten und zu einem glatten Teig verkneten. (Sollte der Teig zu trocken sein, kann man etwas mehr Wasser dazugeben). Den Teig fest in Folie wickeln und 20-30 Minuten ruhen lassen.",
+            "Währrendessen die Süßkartoffel schälen, in grobe Stücke schneiden und kochen. Den Knoblauch, Tofu und Pilze schneiden und in etwas Öl in einer Pfanne braten. Alle Zutaten mit dem Tomatenmark und Petersilie in eine Schüssel geben und pürieren.",
+            "Für die Joghurtsauce die Knoblauchzehen pressen oder sehr fein hacken und mit dem Joghurt verrühren und mit Salz abschmecken.",
+            "Nach der Ruhezeit den Teig in 4 Teile teilen. Ein Viertel des Teigs nehmen und den Rest wieder einwickeln, damit er nicht austrocknet. Den Teig ca. 2 mm dünn ausrollen (nach Bedarf mit etwas Hartweizengrieß bestäuben, wenn er kleben sollte). Mit einem Messer oder Pizzaroller in ca. 2 x 2 cm große Quadrate schneiden.",
+            "Etwa ½ Teelöffel der Füllung in die Mitte eines Teigstücks geben. Die jeweils gegenüberliegenden Ecken der Quadrate zu einem Kreuz oben fest zusammendrücken und anschließend auf ein bemehltes Tablett legen.",
+            "Ein Topf mit Salzwasser zum Sieden bringen (es sollte nicht sprudelnd kochen). Die Manti ca. 5 Minuten im Wasser sieden lassen. Anschließend die Teigtaschen mit einer Schaumkelle herausnehmen und etwas abtropfen lassen.",
+            "Für die Buttersauce, die Butter oder Margarine in einem Topf schmelzen lassen und mit dem Tomatenmark und dem Paprikagewürz mischen.",
+            "Die Joghurtsoße auf tiefen Tellern verteilen. Die Mantis darauf anrichten und die Tomatenbutter darüber träufeln."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "300 gr"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "150 ml"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 TL"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Süßkartoffel",
+                "quantity": "1 große"
+              },
+              {
+                "name": "Pilze",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Räuchertofu",
+                "quantity": "200 gr"
+              },
+              {
+                "name": "Tomatenmark",
+                "quantity": "1 EL"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "Petersilie",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Paprikapulver",
+                "quantity": "nach Geschmack"
+              }
+            ]
+          },
+          {
+            "name": "Für den Dip",
+            "ingredients": [
+              {
+                "name": "(veganer) Joghurt",
+                "quantity": "200 Gramm"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "2 Zehen"
+              }
+            ]
+          },
+          {
+            "name": "Für die Buttersauce",
+            "ingredients": [
+              {
+                "name": "Butter / Margarine",
+                "quantity": "3 EL"
+              },
+              {
+                "name": "Tomatenmark",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Paprikapulver",
+                "quantity": "1 EL"
+              }
+            ]
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Mittel",
+        "time": "80 Minuten",
+        "tips": [
+          "Beim Falten die Ecken etwas anziehen, damit das Zusammendrücken der Kanten leichter wird."
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 3
+          },
+          {
+            "name": "liked_by",
+            "value": 4
+          }
+        ],
+        "restaurants": [
+          "Lezizel Manti Köln, Lieferservice"
         ]
       }
     }

@@ -8,12 +8,11 @@ import gyozaIcon from '../data/icons/gyoza_icon.png';
 import gsdIcon from '../data/icons/goldensyrupdumpling_icon.png';
 import pierogiIcon from '../data/icons/pierogi_icon.png';
 import momoIcon from '../data/icons/momo_icon.png';
-import gözlemeIcon from '../data/icons/gözleme_icon.png'
-import pizzaIcon from '../data/icons/pizzatasche_icon.png'
-import pirukadIcon from '../data/icons/pirukad_icon.png'
-import luqaimatIcon from '../data/icons/luqaimat_icon.png'
-import sambusaIcon from '../data/icons/sambusa_icon.png'
-import maultascheIcon from '../data/icons/maultasche_icon.png'
+import gözlemeIcon from '../data/icons/gözleme_icon.png';
+import pizzaIcon from '../data/icons/pizzatasche_icon.png';
+import sambusaIcon from '../data/icons/sambusa_icon.png';
+import maultascheIcon from '../data/icons/maultasche_icon.png';
+import mantiIcon from '../data/icons/manti_icon.png';
 
 
 /**
@@ -40,12 +39,11 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
         if (markerLocation.includes('australien')) return gsdIcon;
         if (markerLocation.includes('polen')) return pierogiIcon;
         if (markerLocation.includes('argentinien')) return empanadaIcon;
-        if (markerLocation.includes('')) return gözlemeIcon;
-        if (markerLocation.includes('')) return pizzaIcon;
+        if (markerLocation.includes('türkei')) return gözlemeIcon;
+        if (markerLocation.includes('vereinigte staaten')) return pizzaIcon;
         if (markerLocation.includes('somalia')) return sambusaIcon;
         if (markerLocation.includes('deutschland')) return maultascheIcon;
-        if (markerLocation.includes('')) return luqaimatIcon;
-        if (markerLocation.includes('')) return pirukadIcon;
+        if (markerLocation.includes('turkey')) return mantiIcon;
 
         return empanadaIcon; // Default icon
     }
