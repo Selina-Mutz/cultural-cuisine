@@ -63,7 +63,8 @@ export default function App() {
                 zoomSnap={0.5}
                 zoomDelta={0.5}
                 maxBounds={[[90, -180], [-90, 180]]}
-                maxBoundsViscosity={1.0}>
+                maxBoundsViscosity={1.0}
+                attributionControl={false}>
                 <MapInteractivityToggle isInteractive={!featureFocus} />
                 <TileLayer
                     attribution={esriWorldPhysical.attribution}
