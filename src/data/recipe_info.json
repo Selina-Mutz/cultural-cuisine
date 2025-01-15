@@ -1044,8 +1044,8 @@
       },
       "geometry": {
         "coordinates": [
-          10.000,
-          49.000
+          49.000,
+          10.000
         ],
         "type": "Point"
       },
@@ -1054,7 +1054,13 @@
           "title": "Sambusas",
           "culture": "Kultur hier Indien Samosas dies das",
           "preparation": [
-            "Schritte hier"
+            "Für den Teig Mehl, Olivenöl, etwas Wasser und Salz verkneten. Bei Bedarf etwas mehr Wasser oder Mehl dazugeben, bis ein weicher Teig entsteht, der sich trocken anfühlt.",
+            "Den Teigballen anschließend in zwei Stücke teilen und flachdrücken, bis zwei kleine Fladen entstehen. Einen der Fladen mit einem Esslöffel Olivenöl bestreichen, den anderen drauf legen und die Fladen sanft zusammendrücken. Den doppelten Teigfladen von beiden Seiten vorsichtig zu einem dünnen, runden Boden ausrollen.",
+            "Danach das Teigstück in vier gleich große Teile schneiden, eine Pfanne ohne Öl erhitzen und jedes der Stücke von beiden Seiten rund eine Minute braten. Die beiden Schichten der Teigviertel lassen sich anscheinend voneinander lösen und man erhält zwei dünnere Teigstücke: die Umhüllung für die Sambusas.",
+            "Für die Füllung Zwiebeln und Knoblauch sehr fein hacken und in einer Pfanne anbraten. Das Hackfleisch dazugeben und alles gut anbraten, bis das Fleisch durch ist. Die Gewürze dazugeben und das Hackfleisch zu feinen Stücken zerteilen.",
+            "Minze und Gurke sehr fein hacken und mit dem Joghurt und dem Saft einer halben Zitrone zu einem Dip verrühren. Mit Salz und etwas Pfeffer abschmecken.",
+            "Einen Esslöffel Wasser und einen Esslöffel Mehl in einer kleinen Schlüssel zu einer klebrigen Masse verrühren. Die Spitze der Teigviertel zur Rundung umklappen und danach eine der beiden Seiten über das entstandene Dreieck klappen, bis eine Art Eiswaffel entsteht. Dabei die Ränder des Teigs mit dem Kleber befeuchten und leicht zudrücken. Die entstandene Tüte mit 2 Esslöffel der Füllung befüllen, und die letzte verbliebene Seite umklappen und alles gut schließen.",
+            "Das Öl in einer großen Pfanne oder Topf stark erhitzen, anschließend die Teigtaschen von beiden Seiten rund eine Minute frittieren, bis sie gebräunt sind. Auf Küchenpapier abtropfen lassen und heiß oder kalt mit dem Dip genießen."
           ]
         },
         "ingredients": [
@@ -1063,11 +1069,19 @@
             "ingredients": [
               {
                 "name": "Mehl",
-                "quantity": "hier"
+                "quantity": "300 Gramm"
               },
               {
                 "name": "Wasser",
-                "quantity": "100g"
+                "quantity": "Nach Bedarf (ca. 50-100 Milliliter)"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "2 Esslöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "Eine Prise"
               }
             ]
           },
@@ -1077,6 +1091,30 @@
               {
                 "name": "(veganes) Hackfleisch",
                 "quantity": "500 gramm"
+              },
+              {
+                "name": "Zwiebeln",
+                "quantity": "2"
+              },
+              {
+                "name": "Knoblauch",
+                "quantity": "1 Zehe"
+              },
+              {
+                "name": "gemahlener Koriander",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Massala Gewürz",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "1/2 Teelöffel"
               }
             ]
           },
@@ -1086,15 +1124,35 @@
               {
                 "name": "(veganer) Joghurt",
                 "quantity": "200 Gramm"
+              },
+              {
+                "name": "Minze",
+                "quantity": "50 Gramm"
+              },
+              {
+                "name": "Gurke",
+                "quantity": "1/4"
+              },
+              {
+                "name": "Zitrone",
+                "quantity": "1/2"
+              },
+              {
+                "name": "Salz",
+                "quantity": "Nach Belieben"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "Nach Belieben"
               }
             ]
           },
           {
-            "name": "Als Topping",
+            "name": "Zum Frittieren",
             "ingredients": [
               {
-                "name": "",
-                "quantity": ""
+                "name": "Pflanzliches Öl",
+                "quantity": "ca. 300 Milliliter"
               }
             ]
           }
@@ -1103,7 +1161,10 @@
         "difficulty": "Anspruchsvoll",
         "time": "80 Minuten",
         "tips": [
-          "Tippssss"
+          "Achte darauf, den doppelten Teigboden flach, aber auch nicht zu fest auszurollen, weil er sich sonst nur schwer ablösen lässt. Das Ablösen erfordert ausserdem viel Geduld, es kann helfen die zwei Hälften vorsichtig mit einem Messer voneinander zu lösen.",
+          "DEs kann ein wenig dauern, bis man das Falten der Sambusas drauf hat. Schau dir gerne ein Video zu der optimallen Falttechnik an. Falls es mal nicht klappt: die Form der fertigen Sambusas ist zweitrangig, Hauptsache die Taschen halten beim Frittieren!",
+          "Traditionell werden auch oft Frühlingszwiebeln für die Füllung verwendet, aber auch Kartoffeln oder Gemüse wie Möhren oder Brokkoli eignen sich gut.",
+          "Etwas Tzatzikigewürz kann helfen, den Dip noch leckerer zu machen. Außerdem kann man die Sambusas auch problemlos mit jedem anderen Dip genießen."
         ],
         "metrics": [
           {

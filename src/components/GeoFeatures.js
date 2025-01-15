@@ -42,7 +42,7 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
         if (markerLocation.includes('argentinien')) return empanadaIcon;
         if (markerLocation.includes('')) return gözlemeIcon;
         if (markerLocation.includes('')) return pizzaIcon;
-        if (markerLocation.includes('')) return sambusaIcon;
+        if (markerLocation.includes('somalia')) return sambusaIcon;
         if (markerLocation.includes('deutschland')) return maultascheIcon;
         if (markerLocation.includes('')) return luqaimatIcon;
         if (markerLocation.includes('')) return pirukadIcon;

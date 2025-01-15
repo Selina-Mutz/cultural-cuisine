@@ -8,6 +8,8 @@ import Tortellini from './recipes/Tortellini'
 import Gyoza from './recipes/Gyoza'
 import GoldenSyrupDumplings from './recipes/GoldenSyrupDumplings'
 import Pierogi from './recipes/Pierogi'
+import Sambusas from './recipes/Sambusas'
+
 
 
 
@@ -61,7 +63,9 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
                     case 7:
                         return <GoldenSyrupDumplings feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 8:
-                        return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                        return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus}/>
+                    case 10:
+                        return <Sambusas feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     default:
                         return null
                 }
