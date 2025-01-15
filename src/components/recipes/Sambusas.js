@@ -1,4 +1,5 @@
 import RecipeBox from '../RecipeBox'
+import flagSomalia from '../../data/flags/somalia.png';
 
 
 
@@ -25,7 +26,7 @@ export default function Sambusas({ feature, setFeatureFocus }) {
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
                 images={[]}
-                flagImages = {[]}
+                flagImages = {[flagSomalia]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>

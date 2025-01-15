@@ -10,8 +10,10 @@
     background-color: var(--background) !important;
 }
 
-#toast-icon {
-    font-size: 1.3rem;
+#toast-empanada-icon {
+    font-size: 1rem;
+    height: 40px;
+    width: auto;
 }
 
 #close-toast {
