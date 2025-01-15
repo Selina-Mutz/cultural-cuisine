@@ -153,7 +153,7 @@ export default function RecipeBox({ children, titleText, servings, timeText, dif
                 </div>
                 <div
                     className="subsection-recipe-box-div">
-                    <ImageCarousel images={images} />
+                    <ImageCarousel images={images}/>
                 </div>
                 <div
                     className="subsection-recipe-box-div">
