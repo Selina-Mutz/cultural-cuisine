@@ -148,12 +148,26 @@
     },
     "geometry": {
       "coordinates": [
-        28.543668,
-        38.963745
+        38.963745,
+        28.543668        
       ],
       "type": "Point"
     },
     "id": 11
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Luqaimat, OMN"
+    },
+    "geometry": {
+      "coordinates": [
+        21.512583,
+        55.923255        
+      ],
+      "type": "Point"
+    },
+    "id": 12
   }
   ]
 }

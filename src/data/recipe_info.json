@@ -1399,6 +1399,105 @@
           "Lezizel Manti Köln, Lieferservice"
         ]
       }
+    },
+    {
+      "id": 12,
+      "type": "Feature",
+      "properties": {
+        "marker_location": "Oman",
+        "text": "Luqaimat"
+      },
+      "geometry": {
+        "coordinates": [
+          55.923255,
+          21.512583
+        ],
+        "type": "Point"
+      },
+      "recipe": {
+        "text": {
+          "title": "Luqaimat",
+          "culture": "Luqaimat wird häufig zu Eid, dem Fastenbrechen nach Ramadan, und zu anderen festlichen Anlässen zubereitet.",
+          "preparation": [
+            "Mehl und Wasser miteinander verrühren, bis der Teig nicht mehr klumpig ist. Anschließend Zucker, Backpulver, die Hefe und eine Prise Salz dazugeben. Den Teig dann mit einem Tuch abdecken und für ungefähr eine Stunde an einem warmen Ort gehen lassen.",
+            "Nach der Ruhezeit den Frischkäse in kleine Stücke schneiden und das Öl in einer Pfanne aufkochen.",
+            "Mithilfe eines Löffels kleine Kugeln formen und ein Stück Frischkäse hineinstecken. Die Kugeln frittieren, bis sie goldbraun sind.",
+            "Nach Geschmack mit Zuckersirup und Sesam servieren."
+          ]
+        },
+        "ingredients": [
+          {
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "250 gr"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "300 ml"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Prise"
+              },
+              {
+                "name": "Zucker",
+                "quantity": "2 EL"
+              },
+              {
+                "name": "Hefe",
+                "quantity": "1 TL"
+              },
+              {
+                "name": "Backpulver",
+                "quantity": "1 TL"
+              }
+            ]
+          },
+          {
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Frischkäse",
+                "quantity": ""
+              }
+            ]
+          },
+          {
+            "name": "Für den Dip",
+            "ingredients": [
+              {
+                "name": "Zuckersirup",
+                "quantity": "nach Geschmack"
+              },
+              {
+                "name": "Sesam",
+                "quantity": "nach Geschmack"
+              }
+            ]
+          }
+        ],
+        "servings": 2,
+        "difficulty": "Mittel",
+        "time": "80 Minuten",
+        "tips": [
+          ""
+        ],
+        "metrics": [
+          {
+            "name": "cooked_by",
+            "value": 5
+          },
+          {
+            "name": "liked_by",
+            "value": 4
+          }
+        ],
+        "restaurants": [
+          ""
+        ]
+      }
     }
   ]
 }

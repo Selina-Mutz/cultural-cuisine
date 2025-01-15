@@ -13,6 +13,7 @@ import pizzaIcon from '../data/icons/pizzatasche_icon.png';
 import sambusaIcon from '../data/icons/sambusa_icon.png';
 import maultascheIcon from '../data/icons/maultasche_icon.png';
 import mantiIcon from '../data/icons/manti_icon.png';
+import luqaimatIcon from '../data/icons/goldensyrupdumpling_icon.png';
 
 
 /**
@@ -44,6 +45,7 @@ export default function GeoFeatures({ setSelectedFeature, setFeatureFocus }) {
         if (markerLocation.includes('somalia')) return sambusaIcon;
         if (markerLocation.includes('deutschland')) return maultascheIcon;
         if (markerLocation.includes('turkey')) return mantiIcon;
+        if (markerLocation.includes('oman')) return luqaimatIcon;
 
         return empanadaIcon; // Default icon
     }

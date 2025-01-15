@@ -9,6 +9,8 @@ import Gyoza from './recipes/Gyoza'
 import GoldenSyrupDumplings from './recipes/GoldenSyrupDumplings'
 import Pierogi from './recipes/Pierogi'
 import Sambusas from './recipes/Sambusas'
+import Manti from './recipes/Manti';
+import Luqaimat from './recipes/Luqaimat';
 
 
 
@@ -66,6 +68,10 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
                         return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus}/>
                     case 10:
                         return <Sambusas feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                    case 11:
+                        return <Manti feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
+                    case 12:
+                        return <Luqaimat feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     default:
                         return null
                 }
