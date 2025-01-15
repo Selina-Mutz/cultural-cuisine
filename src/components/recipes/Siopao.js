@@ -1,5 +1,5 @@
 import RecipeBox from '../RecipeBox';
-import siopao1 from '../../data//siopao-1.jpg';
+import siopao1 from '../../data/siopao/siopao1.jpg';
 import siopao2 from '../../data/siopao/siopao2.jpg';
 import siopao3 from '../../data/siopao/siopao3.jpg';
 import siopao4 from '../../data/siopao/siopao4.jpg';
@@ -10,6 +10,7 @@ import siopao8 from '../../data/siopao/siopao8.jpg';
 import siopao9 from '../../data/siopao/siopao9.jpg';
 import siopao10 from '../../data/siopao/siopao10.jpg';
 import siopao11 from '../../data/siopao/siopao11.jpg';
+import flagPhilippines from '../../data/flags/philippines.png';
 
 
 /**
@@ -34,7 +35,9 @@ export default function Siopao({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[siopao1, siopao2, siopao3, siopao4, siopao5, siopao6, siopao7, siopao8, siopao9, siopao10, siopao11]}>
+                flagImages = {[flagPhilippines]}
+                images={[siopao1, siopao2, siopao3, siopao4, siopao5, siopao6, siopao7, siopao8, siopao9, siopao10, siopao11]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );
