@@ -1134,7 +1134,7 @@
       "recipe": {
         "text": {
           "title": "Sambusas",
-          "culture": "Kultur hier Indien Samosas dies das",
+          "culture": " Die somalischen Sambusas haben ihre Wurzeln in den ähnlich aussehenden indischen Samosas, die durch den Handel und kulturellen Austausch im Laufe der Jahrhunderte nach Ostafrika gelangten. Sie repsäentieren Herzlichkeit und Gastlichkeit und werden oft zum Iftar, dem Fastenbrechen während des Ramadan, oder als Snack zwischendurch verzehrt.",
           "preparation": [
             "Für den Teig Mehl, Olivenöl, etwas Wasser und Salz verkneten. Bei Bedarf etwas mehr Wasser oder Mehl dazugeben, bis ein weicher Teig entsteht, der sich trocken anfühlt.",
             "Den Teigballen anschließend in zwei Stücke teilen und flachdrücken, bis zwei kleine Fladen entstehen. Einen der Fladen mit einem Esslöffel Olivenöl bestreichen, den anderen drauf legen und die Fladen sanft zusammendrücken. Den doppelten Teigfladen von beiden Seiten vorsichtig zu einem dünnen, runden Boden ausrollen.",
@@ -1184,6 +1184,10 @@
               },
               {
                 "name": "gemahlener Koriander",
+                "quantity": "1 Teelöffel"
+              },
+              {
+                "name": "Kümmel",
                 "quantity": "1 Teelöffel"
               },
               {
@@ -1245,6 +1249,7 @@
         "tips": [
           "Achte darauf, den doppelten Teigboden flach, aber auch nicht zu fest auszurollen, weil er sich sonst nur schwer ablösen lässt. Das Ablösen erfordert ausserdem viel Geduld, es kann helfen die zwei Hälften vorsichtig mit einem Messer voneinander zu lösen.",
           "Es kann ein wenig dauern, bis man das Falten der Sambusas drauf hat. Schau dir gerne ein Video zu der optimallen Falttechnik an. Falls es mal nicht klappt: die Form der fertigen Sambusas ist zweitrangig, Hauptsache die Taschen halten beim Frittieren!",
+          "Wer es sich einfacher machen will, kann auch fertigen Blätterteig verwenden.",
           "Traditionell werden auch oft Frühlingszwiebeln für die Füllung verwendet, aber auch Kartoffeln oder Gemüse wie Möhren oder Brokkoli eignen sich gut.",
           "Etwas Tzatzikigewürz kann helfen, den Dip noch leckerer zu machen. Außerdem kann man die Sambusas auch problemlos mit jedem anderen Dip genießen."
         ],
