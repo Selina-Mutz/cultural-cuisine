@@ -335,6 +335,10 @@
         },
         "ingredients": [
           {
+            "name": "Test",
+            "ingredients":
+            [
+          {
             "name": "Mehl",
             "quantity": "500 Gramm"
           },
@@ -382,6 +386,7 @@
             "name": "Butter",
             "quantity": "halbe Tasse"
           }
+        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -538,6 +543,10 @@
         },
         "ingredients": [
           {
+            "name": "Test",
+            "ingredients":
+            [
+          {
             "name": "Weizenmehl (Type 550)",
             "quantity": "250 Gramm"
           },
@@ -577,6 +586,7 @@
             "name": "Basilikum",
             "quantity": "1 Stängel"
           }
+        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
