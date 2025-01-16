@@ -7,60 +7,26 @@
 - Sandy Rodrigues
 - Selina Mutzbauer
 
-### Anforderungen an Webseite:
-- Karte:
-  - Filtermöglichkeit (Zutaten, herzhaft/süß, …)
-  - Restaurants (wenn möglich)
-  - Fun Facts, wenn sich welche ergeben
-- Variationen der Rezepte von anderen Regionen auch anzeigen, evtl. farblich und mit Overlay
-- Rezeptanzeige:
-  - Bilder
-  - Step-by-step Anleitung für die Kochschritte 
-  - Tabs für Anzeige von Rezept mit Dampfer, Fritteuse, Art der Füllung
+### Website-Features:
+- Interaktive Weltkarte mit kulinarischer Übersicht über Teigtaschen.
+- Detaillierte Rezepte mit Zutaten, Anleitung, Bildern, und weiteren Infos wie Dauer, Schwierigkeit, Tipps und kultureller Bedeutung.
+- ”Gefällt mir” und “Gekocht” Buttons.
+- Feedback Button zur Erfassung von Feedback, Rezeptwünschen, etc.
+- Architektur: Node.js, React, Leaflet, sowie JavaScript, HTML, CSS.
 
-
-### Arbeitsplan:
-14.11.2024: Recherche + Jeder kocht ein Rezept
-
-21.11.2024: Webseite machen + Recherche
-
-28.11.2024: Basics der Webseite fertig haben + Jeder kocht ein Rezept
-
-05.12.2024: Zusatzfunktionen einbauen + Recherche + Jeder kocht ein Rezept
-
-12.12.2024: Youtube oder Podcast(?) + erster Prototyp der Webseite kann vorgestellt werden
-
-19.12.2024: Webseite komplett fertig haben + Puffer
-
-28.12.2024: Falls nötig, irgendwas ändern + Abgeben
-
-
-### Meilensteine
-bis Ende November: 
-- [ ] alle haben min. 1 Rezept gekocht und Bilder / Text fertig für Webseite
-      
-bis 12.12.:
-- [ ] Prototyp der Webseite ist präsentationsbereit
-
-bis Ende Dezember: 
-- [ ] jeder hat drei Rezepte gekocht (mit Fotos und Dokumentation)
-
-bis Anfang Januar: 
-- [ ] Webseite steht und wir haben die letzten Wochen exquisit gegessen
-
-
-### Verfahrensweise:
-
-Webseite mit JavaScript und Leaflet
-
-Code wird hier in Github verwaltet.
 
 ### Arbeitsteilung / Rezepteverteilung:
-- Grundlage der Webseite wird gemeinsam erarbeitet
-- jede Person kocht min. 3 Rezepte und bereitet das Rezept sowie die Bilder für die Webseite vor und pflegt das in die Webseite ein
+- Grundlage der Webseite wurde gemeinsam erarbeitet.
+- Jede Person hat 3 Rezepte gekocht, das Rezept sowie die Bilder für die Webseite vorbereitet und in die Website eingepflegt.
+- Gemeinsame Arbeit an der Webseite:
+  - Projekt und Server Erstellung
+	- Rezepte und Fotos einpflegen
+	- Funktionalitäten einbauen
+	- Seite hübsch machen
+
 
 Bis Datum  | Katrin | Sandy | Tim | Selina
 ------------- | ------------- | ------------- | ------------- | ------------- 
 Rezept 1 bis 30.11.2024 | argentinische Empanadas | Gyoza  | Momos | Luqaimat  
 Rezept 2 bis 31.12.2024 | Gözleme | Siopao  | Maultaschen | Pierogi  
-Rezept 3 bis 31.12.2024 | Pizzataschen | Souskluitjies | Sambusas | Manti
+Rezept 3 bis 31.12.2024 | Pizzataschen | Golden Syrup Dumplings | Sambusas | Manti
