@@ -1,20 +1,20 @@
 import RecipeBox from '../RecipeBox';
 import flagTurkey from '../../data/flags/turkey.png';
-import Gözleme-1 from '../../data/gözleme/Gözleme-1.jpg';
-import Gözleme-2 from '../../data/gözleme/Gözleme-2.jpg';
-import Gözleme-3 from '../../data/gözleme/Gözleme-3.jpg';
-import Gözleme-4 from '../../data/gözleme/Gözleme-4.jpg';
-import Gözleme-5 from '../../data/gözleme/Gözleme-5.jpg';
-import Gözleme-6 from '../../data/gözleme/Gözleme-6.jpg';
-import Gözleme-7 from '../../data/gözleme/Gözleme-7.jpg';
-import Gözleme-8 from '../../data/gözleme/Gözleme-8.jpg';
-import Gözleme-9 from '../../data/gözleme/Gözleme-9.jpg';
-import Gözleme-10 from '../../data/gözleme/Gözleme-10.jpg';
-import Gözleme-11 from '../../data/gözleme/Gözleme-11.jpg';
-import Gözleme-12 from '../../data/gözleme/Gözleme-12.jpg';
+import Gözleme1 from '../../data/gözleme/Gözleme-1.jpg';
+import Gözleme2 from '../../data/gözleme/Gözleme-2.jpg';
+import Gözleme3 from '../../data/gözleme/Gözleme-3.jpg';
+import Gözleme4 from '../../data/gözleme/Gözleme-4.jpg';
+import Gözleme5 from '../../data/gözleme/Gözleme-5.jpg';
+import Gözleme6 from '../../data/gözleme/Gözleme-6.jpg';
+import Gözleme7 from '../../data/gözleme/Gözleme-7.jpg';
+import Gözleme8 from '../../data/gözleme/Gözleme-8.jpg';
+import Gözleme9 from '../../data/gözleme/Gözleme-9.jpg';
+import Gözleme10 from '../../data/gözleme/Gözleme-10.jpg';
+import Gözleme11 from '../../data/gözleme/Gözleme-11.jpg';
+import Gözleme12 from '../../data/gözleme/Gözleme-12.jpg';
 
 /**
- * Component displaying the recipe and pictures for Tortellini
+ * Component displaying the recipe and pictures for Gözleme
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
@@ -35,7 +35,7 @@ export default function Gözleme({ feature, setFeatureFocus }) {
                 preparationTextArray = {feature.recipe.text.preparation}
                 tipsTextArray = {feature.recipe.tips}
                 setFeatureFocus={setFeatureFocus}
-                images={[Gözleme-1, Gözleme-2, Gözleme-3, Gözleme-4, Gözleme-5, Gözleme-6, Gözleme-7, Gözleme-8, Gözleme-9, Gözleme-10, Gözleme-11, Gözleme-12]}
+                images={[Gözleme12, Gözleme1, Gözleme2, Gözleme3, Gözleme4, Gözleme5, Gözleme6, Gözleme7, Gözleme8, Gözleme9, Gözleme10, Gözleme11]}
                 flagImages = {[flagTurkey]}
                 metricsArray = {feature.recipe.metrics}>
             </RecipeBox>

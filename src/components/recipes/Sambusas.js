@@ -19,7 +19,7 @@ import flagSomalia from '../../data/flags/somalia.png';
 
 
 /**
- * Component displaying the recipe and pictures for Momos
+ * Component displaying the recipe and pictures for Sambusas
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
