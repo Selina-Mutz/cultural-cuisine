@@ -3,7 +3,7 @@ import { Marker } from 'react-leaflet';
 import Momos from './recipes/Momos'
 import Maultaschen from './recipes/Maultaschen'
 import Empanadas from './recipes/Empanadas'
-import Pizzataschen from './recipes/Jiaozi'
+import Pizzataschen from './recipes/Pizzataschen'
 import Gözleme from './recipes/Gözleme'
 import Gyoza from './recipes/Gyoza'
 import GoldenSyrupDumplings from './recipes/GoldenSyrupDumplings'
@@ -11,6 +11,7 @@ import Pierogi from './recipes/Pierogi'
 import Sambusas from './recipes/Sambusas'
 import Manti from './recipes/Manti';
 import Luqaimat from './recipes/Luqaimat';
+import Siopao from './recipes/Siopao'
 
 
 
@@ -66,6 +67,8 @@ export default function FragmentViz({ selectedFeature, setFeatureFocus }) {
                         return <GoldenSyrupDumplings feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 8:
                         return <Pierogi feature={selectedFeature} setFeatureFocus={setFeatureFocus}/>
+                    case 9:
+                        return <Siopao feature={selectedFeature} setFeatureFocus={setFeatureFocus}/>
                     case 10:
                         return <Sambusas feature={selectedFeature} setFeatureFocus={setFeatureFocus} />
                     case 11:

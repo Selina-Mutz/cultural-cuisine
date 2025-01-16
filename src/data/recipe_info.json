@@ -335,58 +335,63 @@
         },
         "ingredients": [
           {
-            "name": "Test",
-            "ingredients":
-            [
-          {
-            "name": "Mehl",
-            "quantity": "500 Gramm"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Mehl",
+                "quantity": "500 Gramm"
+              },
+              {
+                "name": "Salz",
+                "quantity": "4 Löffel"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "halbe Tasse"
+              }
+            ]
           },
           {
-            "name": "Salz",
-            "quantity": "4 Löffel"
-          },
-          {
-            "name": "Wasser",
-            "quantity": "halbe Tasse"
-          },
-          {
-            "name": "gelbe Zwiebeln",
-            "quantity": "2 mittelgroße"
-          },
-          {
-            "name": "Essig",
-            "quantity": "1/4 Tasse"
-          },
-          {
-            "name": "Hackfleisch",
-            "quantity": "250gramm"
-          },
-          {
-            "name": "Paprika",
-            "quantity": "1 rote"
-          },
-          {
-            "name": "Oregano",
-            "quantity": "2 Esslöffel"
-          },
-          {
-            "name": "Pfeffer",
-            "quantity": "2 Esslöffel"
-          },
-          {
-            "name": "Eier",
-            "quantity": "2 gekochte Eier"
-          },
-          {
-            "name": "Oliven",
-            "quantity": "halbes Glas"
-          },
-          {
-            "name": "Butter",
-            "quantity": "halbe Tasse"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "gelbe Zwiebeln",
+                "quantity": "2 mittelgroße"
+              },
+              {
+                "name": "Essig",
+                "quantity": "1/4 Tasse"
+              },
+              {
+                "name": "Hackfleisch",
+                "quantity": "250gramm"
+              },
+              {
+                "name": "Paprika",
+                "quantity": "1 rote"
+              },
+              {
+                "name": "Oregano",
+                "quantity": "2 Esslöffel"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "2 Esslöffel"
+              },
+              {
+                "name": "Eier",
+                "quantity": "2 gekochte Eier"
+              },
+              {
+                "name": "Oliven",
+                "quantity": "halbes Glas"
+              },
+              {
+                "name": "Butter",
+                "quantity": "halbe Tasse"
+              }
+            ]
           }
-        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -439,56 +444,65 @@
             "Schritt 3: Die Gözleme formen und ausbacken - Die Teigkugeln sehr dünn (ca. 1 mm) zu runden Fladen ausrollen. Jeweils ¼ der Füllung auf eine Hälfte eines Teigfladens geben, die andere Hälfte darüber klappen und die Ränder fest andrücken, um sie zu verschließen. Öl in einer Pfanne erhitzen und die Gözleme darin nacheinander von beiden Seiten 2–3 Minuten goldbraun ausbacken. Nach dem Ausbacken bei Bedarf mit etwas Öl bestreichen und sofort servieren."
           ]
         },
-        "ingredients": [{
-          "name": "Test",
-          "ingredients":
-          [
-
+        "ingredients": [
           {
-            "name": "Weizenmehl (Type 550)",
-            "quantity": "250 Gramm"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Weizenmehl (Type 550)",
+                "quantity": "250 Gramm"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1/2 Teelöffel"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "60 ml"
+              },
+              {
+                "name": "Milch",
+                "quantity": "60 ml"
+              }
+            ]
           },
           {
-            "name": "Salz",
-            "quantity": "1/2 Teelöffel"
-          },
-          {
-            "name": "Milch",
-            "quantity": "60 ml"
-          },
-          {
-            "name": "Babyspinat",
-            "quantity": "250 Gramm"
-          },
-          {
-            "name": "Gemüsezwiebel",
-            "quantity": "1 Stück"
-          },
-          {
-            "name": "Knoblauchzehe",
-            "quantity": "1 Stück"
-          },
-          {
-            "name": "Olivenöl",
-            "quantity": "1 Esslöffel"
-          },
-          {
-            "name": "Chiliflocken",
-            "quantity": "1/2 Teelöffel"
-          },
-          {
-            "name": "Salz",
-            "quantity": "1 Esslöffel"
-          },
-          {
-            "name": "Pfeffer",
-            "quantity": "1 Esslöffel"
-          },
-          {
-            "name": "Schafskäse",
-            "quantity": "150 Gramm"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Babyspinat",
+                "quantity": "250 Gramm"
+              },
+              {
+                "name": "Gemüsezwiebel",
+                "quantity": "1 Stück"
+              },
+              {
+                "name": "Knoblauchzehe",
+                "quantity": "1 Stück"
+              },
+              {
+                "name": "Olivenöl",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Chiliflocken",
+                "quantity": "1/2 Teelöffel"
+              },
+              {
+                "name": "Salz",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "1 Esslöffel"
+              },
+              {
+                "name": "Schafskäse",
+                "quantity": "150 Gramm"
+              }
+            ]
           }
-          ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -543,50 +557,59 @@
         },
         "ingredients": [
           {
-            "name": "Test",
-            "ingredients":
-            [
-          {
-            "name": "Weizenmehl (Type 550)",
-            "quantity": "250 Gramm"
+            "name": "Für den Teig",
+            "ingredients": [
+              {
+                "name": "Weizenmehl (Type 550)",
+                "quantity": "250 Gramm"
+              },
+              {
+                "name": "Hefe",
+                "quantity": "1/4 Würfel"
+              },
+              {
+                "name": "Wasser",
+                "quantity": "140 ml"
+              },
+              {
+                "name": "Olivenöl, nativ",
+                "quantity": "1 1/2 Esslöffel"
+              }
+            ]
           },
           {
-            "name": "Hefe",
-            "quantity": "1/4 Würfel"
-          },
-          {
-            "name": "Olivenöl, nativ",
-            "quantity": "1 1/2 Esslöffel"
-          },
-          {
-            "name": "Gehackte Tomaten",
-            "quantity": "100 ml"
-          },
-          {
-            "name": "Salz",
-            "quantity": "nach Geschmack"
-          },
-          {
-            "name": "Pfeffer",
-            "quantity": "nach Geschmack"
-          },
-          {
-            "name": "Oregano",
-            "quantity": "1/2 Teelöffel"
-          },
-          {
-            "name": "Salami",
-            "quantity": "50 Gramm"
-          },
-          {
-            "name": "Mozzarella",
-            "quantity": "100 Gramm"
-          },
-          {
-            "name": "Basilikum",
-            "quantity": "1 Stängel"
+            "name": "Für die Füllung",
+            "ingredients": [
+              {
+                "name": "Gehackte Tomaten",
+                "quantity": "100 ml"
+              },
+              {
+                "name": "Salz",
+                "quantity": "nach Geschmack"
+              },
+              {
+                "name": "Pfeffer",
+                "quantity": "nach Geschmack"
+              },
+              {
+                "name": "Oregano",
+                "quantity": "1/2 Teelöffel"
+              },
+              {
+                "name": "Salami",
+                "quantity": "50 Gramm"
+              },
+              {
+                "name": "Mozzarella",
+                "quantity": "100 Gramm"
+              },
+              {
+                "name": "Basilikum",
+                "quantity": "1 Stängel"
+              }
+            ]
           }
-        ]}
         ],
         "servings": 2,
         "difficulty": "Medium",
@@ -1254,7 +1277,7 @@
         "time": "80 Minuten",
         "tips": [
           "Achte darauf, den doppelten Teigboden flach, aber auch nicht zu fest auszurollen, weil er sich sonst nur schwer ablösen lässt. Das Ablösen erfordert ausserdem viel Geduld, es kann helfen die zwei Hälften vorsichtig mit einem Messer voneinander zu lösen.",
-          "Es kann ein wenig dauern, bis man das Falten der Sambusas drauf hat. Schau dir gerne ein Video zu der optimallen Falttechnik an. Falls es mal nicht klappt: die Form der fertigen Sambusas ist zweitrangig, Hauptsache die Taschen halten beim Frittieren!",
+          "Es kann ein wenig dauern, bis man das Falten der Sambusas drauf hat. Schau dir gerne ein Video zu der optimallen Falttechnik an. Falls es mal nicht klappt: die Form der fertigen Sambusas ist zweitrangig, hauptsache die Taschen halten beim Frittieren!",
           "Wer es sich einfacher machen will, kann auch fertigen Blätterteig verwenden.",
           "Traditionell werden auch oft Frühlingszwiebeln für die Füllung verwendet, aber auch Kartoffeln oder Gemüse wie Möhren oder Brokkoli eignen sich gut.",
           "Etwas Tzatzikigewürz kann helfen, den Dip noch leckerer zu machen. Außerdem kann man die Sambusas auch problemlos mit jedem anderen Dip genießen."

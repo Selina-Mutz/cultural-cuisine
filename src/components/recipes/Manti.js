@@ -9,10 +9,8 @@ import manti5 from '../../data/manti/manti5.jpg'
 import manti6 from '../../data/manti/manti6.jpg'
 import flagTurkey from '../../data/flags/turkey.png'
 
-
-
 /**
- * Component displaying the recipe and pictures for Momos
+ * Component displaying the recipe and pictures for Mantis
  * 
  * @param {object} props 
  * @param {GeoJSON.Feature} props.feature The geo-object that was clicked on by the user
