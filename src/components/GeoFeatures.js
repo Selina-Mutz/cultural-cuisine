@@ -1,4 +1,4 @@
-import L, { marker } from 'leaflet';
+import L from 'leaflet';
 import { useMap } from 'react-leaflet/hooks';
 import { GeoJSON } from 'react-leaflet';
 import locations from './../data/recipe_info.json';
