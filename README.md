@@ -1,6 +1,6 @@
 # cultural-cuisine
-- [Link] (https://github.com/Selina-Mutz/cultural-cuisine) GitHub Repository.
-- [Link](https://docs.google.com/document/d/1XKtVvjKM9jpOuef7wFVSK_b8g2kQpW-vZQC78JlXPw0/edit?pli=1&tab=t.0#heading=h.249yeeusaif8) Google Doc mit den Notizen zum Projekt.
+- Link zum [GitHub-Repository](https://github.com/Selina-Mutz/cultural-cuisine).
+- Link zum [Google-Doc](https://docs.google.com/document/d/1XKtVvjKM9jpOuef7wFVSK_b8g2kQpW-vZQC78JlXPw0/edit?pli=1&tab=t.0#heading=h.249yeeusaif8) mit den Notizen zum Projekt.
 
 #### Gruppenmitglieder:
 - Norma Katrin Wilcken
@@ -36,9 +36,9 @@ Rezept 3 bis 31.12.2024 | Pizzataschen | Golden Syrup Dumplings | Sambusas | Man
 
 ### Starten der Website:
 
-Zunächst das GitHub-Repository lokal auf eurem PC klonen [Link](https://github.com/Selina-Mutz/cultural-cuisine), der aktuellste Stand befindet sich (Stand 16.01.2025) auf dem staging-branch.
+Zunächst das [GitHub-Repository](https://github.com/Selina-Mutz/cultural-cuisine) lokal auf eurem PC klonen, der aktuellste Stand befindet sich (Stand 16.01.2025) auf dem staging-branch.
 
-Für das Starten des Development-Servers wird node.js benötigt: [Link](https://nodejs.org/en/download).
+Für das Starten des Development-Servers wird node.js benötigt: [Download](https://nodejs.org/en/download).
 
 Nach der Installation in einem Terminal (z.B. Windows Eingabeaufforderung) zum Verzeichnis navigieren, wo das Projekt geklont wurde. Dort dann folgenden Befehl im Terminal ausführen, um die Projekt-Dependencies zu installieren:
 
@@ -64,4 +64,4 @@ nvm use 20.0.0
 
 Anmerkung: Dafür müsst ihr das Terminal eventuell als Administrator ausführen.
 
-Bleibt der Fehler bestehen, findet ihr in der Dokumentation zu nvm (node version manager) [Link] (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) weitere Hilfe, alternativ hilft auch der KI-Assistent eurer Wahl.
+Bleibt der Fehler bestehen, findet ihr in der [Dokumentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) zu nvm (node version manager) weitere Hilfe, alternativ hilft auch der KI-Assistent eurer Wahl.
