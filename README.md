@@ -65,3 +65,13 @@ nvm use 20.0.0
 Anmerkung: Dafür müsst ihr das Terminal eventuell als Administrator ausführen.
 
 Bleibt der Fehler bestehen, findet ihr in der [Dokumentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) zu nvm (node version manager) weitere Hilfe, alternativ hilft auch der KI-Assistent eurer Wahl.
+
+### Lizenz
+
+Dieses Projekt steht unter der [MIT License](./LICENSE). Siehe die `LICENSE`-Datei für weitere Details.
+
+Copyright (c) 2025 Cultural-Cuisine Team
+
+Du darfst dieses Projekt kostenlos nutzen, kopieren, verändern und weitergeben, auch kommerziell, solange du diesen Hinweis beibehältst. 
+
+Das Projekt wird "wie besehen" bereitgestellt, ohne Garantie oder Haftung. Nutzung auf eigenes Risiko.
