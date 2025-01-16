@@ -112,6 +112,62 @@
         "type": "Point"
       },
       "id": 8
-    }
+    },
+    {
+    "type": "Feature",
+    "properties": {
+      "name": "Siopao, PHIL"
+    },
+    "geometry": {
+      "coordinates": [
+        12.8797,
+        121.7740
+      ],
+      "type": "Point"
+    },
+    "id": 9
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Sambusas, SOM"
+    },
+    "geometry": {
+      "coordinates": [
+        10.000,
+        49.0000
+      ],
+      "type": "Point"
+    },
+    "id": 10
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Manti, TUR"
+    },
+    "geometry": {
+      "coordinates": [
+        38.963745,
+        28.543668        
+      ],
+      "type": "Point"
+    },
+    "id": 11
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "name": "Luqaimat, OMN"
+    },
+    "geometry": {
+      "coordinates": [
+        21.512583,
+        55.923255        
+      ],
+      "type": "Point"
+    },
+    "id": 12
+  }
   ]
 }

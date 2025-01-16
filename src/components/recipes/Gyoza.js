@@ -1,4 +1,12 @@
 import RecipeBox from '../RecipeBox';
+import gyozaFertig from '../../data/gyoza/gyoza-11.jpeg';
+import gyozaZutaten from '../../data/gyoza/gyoza-zutaten.jpeg';
+import gyoza1 from '../../data/gyoza/gyoza-4.jpeg';
+import gyoza2 from '../../data/gyoza/gyoza-6.jpeg';
+import gyoza3 from '../../data/gyoza/gyoza-7.jpeg';
+import gyoza4 from '../../data/gyoza/gyoza-8.jpeg';
+import gyoza5 from '../../data/gyoza/gyoza-9.jpeg';
+import flagJapan from '../../data/flags/japan.png';
 
 /**
  * Component displaying the recipe and pictures for Gyoza
@@ -13,13 +21,18 @@ export default function Gyoza({ feature, setFeatureFocus }) {
     return (
         <div>
             <RecipeBox
-                narrativeFragment={feature.properties.text}
-                //person={feature.properties.person}
-                setFeatureFocus={setFeatureFocus}>
-                <span
-                    style={{ color: 'var(--primary)', fontSize: '8pt' }}>
-                    Gyoza Test.<br />
-                </span>
+                titleText={feature.recipe.text.title}
+                timeText={feature.recipe.time}
+                servings={feature.recipe.servings}
+                difficultyText = {feature.recipe.difficulty}
+                cultureText = {feature.recipe.text.culture}
+                ingredientsArray = {feature.recipe.ingredients}
+                preparationTextArray = {feature.recipe.text.preparation}
+                tipsTextArray = {feature.recipe.tips}
+                setFeatureFocus={setFeatureFocus}
+                images={[gyozaFertig, gyozaZutaten, gyoza1, gyoza2, gyoza3, gyoza4, gyoza5]}
+                flagImages = {[flagJapan]}
+                metricsArray = {feature.recipe.metrics}>
             </RecipeBox>
         </div>
     );
