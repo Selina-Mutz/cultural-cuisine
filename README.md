@@ -36,9 +36,9 @@ Rezept 3 bis 31.12.2024 | Pizzataschen | Golden Syrup Dumplings | Sambusas | Man
 
 ### Starten der Website:
 
-Zunächst das GitHub-Repository lokal auf eurem PC klonen [Link] (https://github.com/Selina-Mutz/cultural-cuisine), der aktuellste Stand befindet sich (Stand 16.01.2025) auf dem staging-branch.
+Zunächst das GitHub-Repository lokal auf eurem PC klonen [Link](https://github.com/Selina-Mutz/cultural-cuisine), der aktuellste Stand befindet sich (Stand 16.01.2025) auf dem staging-branch.
 
-Für das Starten des Development-Servers wird node.js benötigt: [Link] (https://nodejs.org/en/download).
+Für das Starten des Development-Servers wird node.js benötigt: [Link](https://nodejs.org/en/download).
 
 Nach der Installation in einem Terminal (z.B. Windows Eingabeaufforderung) zum Verzeichnis navigieren, wo das Projekt geklont wurde. Dort dann folgenden Befehl im Terminal ausführen, um die Projekt-Dependencies zu installieren:
 
